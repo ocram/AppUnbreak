@@ -1,0 +1,9 @@
+{% if version >= '03.00.00' and version <= '03.99.99' %}
+	<img src="{{ app.url('/images/android/3.0/keys/back/20x16@3x.png') }}" width="20" height="16" alt="🢘" title="Back key"> (“Back”)
+{% elseif version >= '04.00.00' and version <= '04.99.99' %}
+	<img src="{{ app.url('/images/android/4.0/keys/back/24x16@3x.png') }}" width="24" height="16" alt="⮌" title="Back key"> (“Back”)
+{% elseif version >= '05.00.00' %}
+	<img src="{{ app.url('/images/android/5.0/keys/back/15x16@5x.png') }}" width="15" height="16" alt="◁" title="Back key"> (“Back”)
+{% else %}
+	“Back”
+{% endif %}

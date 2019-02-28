@@ -1,0 +1,91 @@
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+.h1, h1 {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.h1 + small, h1 + small {
+	margin-top: -1rem;
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	color: #999;
+}
+.h2, h2 {
+	font-size: 1.5rem;
+}
+ul {
+	list-style-type: square;
+}
+
+/* Provide `btn-xs` and `btn-group-xs` size modifiers for buttons and button groups */
+.btn-xs, .btn-group-xs > .btn {
+	padding: 0.15rem 0.3rem;
+	font-size: 0.75rem;
+	line-height: 1.25;
+	border-radius: 0.2rem;
+}
+.btn-xs + .dropdown-toggle-split, .btn-group-xs > .btn + .dropdown-toggle-split {
+	padding-right: 0.325rem;
+	padding-left: 0.325rem;
+}
+
+.footer {
+	padding-top: 3rem;
+}
+.footer > .im-delight-appunbreak-footer-inner {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	background-color: #eee;
+}
+.im-delight-appunbreak-advice {
+	position: relative;
+	padding-right: 24px;
+}
+.im-delight-appunbreak-advice ol {
+	padding-left: 2rem;
+}
+.im-delight-appunbreak-permalink {
+	color: #aaa;
+}
+.im-delight-appunbreak-advice .im-delight-appunbreak-permalink {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.im-delight-appunbreak-advice:hover .im-delight-appunbreak-permalink {
+	display: block;
+}
+
+.im-delight-appunbreak-advice .im-delight-appunbreak-vote button {
+	margin: 0.25rem 0.5rem;
+}
+
+/* Improve display of privacy policy by adjusting certain properties of definition/description lists */
+.im-delight-appunbreak-privacy-policy dl {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+.im-delight-appunbreak-privacy-policy dl dl {
+	margin-left: 1.5rem;
+}
+.im-delight-appunbreak-privacy-policy dd {
+	margin-bottom: 0.5rem;
+	margin-left: 0;
+}
+.im-delight-appunbreak-privacy-policy dl dl dl dd {
+	margin-bottom: 0;
+}
+
+/* Remove visual hints that elements representing contact information with accessibility targets are links */
+.im-delight-appunbreak-contact-information a,
+.im-delight-appunbreak-privacy-policy > dl > dd:last-child > a,
+.im-delight-appunbreak-privacy-policy > dl > dd:last-child > a > img {
+	cursor: default;
+}

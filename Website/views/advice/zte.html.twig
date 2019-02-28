@@ -1,0 +1,97 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0f335653-5c95-49ea-a261-30585d3f5779' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “More”.</li>
+		<li>Choose “Battery”.</li>
+		<li>Choose “Power saving mode”.</li>
+		<li>Change this to “Off”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f20b1757-4f11-4d57-8032-15b1b19fa593' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Power saving management”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Change this to “Off”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '81712bb3-fbb9-42ac-88ce-d7b55c5d3d36' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Power saving manager”.</li>
+		<li>Choose “Whitelist”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Change this to “On”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '018d0259-a39f-41f1-a6c1-a61e430a4261' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>At the top, select “All settings”.</li>
+		<li>Choose “Power manager”.</li>
+		<li>Choose “Power management for apps”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Next to “Disallow autostart”, “Allow screen-lock cleaning” and “Allow deep sleep”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'af8c8bb9-7782-40be-9f86-8600490b8ede' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>At the top, select “All settings”.</li>
+		<li>Choose “Power manager”.</li>
+		<li>Next to “Smart power-save” and “Ultra Power Saving Mode”, make sure that the switches are turned off, i.e. with their knobs or handles at the left.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'ea81bbb2-1176-4a4f-99fd-41bcc68051e7' } only %}
+		<li>Open “Power saving housekeeper” on your device.</li>
+		<li>Choose “Auto-start application list”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Change this to “On”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7e3c2ca5-a056-408c-b8cc-9f0f31a2cb99' } only %}
+		<li>Open “Palm Manager” on your device.</li>
+		<li>Choose “Cleanup acceleration settings”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Add the app to the “Protection whitelist”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '4bc92288-7306-41d9-be90-3743eb78aca6' } only %}
+		<li>Open “Palm Manager” on your device.</li>
+		<li>Choose “Settings”.</li>
+		<li>Choose “Lock-screen automatic cleaning”.</li>
+		<li>Change this to “Off”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}

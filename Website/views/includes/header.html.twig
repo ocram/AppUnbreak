@@ -1,0 +1,32 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+<!DOCTYPE html>
+{#
+<!--
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+-->
+#}
+<html lang="en" class="h-100">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>{% if title %}{{ title }} – {% endif %}{{ SITE_NAME }}</title>
+		{% if description %}
+			<meta name="description" content="{{ description }}">
+		{% else %}
+			<meta name="description" content="{{ SITE_SLOGAN }}">
+		{% endif %}
+		<meta name="referrer" content="origin">
+		<meta name="robots" content="{% if noIndex %}noindex{% else %}index{% endif %},follow">
+		<link href="{{ app.url('/css/bootstrap.min.css?v=4.2.1') }}" rel="stylesheet">
+		<link href="{{ app.url('/css/custom.min.css?v=1') }}" rel="stylesheet">
+		{{- HTML_HEAD_FINAL | raw }}
+	</head>
+	<body class="d-flex flex-column h-100">
+		<main role="main" class="flex-shrink-0">
+			<div class="container">

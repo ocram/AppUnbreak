@@ -1,0 +1,54 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd9bb1ab4-a9c5-4f39-a447-231986484247' } only %}
+		<li>Open “Boost+” on your device.</li>
+		<li>Choose “Optimize background apps”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Make sure that it says “Off”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a6f7e4cd-0917-421a-8bf6-137f156cf4dd' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Power”.</li>
+		<li>Choose “Battery optimization”.</li>
+		<li>In the drop-down list at the top, switch from “Not optimized” to “All apps”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Switch to “Don’t optimize”.</li>
+		<li>Tap on “Done”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a49c9baa-8dbb-402f-ac8b-f722a3c650ea' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Power”.</li>
+		<li>Next to “Power saver”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
+		<li>Tap on “Power saver”.</li>
+		<li>Set the threshold to a low battery level so that power saving is not enabled too often or too early.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '2e50a2c0-8296-4033-8163-09704308c5c5' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Power”.</li>
+		<li>Next to “Extreme power saving mode”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
+		<li>Tap on “Power saver”.</li>
+		<li>Set the threshold to a low battery level so that power saving is not enabled too often or too early.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}

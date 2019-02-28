@@ -1,0 +1,35 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+			</div>
+		</main>
+		<footer class="footer mt-auto">
+			<div class="im-delight-appunbreak-footer-inner">
+				<div class="container text-center text-muted small d-none d-lg-block">
+					<strong>Developers:</strong>
+					<a href="{{ app.url('/contact') }}" rel="nofollow">Get a site like this for your own app!</a>
+				</div>
+				<div class="container text-center text-muted small clearfix">
+					<span class="float-left">
+						&copy; <a href="{{ COMPANY_URL }}" rel="noopener noreferrer" class="text-reset">{{ COMPANY_NAME }}</a>
+					</span>
+					<ul class="list-inline float-right mb-0">
+						<li class="list-inline-item d-none d-lg-inline-block">
+							<a href="https://github.com/delight-im/AppUnbreak/issues" rel="noopener noreferrer">Corrections</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="{{ app.url('/privacy') }}" rel="nofollow">Privacy</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="{{ app.url('/contact') }}" rel="nofollow">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<script src="{{ app.url('/js/custom.min.js?v=1') }}"></script>
+		{{- HTML_BODY_FINAL | raw }}
+	</body>
+</html>

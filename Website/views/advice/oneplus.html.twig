@@ -1,0 +1,128 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd85504ef-a8b5-4f65-afae-bb622ed72fda' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Battery”.</li>
+		<li>Choose “Battery optimization”.</li>
+		<li>In the drop-down list at the top, switch from “Not optimized” to “All apps”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Switch to “Don’t optimize”.</li>
+		<li>Tap on “Done”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '82f978cc-ace0-475c-8c8b-34cf4d5dc8be' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Battery”.</li>
+		<li>Choose “Battery optimization”.</li>
+		<li>At the top right, tap on {% include 'includes/android/menu/overflow.html.twig' with { 'version': androidMax } only %} to open the expanded menu.</li>
+		<li>Tap on “Advanced optimization”.</li>
+		<li>Next to “Advanced optimization” and “Sleep standby optimization”, make sure that the switches are turned off, i.e. with their knobs or handles at the left.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '362ab0a0-2052-4d56-ab9f-7a20f9878c09' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Apps”.</li>
+		<li>Choose “⚙” (“Gear”) at the top right.</li>
+		<li>Choose “Special access”.</li>
+		<li>Choose “Battery optimization”.</li>
+		<li>In the drop-down list at the top, switch from “Not optimized” to “All apps”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Switch to “Don’t optimize”.</li>
+		<li>Tap on “Done”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '24c660e3-385c-4eb2-a66e-3cece7aaf147' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Apps”.</li>
+		<li>Choose “⚙” (“Gear”) at the top right.</li>
+		<li>Choose “Special access”.</li>
+		<li>Choose “Battery optimization”.</li>
+		<li>At the top right, tap on {% include 'includes/android/menu/overflow.html.twig' with { 'version': androidMax } only %} to open the expanded menu.</li>
+		<li>Tap on “Advanced optimization”.</li>
+		<li>Next to “Advanced optimization” and “Sleep standby optimization”, make sure that the switches are turned off, i.e. with their knobs or handles at the left.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '6ff7824e-c250-428e-9c91-0f2ea987fae1' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Battery”.</li>
+		<li>At the top right, tap on {% include 'includes/android/menu/overflow.html.twig' with { 'version': androidMax } only %} to open the expanded menu.</li>
+		<li>Choose “Aggressive doze & app hibernation”.</li>
+		<li>At the top, next to “Enable aggressive doze & app hibernation”, find the switch.</li>
+		<li>If the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do. Otherwise, proceed with the next step.</li>
+		<li>If “{{ product }}” is in the upper section called “Not optimized”, there’s nothing left for you to do. Otherwise, proceed with the next step.</li>
+		<li>In the lower section called “Optimized”, find “{{ product }}”.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0e13e6b0-06d6-437e-8cba-90c4125b79d8' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Battery”.</li>
+		<li>At the top right, tap on {% include 'includes/android/menu/overflow.html.twig' with { 'version': androidMax } only %} to open the expanded menu.</li>
+		<li>Choose “High power usage apps”.</li>
+		<li>Next to “Auto close high power usage apps”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0fd9b96d-1bcf-416c-9eb3-1cbe81a457c3' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Further down, choose “Advanced”.</li>
+		<li>Choose “Recent app management”.</li>
+		<li>Switch to “Normal clear”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '05e3c3ee-8569-4bc2-96cd-5eb286ab1604' } only %}
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Press {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device to go back to your home screen.</li>
+		<li>Press {% include 'includes/android/keys/recents.html.twig' with { 'version': androidMax } only %} at the bottom of your device to open the overview of recently used apps.</li>
+		<li>On the entry for “{{ product }}”, tap on the lock icon at the top right.</li>
+		<li>The lock icon should have turned into a <em>closed</em> lock icon now.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8e39ac10-3450-424c-9d0c-4a3a7d0f098f' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Apps”.</li>
+		<li>Choose “⚙” (“Gear”) at the top right.</li>
+		<li>Choose “App auto-launch”.</li>
+		<li>At the very top, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}

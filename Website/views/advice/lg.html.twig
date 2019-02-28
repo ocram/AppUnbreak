@@ -1,0 +1,32 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7cacad2d-f579-4282-accc-8ecca42a13d1' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>Choose “Battery & power saving”.</li>
+		<li>In the upper half, choose “Battery usage”.</li>
+		<li>Further down, find the section “Battery optimization”.</li>
+		<li>Choose “Ignore optimizations”.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '50d9d25a-8d6e-4bbd-ab8b-daa75ae32466' } only %}
+		<li>Open the “Settings” of your device.</li>
+		<li>At the top, select “General”.</li>
+		<li>Choose “Battery”.</li>
+		<li>Choose “Power saving exclusions”.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}

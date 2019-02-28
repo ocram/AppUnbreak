@@ -1,0 +1,78 @@
+{#
+ * AppUnbreak (https://github.com/delight-im/AppUnbreak)
+ * Copyright (c) delight.im (https://www.delight.im/)
+ * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
+#}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd459d19f-1d6c-4538-9b20-f6a6abec9149' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Accelerator”.</li>
+		<li>In the top-right corner, tap on “⚙” (“Gear”).</li>
+		<li>Choose “Memory acceleration whitelist”.</li>
+		<li>If “{{ product }}” in the list, there’s nothing left for you to do. Otherwise, proceed with the next step.</li>
+		<li>At the bottom, tap on “Add to whitelist”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'fb707074-9d3b-4714-92fc-ec3c9abaad23' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Permissions”.</li>
+		<li>Choose “Auto-launched apps”.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f4002f09-83dc-4920-8578-88a5f6fb8449' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Permissions”.</li>
+		<li>Choose “Notifications” or “App notifications”.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that there is a checkmark in the checkbox.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '5c3aa0aa-c2b7-437f-860c-2ad8154161cc' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Permissions”.</li>
+		<li>Choose “App management”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Next to “Auto launch” and “Notification”, make sure that the switches are turned on, i.e. with their knobs or handles at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a126a536-efaa-4243-8d23-ce33e7262e7e' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Permissions”.</li>
+		<li>Choose “Run in background”.</li>
+		<li>Choose “{{ product }}” from the list of apps.</li>
+		<li>Below “Run in background”, make sure that it says “Allow running in background”.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a45327b0-81af-420e-bcf6-3b5b9fd7535a' } only %}
+		<li>Open “Security” on your device.</li>
+		<li>Choose “Power”.</li>
+		<li>Next to “Low power mode” and “Super saving mode”, make sure that it says “Off” or “Disabled”.</li>
+		<li>Choose “Standby management”.</li>
+		<li>Find “{{ product }}” in the list of apps.</li>
+		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>Open “{{ product }}” on your device.</li>
+		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
