@@ -8,7 +8,7 @@ While these limitations extend battery life on paper, they do so at the expense 
 
 Learn what you can do to prevent flawed power-saving features from breaking your device’s features.
 
-**Example:** [`appunbreak.com`](http://www.appunbreak.com/) or [`undoze.com`](http://www.undoze.com/)
+**Example:** [`appunbreak.com`](https://www.appunbreak.com/) or [`undoze.com`](https://www.undoze.com/)
 
 ## Requirements
 
