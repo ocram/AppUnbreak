@@ -1,9 +1,9 @@
 {% if version >= '03.00.00' and version <= '03.99.99' %}
-	<img src="{{ app.url('/images/android/3.0/keys/recents/20x16@3x.png') }}" width="20" height="16" alt="▭" title="Overview or Recents key"> (“Recents”)
+	<img src="{{ app.url('/images/android/3.0/keys/recents/20x16@3x.png') }}" width="20" height="16" alt="▭" title="{{ _('Overview or Recents key') }}"> ({{ _('“Recents”') }})
 {% elseif version >= '04.00.00' and version <= '04.99.99' %}
-	<img src="{{ app.url('/images/android/4.0/keys/recents/28x16@3x.png') }}" width="28" height="16" alt="▭" title="Overview or Recents key"> (“Recents”)
+	<img src="{{ app.url('/images/android/4.0/keys/recents/28x16@3x.png') }}" width="28" height="16" alt="▭" title="{{ _('Overview or Recents key') }}"> ({{ _('“Recents”') }})
 {% elseif version >= '05.00.00' %}
-	<img src="{{ app.url('/images/android/5.0/keys/recents/15x16@5x.png') }}" width="15" height="16" alt="□" title="Overview or Recents key"> (“Overview”)
+	<img src="{{ app.url('/images/android/5.0/keys/recents/15x16@5x.png') }}" width="15" height="16" alt="□" title="{{ _('Overview or Recents key') }}"> ({{ _('“Overview”') }})
 {% else %}
-	“Recents”
+	{{ _('“Recents”') }}
 {% endif %}

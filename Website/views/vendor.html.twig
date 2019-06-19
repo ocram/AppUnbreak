@@ -5,16 +5,16 @@
 #}
 {% include 'includes/header.html.twig' with {
 	'title': vendor ~ ' – ' ~ product,
-	'description': 'Having problems with notifications, background tasks, automatic synchronization or alarms for “' ~ product ~ '” on your ' ~ vendor ~ ' device?'
+	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%1$s” on your %2$s device?', product, vendor)
 } only %}
 <h1>{{ vendor }}</h1>
 {% if devices %}
 	<hr>
 	<p class="lead text-center">
-		Having problems with notifications, background tasks, automatic synchronization or alarms on your {{ vendor }} device?
+		{{ _f('Having problems with notifications, background tasks, automatic synchronization or alarms on your %s device?', vendor) }}
 	</p>
 	<hr>
-	<h2>Choose your device</h2>
+	<h2>{{ _('Choose your device') }}</h2>
 	<ul>
 		{% for device in devices %}
 			<li>

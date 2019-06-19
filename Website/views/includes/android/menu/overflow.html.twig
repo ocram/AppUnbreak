@@ -1,9 +1,9 @@
 {% if version >= '03.00.00' and version <= '03.99.99' %}
-	<img src="{{ app.url('/images/android/3.0/menu/overflow/17x16@3x.png') }}" width="17" height="16" alt="☰" title="Overflow menu"> (three bars)
+	<img src="{{ app.url('/images/android/3.0/menu/overflow/17x16@3x.png') }}" width="17" height="16" alt="☰" title="{{ _('Overflow menu') }}"> ({{ _('three bars') }})
 {% elseif version >= '04.00.00' and version <= '04.99.99' %}
-	<img src="{{ app.url('/images/android/4.0/menu/overflow/8x16@3x.png') }}" width="8" height="16" alt="⋮" title="Overflow menu"> (three dots)
+	<img src="{{ app.url('/images/android/4.0/menu/overflow/8x16@3x.png') }}" width="8" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
 {% elseif version >= '05.00.00' %}
-	<img src="{{ app.url('/images/android/5.0/menu/overflow/7x16@4x.png') }}" width="7" height="16" alt="⋮" title="Overflow menu"> (three dots)
+	<img src="{{ app.url('/images/android/5.0/menu/overflow/7x16@4x.png') }}" width="7" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
 {% else %}
-	“More”
+	{{ _('“More”') }}
 {% endif %}

@@ -5,25 +5,25 @@
 #}
 {% include 'includes/header.html.twig' with {
 	'title': product,
-	'description': 'Having problems with notifications, background tasks, automatic synchronization or alarms for “' ~ product ~ '”?'
+	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%s”?', product)
 } only %}
 <h1>{{ product }}</h1>
 <small class="d-block text-center">{{ company }}</small>
 {% if vendors and vendors.primary and vendors.secondary %}
 	<hr>
 	<p class="lead text-center">
-		Are you having problems with notifications, background tasks, automatic synchronization or alarms on your device?
+		{{ _('Are you having problems with notifications, background tasks, automatic synchronization or alarms on your device?') }}
 	</p>
 	<p>
-		Some manufacturers are forcing excessive restrictions upon their devices in faulty attempts at battery optimization.
+		{{ _('Some manufacturers are forcing excessive restrictions upon their devices in faulty attempts at battery optimization.') }}
 	</p>
 	<p>
-		While these limitations extend battery life on paper, they do so at the expense of your device’s functionality and of your own convenience.
+		{{ _('While these limitations extend battery life on paper, they do so at the expense of your device’s functionality and of your own convenience.') }}
 	</p>
 	<hr>
-	<h2>Choose your vendor</h2>
+	<h2>{{ _('Choose your vendor') }}</h2>
 	<p class="lead text-center">
-		Learn what you can do to prevent flawed power-saving features from breaking your device’s features.
+		{{ _('Learn what you can do to prevent flawed power-saving features from breaking your device’s features.') }}
 	</p>
 	<ul>
 		{% for vendor in vendors.primary %}

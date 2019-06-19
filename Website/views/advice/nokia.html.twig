@@ -5,55 +5,55 @@
 #}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b539743e-cff3-42c6-9731-b6981289619e' } only %}
-		<li>Open the “Settings” of your device.</li>
-		<li>Choose “Battery”.</li>
-		<li>Tap on “Background activity manager”.</li>
-		<li>Next to “Background activity cleaner”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
-		<li>Next to “Enable blacklist”, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do. Otherwise, proceed with the next step.</li>
-		<li>Find “{{ product }}” in the list of apps.</li>
-		<li>Next to “{{ product }}”, make sure that the switch is turned off, i.e. with its knob or handle at the left.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
-		<li>Open “{{ product }}” on your device.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _('Choose “Battery”.') }}</li>
+		<li>{{ _('Tap on “Background activity manager”.') }}</li>
+		<li>{{ _('Next to “Background activity cleaner”, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _('Next to “Enable blacklist”, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Open “%s” on your device.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'fc17e0d1-1c0a-4e3a-a58a-e7678ece4221' } only %}
-		<li>Open the “Settings” of your device.</li>
-		<li>Choose “Battery”.</li>
-		<li>Tap on “Background activity manager”.</li>
-		<li>Next to “Lockscreen cleaner” or “Lockscreen background cleaner”, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do. Otherwise, proceed with the next step.</li>
-		<li>Find “{{ product }}” in the list of apps.</li>
-		<li>Next to “{{ product }}”, make sure that the switch is turned on, i.e. with its knob or handle at the right.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
-		<li>Open “{{ product }}” on your device.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _('Choose “Battery”.') }}</li>
+		<li>{{ _('Tap on “Background activity manager”.') }}</li>
+		<li>{{ _('Next to “Lockscreen cleaner” or “Lockscreen background cleaner”, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Open “%s” on your device.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '10debe0e-9880-4560-baf7-10412d3e4afa' } only %}
-		<li>Open the “Settings” of your device.</li>
-		<li>Choose “Apps”.</li>
-		<li>Tap on “See all apps”.</li>
-		<li>At the top right, tap on {% include 'includes/android/menu/overflow.html.twig' with { 'version': androidMax } only %} to open the expanded menu.</li>
-		<li>Choose “Show system”.</li>
-		<li>Choose “Power saver” from the list of apps.</li>
-		<li>Tap on “Force close”.</li>
-		<li>If “Uninstall” is available, tap on “Uninstall” as well. Otherwise, you have to repeat the steps above after every restart of your device.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
-		<li>Open “{{ product }}” on your device.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _('Choose “Apps”.') }}</li>
+		<li>{{ _('Tap on “See all apps”.') }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _('Choose “Show system”.') }}</li>
+		<li>{{ _('Choose “Power saver” from the list of apps.') }}</li>
+		<li>{{ _('Tap on “Force close”.') }}</li>
+		<li>{{ _('If “Uninstall” is available, tap on “Uninstall” as well.') }} {{ _('Otherwise, you have to repeat the steps above after every restart of your device.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Open “%s” on your device.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a07f9d41-c907-4e2e-849c-1333fb773b4e' } only %}
-		<li><span class="badge badge-danger">Experts only</span></li>
-		<li>Connect your device to a computer.</li>
-		<li>Open <a href="https://developer.android.com/studio/command-line/adb" target="_blank" rel="noopener noreferrer">Android Debug Bridge (ADB)</a>.</li>
-		<li>Execute the following command:<br><code>adb shell pm uninstall --user 0 com.evenwell.emm</code></li>
-		<li>Execute the following command:<br><code>adb shell pm uninstall --user 0 com.evenwell.powersaving.g3</code></li>
-		<li>Restart your device.</li>
-		<li>Open “{{ product }}” on your device.</li>
-		<li>Leave by pressing {% include 'includes/android/keys/home.html.twig' with { 'version': androidMax } only %} at the bottom of your device.</li>
+		<li><span class="badge badge-danger">{{ _('Experts only') }}</span></li>
+		<li>{{ _('Connect your device to a computer.') }}</li>
+		<li>{{ _f('Open %s.', '<a href="https://developer.android.com/studio/command-line/adb" target="_blank" rel="noopener noreferrer">Android Debug Bridge (ADB)</a>') | raw }}</li>
+		<li>{{ _('Execute the following command:') }}<br><code>adb shell pm uninstall --user 0 com.evenwell.emm</code></li>
+		<li>{{ _('Execute the following command:') }}<br><code>adb shell pm uninstall --user 0 com.evenwell.powersaving.g3</code></li>
+		<li>{{ _('Restart your device.') }}</li>
+		<li>{{ _f('Open “%s” on your device.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}

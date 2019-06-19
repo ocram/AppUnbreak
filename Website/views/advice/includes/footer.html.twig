@@ -1,16 +1,16 @@
 	</ol>
 	<p class="text-muted small text-center im-delight-appunbreak-vote">
 		{% if vendor == 'Android' %}
-			Have you been able to follow these steps on {{ device }}?
+			{{ _f('Have you been able to follow these steps on %s?', device) }}
 		{% else %}
-			Have you been able to follow these steps on your {{ device }}?
+			{{ _f('Have you been able to follow these steps on your %s?', device) }}
 		{% endif %}
 		<br>
 		<button onclick="voteOnAdvice('{{ app.url('/api/v1/advice/vote/up') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-success btn-xs">
-			&#x1f44d;&nbsp;&nbsp;Yes
+			&#x1f44d;&nbsp;&nbsp;{{ _('Yes') }}
 		</button>
 		<button onclick="voteOnAdvice('{{ app.url('/api/v1/advice/vote/down') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-danger btn-xs">
-			&#x1f44e;&nbsp;&nbsp;No
+			&#x1f44e;&nbsp;&nbsp;{{ _('No') }}
 		</button>
 	</p>
 </div>

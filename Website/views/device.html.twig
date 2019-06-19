@@ -5,15 +5,15 @@
 #}
 {% include 'includes/header.html.twig' with {
 	'title': device ~ ' – ' ~ product,
-	'description': 'Having problems with notifications, background tasks, automatic synchronization or alarms for “' ~ product ~ '” on your ' ~ device ~ '?'
+	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%1$s” on your %2$s?', product, device)
 } only %}
 <h1>{{ device }}</h1>
 <hr>
 <p class="lead text-center">
 	{% if vendor == 'Android' %}
-		Notifications, background tasks, automatic synchronization or alarms do not work correctly for “{{ product }}” on {{ device }}?
+		{{ _f('Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on %2$s?', product, device) }}
 	{% else %}
-		Notifications, background tasks, automatic synchronization or alarms do not work correctly for “{{ product }}” on your {{ device }}?
+		{{ _f('Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on your %2$s?', product, device) }}
 	{% endif %}
 </p>
 {% if vendor == 'Asus' %}
