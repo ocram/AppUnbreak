@@ -10,7 +10,7 @@
 <h1>{{ device }}</h1>
 <hr>
 <p class="lead text-center">
-	{% if vendor == 'Android' %}
+	{% if device starts with 'Android' %}
 		{{ _f('Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on %2$s?', product, device) }}
 	{% else %}
 		{{ _f('Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on your %2$s?', product, device) }}

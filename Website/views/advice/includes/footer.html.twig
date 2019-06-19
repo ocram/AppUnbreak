@@ -1,6 +1,6 @@
 	</ol>
 	<p class="text-muted small text-center im-delight-appunbreak-vote">
-		{% if vendor == 'Android' %}
+		{% if device starts with 'Android' %}
 			{{ _f('Have you been able to follow these steps on %s?', device) }}
 		{% else %}
 			{{ _f('Have you been able to follow these steps on your %s?', device) }}
