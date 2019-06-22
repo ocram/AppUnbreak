@@ -1021,7 +1021,7 @@ msgid "Set the threshold to a low percent value, e.g. “At 15%”."
 msgstr "Setze die Schwelle oder den Grenzwert auf einen niedrigen Prozentwert, z.B. „Bei 15%“."
 
 msgid "Some manufacturers are forcing excessive restrictions upon their devices in faulty attempts at battery optimization."
-msgstr "Einige Hersteller zwingen ihren Geräten übermäßige Beschränkungen auf – in mangelhaften Versuchen, die Akkulaufzeiten zu optimieren."
+msgstr "In mangelhaften Versuchen, die Akkulaufzeiten zu optimieren, zwingen einige Hersteller ihren Geräten übermäßige Beschränkungen auf."
 
 msgid "Swipe from the right to the left."
 msgstr "Wische von rechts nach links."
