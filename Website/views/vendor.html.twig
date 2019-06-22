@@ -18,7 +18,7 @@
 	<ul>
 		{% for device in devices %}
 			<li>
-				<a href="{{ app.url(app.currentRoute() ~ '/' ~ (device | url_encode)) }}">
+				<a href="{{ app.urlWithLang(app.currentRoute() ~ '/' ~ (device | url_encode)) }}">
 					{{ device }}
 				</a>
 			</li>

@@ -6,10 +6,10 @@
 			{{ _f('Have you been able to follow these steps on your %s?', device) }}
 		{% endif %}
 		<br>
-		<button onclick="voteOnAdvice('{{ app.url('/api/v1/advice/vote/up') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-success btn-xs">
+		<button onclick="voteOnAdvice('{{ app.urlWithLang('/api/v1/advice/vote/up') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-success btn-xs">
 			&#x1f44d;&nbsp;&nbsp;{{ _('Yes') }}
 		</button>
-		<button onclick="voteOnAdvice('{{ app.url('/api/v1/advice/vote/down') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-danger btn-xs">
+		<button onclick="voteOnAdvice('{{ app.urlWithLang('/api/v1/advice/vote/down') }}', this.parentElement.parentElement.id, '{{ vendor }}', '{{ device }}', '{{ androidMin }}', '{{ androidMax }}'); this.parentElement.remove();" class="btn btn-danger btn-xs">
 			&#x1f44e;&nbsp;&nbsp;{{ _('No') }}
 		</button>
 	</p>
