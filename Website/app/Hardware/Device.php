@@ -8,6 +8,8 @@
 
 namespace App\Hardware;
 
+use App\Android\Version;
+
 final class Device {
 
 	const COUNT_FIELDS_RECORD = 5;
@@ -395,6 +397,26 @@ final class Device {
 		}
 
 		return $results;
+	}
+
+	public static function fromHttpClient() {
+		$version = Version::fromHttpClient();
+
+		if (!empty($version)) {
+			$devices = self::getList('Android');
+
+			foreach ($devices as $device) {
+				if (\count($device) === self::COUNT_FIELDS_RECORD) {
+					if ($version >= $device[self::RECORD_FIELD_ANDROID_OS_MIN]) {
+						if ($version <= $device[self::RECORD_FIELD_ANDROID_OS_MAX]) {
+							return $device;
+						}
+					}
+				}
+			}
+		}
+
+		return null;
 	}
 
 	private function __construct() {}
