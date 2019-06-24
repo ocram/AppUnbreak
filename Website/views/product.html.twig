@@ -25,6 +25,16 @@
 	<p class="lead text-center">
 		{{ _('Learn what you can do to prevent flawed power-saving features from breaking your device’s functionality.') }}
 	</p>
+	{% if vendors.suggested %}
+		<ul>
+			<li>
+				<a href="{{ app.urlWithLang(app.currentRoute() ~ '/' ~ (vendors.suggested | url_encode)) }}">
+					<mark>{{ vendors.suggested }}</mark>
+				</a>
+			</li>
+		</ul>
+		<hr>
+	{% endif %}
 	<ul>
 		{% for vendor in vendors.primary %}
 			<li>

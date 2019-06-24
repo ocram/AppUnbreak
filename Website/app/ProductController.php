@@ -38,6 +38,7 @@ final class ProductController {
 				'product' => $config['title']['en'],
 				'company' => $config['company']['en'],
 				'vendors' => [
+					'suggested' => Vendor::fromHttpClient(),
 					'primary' => Vendor::getList(true),
 					'secondary' => Vendor::getList(false),
 				],
