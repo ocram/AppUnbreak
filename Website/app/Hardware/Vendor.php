@@ -50,6 +50,64 @@ final class Vendor {
 		return $results;
 	}
 
+	public static function fromHttpClient() {
+		if (!empty($_SERVER['HTTP_USER_AGENT'])) {
+			$ua = $_SERVER['HTTP_USER_AGENT'];
+
+			if (\strpos($ua, '; SAMSUNG ') !== false || \strpos($ua, '; SAMSUNG-') !== false) {
+				return 'Samsung';
+			}
+			elseif (\strpos($ua, '; ONEPLUS ') !== false) {
+				return 'OnePlus';
+			}
+			elseif (\strpos($ua, '; HUAWEI ') !== false || \strpos($ua, ' Build/HUAWEI') !== false || \strpos($ua, ' Build/Huawei') !== false) {
+				return 'Huawei';
+			}
+			elseif (\strpos($ua, ' XiaoMi/') !== false || \strpos($ua, '; Redmi Note ') !== false || \strpos($ua, '; Redmi ') !== false) {
+				return 'Xiaomi';
+			}
+			elseif (\strpos($ua, '; Pixel ') !== false || \strpos($ua, '; Nexus ') !== false) {
+				return 'Google';
+			}
+			elseif (\strpos($ua, '; ASUS_') !== false) {
+				return 'Asus';
+			}
+			elseif (\strpos($ua, '; Lenovo ') !== false) {
+				return 'Lenovo';
+			}
+			elseif (\strpos($ua, '; HTC ') !== false) {
+				return 'HTC';
+			}
+			elseif (\strpos($ua, '; ZTE ') !== false) {
+				return 'ZTE';
+			}
+			elseif (\strpos($ua, '; vivo ') !== false) {
+				return 'Vivo';
+			}
+			elseif (\strpos($ua, '; Nokia ') !== false) {
+				return 'Nokia';
+			}
+			elseif (\strpos($ua, '; Xperia ') !== false) {
+				return 'Sony';
+			}
+			elseif (\strpos($ua, '; Moto ') !== false || \strpos($ua, '; moto ') !== false) {
+				return 'Motorola';
+			}
+			elseif (\strpos($ua, '; LG-') !== false) {
+				return 'LG';
+			}
+			elseif (\strpos($ua, ' OppoBrowser/') !== false) {
+				return 'Oppo';
+			}
+			else {
+				return null;
+			}
+		}
+		else {
+			return null;
+		}
+	}
+
 	private function __construct() {}
 
 }
