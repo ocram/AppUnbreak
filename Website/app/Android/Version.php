@@ -85,4 +85,24 @@ final class Version {
 		return $versions;
 	}
 
+	public static function fromHttpClient() {
+		if (!empty($_SERVER['HTTP_USER_AGENT'])) {
+			if (\preg_match('/[ ;(]Android ([0-9]{1,2})(?:\.([0-9]{1,2})(?:\.([0-9]{1,2}))?)?[ ;)]/', $_SERVER['HTTP_USER_AGENT'], $matches)) {
+				$components = [
+					!empty($matches[1]) ? (int) $matches[1] : 0,
+					!empty($matches[2]) ? (int) $matches[2] : 0,
+					!empty($matches[3]) ? (int) $matches[3] : 0,
+				];
+
+				return \sprintf('%02d.%02d.%02d', ...$components);
+			}
+			else {
+				return null;
+			}
+		}
+		else {
+			return null;
+		}
+	}
+
 }
