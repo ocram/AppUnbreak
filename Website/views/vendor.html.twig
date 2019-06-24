@@ -15,6 +15,16 @@
 	</p>
 	<hr>
 	<h2>{{ _('Choose your device') }}</h2>
+	{% if suggestedDevice %}
+		<ul>
+			<li>
+				<a href="{{ app.urlWithLang(app.currentRoute() ~ '/' ~ (suggestedDevice | url_encode)) }}">
+					<mark>{{ suggestedDevice }}</mark>
+				</a>
+			</li>
+		</ul>
+		<hr>
+	{% endif %}
 	<ul>
 		{% for device in devices %}
 			<li>

@@ -35,11 +35,18 @@ final class VendorController {
 				return $each[Device::FIELD_TITLE];
 			}, $devices);
 
+			$suggestedDevice = Device::fromHttpClient();
+
+			if (!empty($suggestedDevice)) {
+				$suggestedDevice = $suggestedDevice[Device::FIELD_TITLE];
+			}
+
 			echo $app->view(
 				'vendor.html.twig',
 				[
 					'product' => $productConfig['title']['en'],
 					'vendor' => $vendor,
+					'suggestedDevice' => $suggestedDevice,
 					'devices' => $devices,
 				]
 			);
