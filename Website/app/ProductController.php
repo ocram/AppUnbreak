@@ -13,6 +13,9 @@ use App\Throwable\InvalidProductConfigurationError;
 use App\Throwable\InvalidProductIdException;
 use App\Throwable\UnknownProductIdException;
 use Delight\Foundation\App;
+use Delight\Foundation\Throwable\NoSupportedLocaleError;
+use Delight\I18n\Codes;
+use Delight\I18n\Locale;
 
 final class ProductController {
 
@@ -35,8 +38,8 @@ final class ProductController {
 		echo $app->view(
 			'product.html.twig',
 			[
-				'product' => $config['title']['en'],
-				'company' => $config['company']['en'],
+				'product' => $config['title'],
+				'company' => $config['company'],
 				'vendors' => [
 					'suggested' => Vendor::fromHttpClient(),
 					'primary' => Vendor::getList(true),
@@ -68,6 +71,33 @@ final class ProductController {
 
 					if (!empty($config)) {
 						if (!empty($config['title']) && !empty($config['company'])) {
+							try {
+								$localeCode = $app->i18n()->getLocale();
+							}
+							catch (NoSupportedLocaleError $e) {
+								$localeCode = null;
+							}
+
+							if (empty($localeCode)) {
+								$localeCode = Codes::EN_US;
+							}
+
+							$languageCode = Locale::toLanguageCode($localeCode);
+
+							foreach (\array_keys($config) as $key) {
+								if (\is_array($config[$key])) {
+									if (!empty($config[$key][$languageCode])) {
+										$config[$key] = $config[$key][$languageCode];
+									}
+									elseif (!empty($config[$key][$localeCode])) {
+										$config[$key] = $config[$key][$localeCode];
+									}
+									else {
+										$config[$key] = \array_shift($config[$key]);
+									}
+								}
+							}
+
 							return $config;
 						}
 						else {
