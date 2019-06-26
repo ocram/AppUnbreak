@@ -7,6 +7,17 @@
 		</main>
 		<footer class="footer mt-auto">
 			<div class="im-delight-appunbreak-footer-inner">
+				<div class="container text-center text-muted small">
+					<ul class="list-inline">
+						{% for localeCode in app.i18n().getSupportedLocales() %}
+							<li class="list-inline-item">
+								<a href="{{ app.currentUrlWithQueryAndParams({ 'lang': localeCode }) }}">
+									{{ app.i18n().getNativeLanguageName(localeCode) }}
+								</a>
+							</li>
+						{% endfor %}
+					</ul>
+				</div>
 				<div class="container text-center text-muted small d-none d-lg-block">
 					<strong>{{ _('Developers:') }}</strong>
 					<a href="{{ app.urlWithLang('/contact') }}" rel="nofollow">{{ _('Get a site like this for your own app!') }}</a>
