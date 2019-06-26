@@ -23,6 +23,9 @@
 		{% endif %}
 		<meta name="referrer" content="origin">
 		<meta name="robots" content="{% if noIndex %}noindex{% else %}index{% endif %},follow">
+		{% for localeCode in app.i18n().getSupportedLocales() %}
+			<link href="{{ app.currentUrlWithQueryAndParams({ 'lang': localeCode }) }}" hreflang="{{ localeCode }}" rel="alternate">
+		{% endfor %}
 		<link href="{{ app.url('/css/bootstrap.min.css?v=4.2.1') }}" rel="stylesheet">
 		<link href="{{ app.url('/css/custom.min.css?v=1') }}" rel="stylesheet">
 		<link href="https://www.appunbreak.com{{ app.currentRoute() }}" rel="canonical">
