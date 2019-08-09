@@ -35,6 +35,7 @@ final class Vendor {
 			$results = \array_merge($results, [
 				[ 'Acer', 0.0079 ],
 				[ 'Asus', 0.0206 ],
+				[ 'BQ', 0.0000 ],
 				[ 'Fero', 0.0018 ],
 				[ 'Google', 0.0054 ],
 				[ 'HTC', 0.0039 ],
