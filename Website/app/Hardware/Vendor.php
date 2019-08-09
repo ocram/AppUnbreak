@@ -18,33 +18,33 @@ final class Vendor {
 
 		if (!isset($leading) || $leading === true) {
 			$results = \array_merge($results, [
-				[ 'Honor', 0.0334 ],
-				[ 'Huawei', 0.2626 ],
-				[ 'Lenovo', 0.0355 ],
-				[ 'LG', 0.0235 ],
-				[ 'Motorola', 0.0725 ],
-				[ 'Nokia', 0.0277 ],
-				[ 'OnePlus', 0.0548 ],
-				[ 'Samsung', 1.0000 ],
-				[ 'Sony', 0.0483 ],
-				[ 'Xiaomi', 0.2143 ],
+				[ 'Honor', 0 ],
+				[ 'Huawei', 0 ],
+				[ 'Lenovo', 0 ],
+				[ 'LG', 0 ],
+				[ 'Motorola', 0 ],
+				[ 'Nokia', 0 ],
+				[ 'OnePlus', 0 ],
+				[ 'Samsung', 0 ],
+				[ 'Sony', 0 ],
+				[ 'Xiaomi', 0 ],
 			]);
 		}
 
 		if (!isset($leading) || $leading === false) {
 			$results = \array_merge($results, [
-				[ 'Acer', 0.0079 ],
-				[ 'Asus', 0.0206 ],
-				[ 'BQ', 0.0000 ],
-				[ 'Fero', 0.0018 ],
-				[ 'Google', 0.0054 ],
-				[ 'HTC', 0.0039 ],
-				[ 'LeEco', 0.0019 ],
-				[ 'Meizu', 0.0028 ],
-				[ 'Oppo', 0.0114 ],
-				[ 'Vivo', 0.0053 ],
-				[ 'ZTE', 0.0039 ],
-				[ 'Android', 0.0000 ],
+				[ 'Acer', 0 ],
+				[ 'Asus', 0 ],
+				[ 'BQ', 0 ],
+				[ 'Fero', 0 ],
+				[ 'Google', 0 ],
+				[ 'HTC', 0 ],
+				[ 'LeEco', 0 ],
+				[ 'Meizu', 0 ],
+				[ 'Oppo', 0 ],
+				[ 'Vivo', 0 ],
+				[ 'ZTE', 0 ],
+				[ 'Android', 0 ],
 			]);
 		}
 
