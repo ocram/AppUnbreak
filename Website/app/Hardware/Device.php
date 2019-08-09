@@ -550,7 +550,10 @@ final class Device {
 
 		if (empty($vendor) || $vendor === 'ZTE') {
 			$results = \array_merge($results, [
+				[ 'ZTE Axon 7', 2016, '06.00.01', '08.00.00', '0.00000' ],
 				[ 'ZTE Axon 7 Mini', 2016, '06.01.00', '07.01.01', '0.04413' ],
+				[ 'ZTE Axon 10 Pro', 2019, '09.00.00', '09.00.00', '0.00000' ],
+				[ 'ZTE Nubia Red Magic 3', 2019, '09.00.00', '09.00.00', '0.00000' ],
 			]);
 		}
 
