@@ -10,6 +10,7 @@ namespace App\Android;
 
 final class Version {
 
+	// https://en.wikipedia.org/wiki/Android_version_history#Version_history_by_API_level
 	const NUMBERS = [
 		'01.00.00',
 		'01.01.00',
