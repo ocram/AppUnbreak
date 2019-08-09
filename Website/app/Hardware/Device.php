@@ -215,8 +215,8 @@ final class Device {
 
 		if (empty($vendor) || $vendor === 'LeEco') {
 			$results = \array_merge($results, [
-				[ 'LeEco Le 2 Pro', 2016, '06.00.00', '06.00.00', '0.01070' ],
 				[ 'LeEco Le 2', 2016, '06.00.00', '06.00.00', '0.01070' ],
+				[ 'LeEco Le 2 Pro', 2016, '06.00.00', '06.00.00', '0.01070' ],
 			]);
 		}
 
