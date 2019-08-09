@@ -43,6 +43,14 @@ final class Device {
 			]);
 		}
 
+		if (empty($vendor) || $vendor === 'BQ') {
+			$results = \array_merge($results, [
+				[ 'BQ Aquaris X', 2017, '07.01.01', '07.01.01', '0.00000' ],
+				[ 'BQ Aquaris X2', 2018, '08.01.00', '08.01.00', '0.00000' ],
+				[ 'BQ Aquaris X5', 2015, '05.01.00', '07.00.00', '0.00000' ],
+			]);
+		}
+
 		if (empty($vendor) || $vendor === 'Fero') {
 			$results = \array_merge($results, [
 				[ 'Fero A5000', 2018, '07.00.00', '07.00.00', '0.02085' ],
