@@ -32,12 +32,14 @@ final class Device {
 
 		if (empty($vendor) || $vendor === 'Asus') {
 			$results = \array_merge($results, [
-				[ 'Asus ZenFone 2 Laser', 2015, '05.00.00', '06.01.00', '0.02704' ],
+				[ 'Asus Nexus 7 (2012)', 'Google' ],
+				[ 'Asus Nexus 7 (2013)', 'Google' ],
 				[ 'Asus ZenFone 2', 2015, '05.00.00', '06.00.00', '0.03981' ],
+				[ 'Asus ZenFone 2 Laser', 2015, '05.00.00', '06.01.00', '0.02704' ],
+				[ 'Asus ZenFone 3', 2016, '06.00.01', '08.00.00', '0.06892' ],
 				[ 'Asus ZenFone 3 Max', 2016, '06.00.01', '08.01.00', '0.05108' ],
-				[ 'Asus ZenFone 3', 2016, '06.00.01', '07.00.00', '0.06892' ],
 				[ 'Asus ZenFone 4 Max', 2017, '07.00.00', '08.00.00', '0.02066' ],
-				[ 'Asus ZenFone Max Pro (M1)', 2018, '08.01.00', '08.01.00', '0.02911' ],
+				[ 'Asus ZenFone Max Pro (M1)', 2018, '08.01.00', '09.00.00', '0.02911' ],
 			]);
 		}
 
