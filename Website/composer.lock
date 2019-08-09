@@ -211,16 +211,16 @@
         },
         {
             "name": "delight-im/foundation-core",
-            "version": "v4.10.0",
+            "version": "v4.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delight-im/PHP-Foundation-Core.git",
-                "reference": "c3161ae12de987e8d3ed2c818086df0ac0268567"
+                "reference": "6e0cbd4f6629d0546f7bc9ddb790cc34b22f2b21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-Foundation-Core/zipball/c3161ae12de987e8d3ed2c818086df0ac0268567",
-                "reference": "c3161ae12de987e8d3ed2c818086df0ac0268567",
+                "url": "https://api.github.com/repos/delight-im/PHP-Foundation-Core/zipball/6e0cbd4f6629d0546f7bc9ddb790cc34b22f2b21",
+                "reference": "6e0cbd4f6629d0546f7bc9ddb790cc34b22f2b21",
                 "shasum": ""
             },
             "require": {
@@ -255,7 +255,7 @@
                 "bootstrap",
                 "framework"
             ],
-            "time": "2019-06-25T23:22:24+00:00"
+            "time": "2019-07-08T22:53:35+00:00"
         },
         {
             "name": "delight-im/http",
@@ -387,16 +387,16 @@
         },
         {
             "name": "delight-im/privacy-policy",
-            "version": "v2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delight-im/PHP-PrivacyPolicy.git",
-                "reference": "c8d05eaedc13890d3ce6c7b216cb8c8d2fa23187"
+                "reference": "9c4ca3e4d7ea770afa100a78b38676a1bc475f43"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delight-im/PHP-PrivacyPolicy/zipball/c8d05eaedc13890d3ce6c7b216cb8c8d2fa23187",
-                "reference": "c8d05eaedc13890d3ce6c7b216cb8c8d2fa23187",
+                "url": "https://api.github.com/repos/delight-im/PHP-PrivacyPolicy/zipball/9c4ca3e4d7ea770afa100a78b38676a1bc475f43",
+                "reference": "9c4ca3e4d7ea770afa100a78b38676a1bc475f43",
                 "shasum": ""
             },
             "require": {
@@ -423,7 +423,7 @@
                 "privacy-policy",
                 "user-data"
             ],
-            "time": "2018-08-02T23:59:02+00:00"
+            "time": "2019-02-20T23:39:35+00:00"
         },
         {
             "name": "delight-im/router",
@@ -777,16 +777,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.37.1",
+            "version": "v1.42.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62"
+                "reference": "21707d6ebd05476854805e4f91b836531941bcd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/66be9366c76cbf23e82e7171d47cbfa54a057a62",
-                "reference": "66be9366c76cbf23e82e7171d47cbfa54a057a62",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/21707d6ebd05476854805e4f91b836531941bcd4",
+                "reference": "21707d6ebd05476854805e4f91b836531941bcd4",
                 "shasum": ""
             },
             "require": {
@@ -796,12 +796,12 @@
             "require-dev": {
                 "psr/container": "^1.0",
                 "symfony/debug": "^2.7",
-                "symfony/phpunit-bridge": "^3.4.19|^4.1.8"
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.37-dev"
+                    "dev-master": "1.42-dev"
                 }
             },
             "autoload": {
@@ -819,19 +819,19 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
+                    "role": "Lead Developer",
                     "email": "fabien@symfony.com",
-                    "homepage": "http://fabien.potencier.org",
-                    "role": "Lead Developer"
+                    "homepage": "http://fabien.potencier.org"
                 },
                 {
                     "name": "Armin Ronacher",
-                    "email": "armin.ronacher@active-4.com",
-                    "role": "Project Founder"
+                    "role": "Project Founder",
+                    "email": "armin.ronacher@active-4.com"
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "https://twig.symfony.com/contributors",
-                    "role": "Contributors"
+                    "role": "Contributors",
+                    "homepage": "https://twig.symfony.com/contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
@@ -839,7 +839,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2019-01-14T14:59:29+00:00"
+            "time": "2019-06-18T15:35:16+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
