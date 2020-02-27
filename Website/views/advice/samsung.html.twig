@@ -8,10 +8,10 @@
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Device maintenance”.') }}</li>
 		<li>{{ _('At the bottom left, choose “Battery”.') }}</li>
-		<li>{{ _('In the upper half, choose “Battery Usage”.') }}</li>
+		<li>{{ _('In the upper half, choose “Battery usage”.') }}</li>
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _('Choose “Optimize battery usage”.') }}</li>
-		<li>{{ _('In the drop-down list at the top, switch from “Not optimized” to “All apps”.') }}</li>
+		<li>{{ _('In the drop-down list at the top, switch from “Apps not optimized” to “All apps”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -26,10 +26,10 @@
 		<li>{{ _('At the bottom left, choose “Battery”.') }}</li>
 		<li>{{ _('Find the section “Power saving mode”.') }}</li>
 		<li>{{ _('Make sure that either “Off” or “Mid” is selected.') }}</li>
-		<li>{{ _('If it’s “Off”, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _('If it’s “Mid”, tap on “Mid” again for its details to appear.') }}</li>
+		<li>{{ _('If it says “Off”, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _('If it says “Mid”, tap on “Mid” again for its details to appear.') }}</li>
 		<li>{{ _('At the top, choose “Customize”.') }}</li>
-		<li>{{ _('Next to “Background network usage”, make sure that the switch is turned on, i.e. with its knob or handle at the right.') }}</li>
+		<li>{{ _('Further down, next to “Background network usage”, make sure that the switch is turned on, i.e. with its knob or handle at the right.') }}</li>
 		<li>{{ _('At the very top, choose “Apply”.') }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
@@ -39,9 +39,9 @@
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Device maintenance”.') }}</li>
 		<li>{{ _('At the bottom left, choose “Battery”.') }}</li>
-		<li>{{ _('At the very bottom, choose “Unmonitored apps”.') }} {{ _('You may have to find and expand the section “Sleeping apps” for this to show up.') }}</li>
+		<li>{{ _('At the very bottom, choose “Unmonitored apps”.') }}</li>
 		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _('Either at the top or at the bottom, tap on “Add apps”.') }}</li>
+		<li>{{ _('At the very bottom, tap on “Add apps”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Put a checkmark into the checkbox next to “%s”.', product) }}</li>
 		<li>{{ _('At the very top, press “Done”.') }}</li>
@@ -55,7 +55,7 @@
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Device maintenance”.') }}</li>
 		<li>{{ _('At the bottom left, choose “Battery”.') }}</li>
-		<li>{{ _('At the bottom, choose “Unmonitored apps”.') }}</li>
+		<li>{{ _('At the very bottom, choose “Unmonitored apps”.') }}</li>
 		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
 		<li>{{ _('At the top, tap on “Edit”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -81,13 +81,14 @@
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '4c6e5fd4-9b64-4949-846a-c88ca4d292e6' } only %}
-		<li>{{ _('Open the “Smart manager” on your device.') }}</li>
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _('Select “Smart Manager”.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
-		<li>{{ _('In the “App optimization” or “App power saving” section, choose “Detail”.') }}</li>
-		<li>{{ _('At the very top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _('In the “App power saving” section, choose “Detail”.') }}</li>
+		<li>{{ _('At the top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _('Select “Disabled for”.') }}</li>
+		<li>{{ _('Select “Turned off”.') }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -97,11 +98,11 @@
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '82da7d30-23ad-402b-acdd-2d77a5f61814' } only %}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
-		<li>{{ _('In the “App optimization” or “App power saving” section, choose “Detail”.') }}</li>
-		<li>{{ _('At the very top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _('In the “App power saving” section, choose “Detail”.') }}</li>
+		<li>{{ _('At the top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _('Select “Disabled for”.') }}</li>
+		<li>{{ _('Select “Turned off”.') }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -125,7 +126,7 @@
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _('Tap on “Special access”.') }}</li>
 		<li>{{ _('Choose “Optimize battery usage”.') }}</li>
-		<li>{{ _('In the drop-down list at the top, switch from “Not optimized” to “All apps”.') }}</li>
+		<li>{{ _('In the drop-down list at the top, switch from “Apps not optimized” to “All” or “All apps”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -166,8 +167,8 @@
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '5e6ebb74-01cd-4e27-a994-51e527c6d862' } only %}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
-		<li>{{ _('Choose “Power saving mode”.') }}</li>
-		<li>{{ _('Change this to “Off”.') }}</li>
+		<li>{{ _('In the “Power saving” section, choose “Power saving mode”.') }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -177,8 +178,8 @@
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b7c310ba-0556-4370-b04e-c08f7d2e40fa' } only %}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
-		<li>{{ _('Choose “Ultra power saving mode”.') }}</li>
-		<li>{{ _('Change this to “Off”.') }}</li>
+		<li>{{ _('In the “Power saving” section, choose “Ultra power saving mode”.') }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
