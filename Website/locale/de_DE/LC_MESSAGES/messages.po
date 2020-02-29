@@ -82,9 +82,6 @@ msgstr "Stelle sicher, dass der Schalter oben neben „Benachrichtigungen anzeig
 msgid "At the top, next to “Show notifications”, make sure that there is a checkmark in the checkbox."
 msgstr "Stelle sicher, dass oben neben „Benachrichtigungen anzeigen“ ein Haken im Kontrollkästchen ist."
 
-msgid "At the top, press “Done”."
-msgstr "Tippe oben auf „Fertig“."
-
 msgid "At the top, select “All settings”."
 msgstr "Wähle oben „Alle Einstellungen“ aus."
 
@@ -115,9 +112,6 @@ msgstr "Wechsle oben von „Nicht optimiert“ zu „Alle Apps“."
 msgid "At the top, tap on “Add applications”."
 msgstr "Tippe oben auf „Anwendungen hinzufügen“."
 
-msgid "At the top, tap on “Edit”."
-msgstr "Tippe oben auf „Bearbeiten“."
-
 msgid "At the top, tap on “Manage batch manually”."
 msgstr "Tippe oben auf „Stapel manuell verwalten“."
 
@@ -145,9 +139,6 @@ msgstr "Wenn „%s“ schon in der Liste unterhalb von „Apps aktiv im Ruhezust
 
 msgid "Below “Battery saver” and “Adaptive battery”, make sure that it says “Off”."
 msgstr "Stelle sicher, dass unterhalb von „Akku-Sparer“ und „Lernfähiger Akku“ jeweils „Aus“ steht."
-
-msgid "Below “Network power saving”, make sure that it says “Off”."
-msgstr "Stelle sicher, dass unterhalb von „Netzwerk-Energiesparen“ „Aus“ steht."
 
 msgid "Below “Run in background”, make sure that it says “Allow running in background”."
 msgstr "Stelle sicher, dass unterhalb von „Im Hintergrund laufen“ „Zulassen, im Hintergrund zu laufen“ steht."
@@ -235,9 +226,6 @@ msgstr "Wähle „Autostart-Verwalter“."
 
 msgid "Choose “Auto-start application list”."
 msgstr "Wähle „Autostart-Anwendungs-Liste“."
-
-msgid "Choose “Auto-start management”."
-msgstr "Wähle „Autostart-Verwaltung“."
 
 msgid "Choose “Auto-start”."
 msgstr "Wähle „Autostart“."
@@ -359,9 +347,6 @@ msgstr "Wähle „Autostart verwalten“."
 msgid "Choose “Memory acceleration whitelist”."
 msgstr "Wähle „Speicher-Beschleunigungs-Whitelist“."
 
-msgid "Choose “Memory”."
-msgstr "Wähle „Speicher“."
-
 msgid "Choose “More”."
 msgstr "Wähle „Mehr“."
 
@@ -461,9 +446,6 @@ msgstr "Wähle „Verwaltung letzter Apps“."
 msgid "Choose “Run in background”."
 msgstr "Wähle „Im Hintergrund laufen“."
 
-msgid "Choose “Security”."
-msgstr "Wähle „Sicherheit“."
-
 msgid "Choose “Settings”."
 msgstr "Wähle „Einstellungen“."
 
@@ -493,9 +475,6 @@ msgstr "Wähle „Start-Verwalter“."
 
 msgid "Choose “Storage & memory”."
 msgstr "Wähle „Speicherplatz & Speicher“."
-
-msgid "Choose “Turn off Restrict backgroud data”."
-msgstr "Wähle „Beschränkung der Hintergrunddaten ausschalten“."
 
 msgid "Choose “Ultra Stamina mode”."
 msgstr "Wähle „Ultra-Stamina-Modus“."
@@ -768,9 +747,6 @@ msgstr "Stelle sicher, dass die Schalter neben „Erweiterte Optimierung“ und 
 
 msgid "Next to “Allow Auto Startup”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter neben „Autostart erlauben“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
-
-msgid "Next to “Allow background activity”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
-msgstr "Stelle sicher, dass der Schalter neben „Hintergrund-Aktivität zulassen“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
 
 msgid "Next to “Allow notifications”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter neben „Benachrichtigungen erlauben“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
@@ -1098,9 +1074,6 @@ msgstr "Tippe auf „Einstellungen“."
 
 msgid "Tap on “Special access”."
 msgstr "Tippe auf „Besonderer Zugriff“."
-
-msgid "Tap on “Use details”."
-msgstr "Tippe auf „Verbrauchs-Details“."
 
 msgid "The lock icon should have turned into a <em>closed</em> lock icon now."
 msgstr "Das Schloss-Symbol sollte sich jetzt in ein <em>geschlossenes</em> Symbol geändert haben."
