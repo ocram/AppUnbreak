@@ -27,6 +27,10 @@ msgid "Advanced settings"
 msgstr "Erweiterte Einstellungen"
 
 msgctxt "Samsung"
+msgid "All"
+msgstr "Alle"
+
+msgctxt "Samsung"
 msgid "All apps"
 msgstr "Alle Apps"
 
@@ -698,11 +702,12 @@ msgid "If “Uninstall” is available, tap on “Uninstall” as well."
 msgstr "Wenn „Deinstallieren“ verfügbar ist, tippe auch noch auf „Deinstallieren“."
 
 #, php-format
+msgid "In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”."
+msgstr "Wechsle in der Auswahlliste oben von „%1$s“ zu „%2$s“ oder „%3$s“."
+
+#, php-format
 msgid "In the drop-down list at the top, switch from “%1$s” to “%2$s”."
 msgstr "Wechsle in der Auswahlliste oben von „%1$s“ zu „%2$s“."
-
-msgid "In the drop-down list at the top, switch from “Apps not optimized” to “All” or “All apps”."
-msgstr "Wechsle in der Auswahlliste oben von „Apps nicht optimiert“ zu „Alle“ oder „Alle Apps“."
 
 msgid "In the drop-down list at the top, switch from “Not optimized” to “All apps”."
 msgstr "Wechsle in der Auswahlliste oben von „Nicht optimiert“ zu „Alle Apps“."
