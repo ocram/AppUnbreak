@@ -99,7 +99,7 @@
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _('In the drop-down list at the top, switch from “Apps not optimized” to “All” or “All apps”.') }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _('Apps not optimized'), _('All'), _('All apps')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
