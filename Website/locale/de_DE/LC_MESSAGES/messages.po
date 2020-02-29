@@ -39,9 +39,6 @@ msgstr "Wähle unten „Erweiterte Einstellungen“."
 msgid "At the bottom, choose “Privacy permissions”."
 msgstr "Wähle unten „Datenschutz-Berechtigungen“."
 
-msgid "At the bottom, choose “Unmonitored apps”."
-msgstr "Wähle unten „Nicht beobachtete Apps“."
-
 msgid "At the bottom, tap on “Add to whitelist”."
 msgstr "Tippe unten auf „Zur Whitelist hinzufügen“."
 
@@ -127,11 +124,11 @@ msgstr "Tippe oben auf „Stapel manuell verwalten“."
 msgid "At the very bottom, choose “Unmonitored apps”."
 msgstr "Wähle ganz unten „Nicht beobachtete Apps“."
 
+msgid "At the very bottom, tap on “Add apps”."
+msgstr "Tippe ganz unten auf „Apps hinzufügen“."
+
 msgid "At the very top, choose “Apply”."
 msgstr "Wähle ganz oben „Anwenden“."
-
-msgid "At the very top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
-msgstr "Wenn der Schalter ganz oben ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
 
 msgid "At the very top, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter ganz oben ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
@@ -503,9 +500,6 @@ msgstr "Wähle „Beschränkung der Hintergrunddaten ausschalten“."
 msgid "Choose “Ultra Stamina mode”."
 msgstr "Wähle „Ultra-Stamina-Modus“."
 
-msgid "Choose “Ultra power saving mode”."
-msgstr "Wähle „Ultra-Energiespar-Modus“."
-
 msgid "Choose “Unrestricted data access”."
 msgstr "Wähle „Unbeschränkter Datenzugriff“."
 
@@ -533,14 +527,8 @@ msgstr "Verbinde dein Gerät mit einem Computer."
 msgid "Contact"
 msgstr "Kontakt"
 
-msgid "Corrections"
-msgstr "Korrekturen"
-
 msgid "Developers:"
 msgstr "Entwickler:"
-
-msgid "Either at the top or at the bottom, tap on “Add apps”."
-msgstr "Tippe auf „Apps hinzufügen“, entweder oben oder unten."
 
 msgid "Execute the following command:"
 msgstr "Führe den folgenden Befehl aus:"
@@ -579,6 +567,9 @@ msgstr "Wähle weiter unten „Erweitert“."
 msgid "Further down, find the section “Battery optimization”."
 msgstr "Finde weiter unten den Bereich „Akku-Optimierung“."
 
+msgid "Further down, next to “Background network usage”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass weiter unten der Schalter neben „Hintergrund-Netzwerk-Nutzung“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
 msgid "Get a site like this for your own app!"
 msgstr "Hole dir eine Seite wie diese für deine eigene App!"
 
@@ -613,17 +604,17 @@ msgstr "Home-Taste"
 msgid "However, these apps interfere with other apps, like “%s”, and prevent them from working correctly."
 msgstr "Aber diese Apps beeinträchtigen andere Apps, wie „%s“, und hindern diese daran, korrekt zu funktionieren."
 
+msgid "If it says “Mid”, tap on “Mid” again for its details to appear."
+msgstr "Wenn dort „Mittel“ steht, tippe noch einmal auf „Mittel“, damit die Details erscheinen."
+
+msgid "If it says “Off”, there’s nothing left for you to do."
+msgstr "Wenn dort „Aus“ steht, musst du nichts weiter tun."
+
 msgid "If it says “Restricted”, tap on “Background restriction” and then tap on “Remove”."
 msgstr "Wenn dort „Eingeschränkt“ steht, tippe auf „Hintergrund-Beschränkung“ und dann auf „Entfernen“."
 
 msgid "If it’s in the list, there’s nothing left for you to do."
 msgstr "Wenn es in der Liste steht, musst du nichts weiter tun."
-
-msgid "If it’s “Mid”, tap on “Mid” again for its details to appear."
-msgstr "Wenn dort „Mittel“ steht, tippe noch einmal auf „Mittel“, damit die Details erscheinen."
-
-msgid "If it’s “Off”, there’s nothing left for you to do."
-msgstr "Wenn dort „Aus“ steht, musst du nichts weiter tun."
 
 msgid "If the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
 msgstr "Wenn der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
@@ -660,6 +651,12 @@ msgstr "Wenn „Hintergrund-Beschränkung“ auf „App kann Akku im Hintergrund
 msgid "If “Uninstall” is available, tap on “Uninstall” as well."
 msgstr "Wenn „Deinstallieren“ verfügbar ist, tippe auch noch auf „Deinstallieren“."
 
+msgid "In the drop-down list at the top, switch from “Apps not optimized” to “All apps”."
+msgstr "Wechsle in der Auswahlliste oben von „Apps nicht optimiert“ zu „Alle Apps“."
+
+msgid "In the drop-down list at the top, switch from “Apps not optimized” to “All” or “All apps”."
+msgstr "Wechsle in der Auswahlliste oben von „Apps nicht optimiert“ zu „Alle“ oder „Alle Apps“."
+
 msgid "In the drop-down list at the top, switch from “Not optimized” to “All apps”."
 msgstr "Wechsle in der Auswahlliste oben von „Nicht optimiert“ zu „Alle Apps“."
 
@@ -677,9 +674,6 @@ msgstr "Wenn der Schalter in der oberen rechten Ecke ausgeschaltet ist, d.h. mit
 msgid "In the top-right corner, tap on “⚙” (“Gear”)."
 msgstr "Tippe in der oberen rechten Ecke auf „⚙“ („Zahnrad“)."
 
-msgid "In the upper half, choose “Battery Usage”."
-msgstr "Wähle in der oberen Hälfte „Akkuverbrauch“."
-
 msgid "In the upper half, choose “Battery usage”."
 msgstr "Wähle in der oberen Hälfte „Akkuverbrauch“."
 
@@ -690,8 +684,8 @@ msgstr "Wähle in der oberen Hälfte „Keine Einschränkungen“ aus."
 msgid "In the “Allowed autostart applications” list, if “%s” is there, there’s nothing left for you to do."
 msgstr "Wenn „%s“ in der Liste „Erlaubte Autostart-Anwendungen“ steht, musst du nichts weiter tun."
 
-msgid "In the “App optimization” or “App power saving” section, choose “Detail”."
-msgstr "Wähle im Bereich „App-Optimierung“ oder „App-Energiesparen“ die Schaltfläche „Detail“."
+msgid "In the “App power saving” section, choose “Detail”."
+msgstr "Wähle im Bereich „App-Energiesparen“ die Schaltfläche „Detail“."
 
 #, php-format
 msgid "In the “Disabled autostart applications” list, find “%s”."
@@ -700,6 +694,12 @@ msgstr "Finde „%s“ in der Liste „Nicht erlaubte Autostart-Anwendungen“."
 #, php-format
 msgid "In the “Not optimized” section, if “%s” is in the list, there’s nothing left for you to do."
 msgstr "Wenn „%s“ in der Liste im Bereich „Nicht optimiert“ steht, musst du nichts weiter tun."
+
+msgid "In the “Power saving” section, choose “Power saving mode”."
+msgstr "Wähle im Bereich „Energiesparen“ den Eintrag „Energiespar-Modus“."
+
+msgid "In the “Power saving” section, choose “Ultra power saving mode”."
+msgstr "Wähle im Bereich „Energiesparen“ den Eintrag „Ultra-Energiespar-Modus“."
 
 #, php-format
 msgid "In the “Protected app list”, find “%s”."
@@ -813,9 +813,6 @@ msgstr "Stelle sicher, dass im Kontrollkästchen neben „Hintergrunddaten“ ei
 
 msgid "Next to “Background freeze” or “Freeze when in background”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Hintergrund-Stoppen“ oder „Stoppen, wenn im Hintergrund“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
-
-msgid "Next to “Background network usage”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
-msgstr "Stelle sicher, dass der Schalter neben „Hintergrund-Netzwerk-Nutzung“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
 
 msgid "Next to “Battery saver”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Akkusparer“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
@@ -941,9 +938,6 @@ msgstr "Öffne den „Telefonmanager“ auf deinem Gerät."
 msgid "Open the “Settings” of your device."
 msgstr "Öffne die „Einstellungen“ deines Gerätes."
 
-msgid "Open the “Smart manager” on your device."
-msgstr "Öffne den „Smart Manager“ auf deinem Gerät."
-
 msgid "Open the “iManager” on your device."
 msgstr "Öffne den „iManager“ auf deinem Gerät."
 
@@ -999,9 +993,6 @@ msgstr "Setze einen Haken ins Kontrollkästchen neben „%s“."
 msgid "Restart your device."
 msgstr "Starte dein Gerät neu."
 
-msgid "Select “Disabled for”."
-msgstr "Wähle „Deaktiviert für“ aus."
-
 msgid "Select “Never”."
 msgstr "Wähle „Niemals“ aus."
 
@@ -1010,6 +1001,12 @@ msgstr "Wähle „Keine Einschränkungen“ aus."
 
 msgid "Select “Normal mode”."
 msgstr "Wähle „Normaler Modus“ aus."
+
+msgid "Select “Smart Manager”."
+msgstr "Wähle „Smart Manager“."
+
+msgid "Select “Turned off”."
+msgstr "Wähle „Deaktiviert“ aus."
 
 msgid "Set it to “Off”."
 msgstr "Setze es auf „Aus“."
@@ -1116,9 +1113,6 @@ msgstr "Während diese Beschränkungen die Akkulaufzeit auf dem Papier verlänge
 
 msgid "Yes"
 msgstr "Ja"
-
-msgid "You may have to find and expand the section “Sleeping apps” for this to show up."
-msgstr "Eventuell musst du den Bereich „Schlafende Apps“ finden und ausklappen, damit dies angezeigt wird."
 
 msgid "three bars"
 msgstr "drei Balken"
