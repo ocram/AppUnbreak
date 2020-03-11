@@ -18,34 +18,51 @@
 </p>
 {% if vendor == 'Asus' %}
 	{% include 'advice/asus.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'HTC' %}
 	{% include 'advice/htc.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Honor' or vendor == 'Huawei' %}
 	{% include 'advice/honor_huawei.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'LeEco' %}
 	{% include 'advice/le_eco.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Lenovo' %}
 	{% include 'advice/lenovo.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'LG' %}
 	{% include 'advice/lg.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Meizu' %}
 	{% include 'advice/meizu.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Nokia' %}
 	{% include 'advice/nokia.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'OnePlus' %}
 	{% include 'advice/oneplus.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Oppo' %}
 	{% include 'advice/oppo.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Samsung' %}
 	{% include 'advice/samsung.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Sony' %}
 	{% include 'advice/sony.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Vivo' %}
 	{% include 'advice/vivo.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'Xiaomi' %}
 	{% include 'advice/xiaomi.html.twig' %}
+	{% include 'advice/google.html.twig' %}
 {% elseif vendor == 'ZTE' %}
 	{% include 'advice/zte.html.twig' %}
+	{% include 'advice/google.html.twig' %}
+{% else %}
+	{% include 'advice/google.html.twig' %}
 {% endif %}
 {% include 'advice/android.html.twig' %}
 {% include 'includes/footer.html.twig' only %}
