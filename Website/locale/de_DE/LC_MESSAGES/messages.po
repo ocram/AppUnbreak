@@ -8,6 +8,26 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "Samsung"
+msgid "Accounts"
+msgstr "Konten"
+
+msgctxt "Samsung"
+msgid "Accounts and backup"
+msgstr "Konten und Sicherung"
+
+msgctxt "Samsung"
+msgid "Adaptive battery"
+msgstr "Adaptiver Akku"
+
+msgctxt "Samsung"
+msgid "Adaptive power saving"
+msgstr "Adaptives Energiesparen"
+
+msgctxt "Samsung"
+msgid "Add"
+msgstr "Hinzufügen"
+
+msgctxt "Samsung"
 msgid "Add apps"
 msgstr "Apps hinzufügen"
 
@@ -23,6 +43,10 @@ msgid "Add “%s”."
 msgstr "Füge „%s“ hinzu."
 
 msgctxt "Samsung"
+msgid "Advanced"
+msgstr "Erweitert"
+
+msgctxt "Samsung"
 msgid "Advanced settings"
 msgstr "Erweiterte Einstellungen"
 
@@ -35,12 +59,72 @@ msgid "All apps"
 msgstr "Alle Apps"
 
 msgctxt "Samsung"
+msgid "All notifications"
+msgstr "Alle Benachrichtigungen"
+
+msgctxt "Samsung"
+msgid "Allow"
+msgstr "Zulassen"
+
+msgctxt "Samsung"
+msgid "Allow app while Data saver on"
+msgstr "App beim Datensparen zulassen"
+
+msgctxt "Samsung"
+msgid "Allow background activity"
+msgstr "Hintergrundaktivität zulassen"
+
+msgctxt "Samsung"
+msgid "Allow background data usage"
+msgstr "Hintergrunddatennutzung zulassen"
+
+msgctxt "Samsung"
+msgid "Allow notifications"
+msgstr "Benachrichtigungen zulassen"
+
+msgctxt "Samsung"
+msgid "Always"
+msgstr "Immer"
+
+msgctxt "Samsung"
+msgid "Always sleeping apps"
+msgstr "Apps immer im Standby"
+
+msgctxt "Samsung"
+msgid "App icon badges"
+msgstr "App-Symbolindikator"
+
+msgctxt "Samsung"
+msgid "App notifications"
+msgstr "App-Benachrichtigungen"
+
+msgctxt "Samsung"
+msgid "App optimization"
+msgstr "App-Optimierung"
+
+msgctxt "Samsung"
+msgid "App power management"
+msgstr "Energieverwaltung von Apps"
+
+msgctxt "Samsung"
 msgid "App power monitor"
 msgstr "App-Energieüberwachung"
 
 msgctxt "Samsung"
 msgid "App power saving"
 msgstr "App-Energiesparmodus"
+
+msgctxt "Samsung"
+msgid "App settings"
+msgstr "App-Einstellungen"
+
+msgctxt "Samsung"
+msgid "Application manager"
+msgstr "Anwendungsmanager"
+
+msgctxt "Samsung"
+msgid "Applications"
+msgstr "Anwendungen"
 
 msgctxt "Samsung"
 msgid "Apply"
@@ -53,6 +137,14 @@ msgstr "Apps"
 msgctxt "Samsung"
 msgid "Apps not optimized"
 msgstr "Apps nicht optimiert"
+
+msgctxt "Samsung"
+msgid "Apps that aren’t checked"
+msgstr "Apps, die nicht geprüft werden"
+
+msgctxt "Samsung"
+msgid "Apps that won’t be put to sleep"
+msgstr "Nicht in Standby versetzte Apps"
 
 msgid "Are you having problems with notifications, background tasks, automatic synchronization or alarms on your device?"
 msgstr "Hast du auf deinem Gerät Probleme mit Benachrichtigungen, Hintergrunddiensten, automatischer Synchronisierung oder Erinnerungen?"
@@ -67,8 +159,24 @@ msgstr "Wähle unten links „Akku“."
 msgid "At the bottom left, tap on the battery icon."
 msgstr "Tippe unten links auf das Akku-Symbol."
 
+#, php-format
+msgid "At the bottom left, tap on “%s”."
+msgstr "Tippe unten links auf „%s“."
+
+#, php-format
+msgid "At the bottom right, choose “%s”."
+msgstr "Wähle unten rechts „%s“."
+
+#, php-format
+msgid "At the bottom right, tap on “%s”."
+msgstr "Tippe unten rechts auf „%s“."
+
 msgid "At the bottom right, tap on “Permissions”."
 msgstr "Tippe unten rechts auf „Berechtigungen“."
+
+#, php-format
+msgid "At the bottom, choose “%s”."
+msgstr "Wähle unten „%s“."
 
 msgid "At the bottom, choose “Add apps”."
 msgstr "Wähle unten „Apps hinzufügen“."
@@ -78,6 +186,14 @@ msgstr "Wähle unten „Erweiterte Einstellungen“."
 
 msgid "At the bottom, choose “Privacy permissions”."
 msgstr "Wähle unten „Datenschutz-Berechtigungen“."
+
+#, php-format
+msgid "At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass unten der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "At the bottom, tap on “%s”."
+msgstr "Tippe unten auf „%s“."
 
 msgid "At the bottom, tap on “Add to whitelist”."
 msgstr "Tippe unten auf „Zur Whitelist hinzufügen“."
@@ -92,8 +208,23 @@ msgid "At the left, choose “Auto-start manager”."
 msgstr "Wähle links „Autostart-Manager“."
 
 #, php-format
+msgid "At the top left, choose “%s”."
+msgstr "Wähle oben links „%s“."
+
+#, php-format
+msgid "At the top right, choose “%s”."
+msgstr "Wähle oben rechts „%s“."
+
+#, php-format
 msgid "At the top right, tap on %s to open the expanded menu."
 msgstr "Tippe oben rechts auf %s, um das erweiterte Menü zu öffnen."
+
+msgid "At the top right, tap on the trash icon."
+msgstr "Tippe oben rechts auf das Mülleimer-Symbol."
+
+#, php-format
+msgid "At the top right, tap on “%s”."
+msgstr "Tippe oben rechts auf „%s“."
 
 #, php-format
 msgid "At the top, choose “%s”."
@@ -110,6 +241,17 @@ msgstr "Stelle sicher, dass der Schalter oben ausgeschaltet ist, d.h. mit seinem
 
 msgid "At the top, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter oben eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+msgid "At the top, make sure the switch is turned off, i.e. with its knob or handle at the left."
+msgstr "Stelle sicher, dass oben der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
+
+#, php-format
+msgid "At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass oben der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "At the top, next to “%s”, make sure there’s a checkmark in the checkbox."
+msgstr "Stelle sicher, dass oben neben „%s“ ein Haken im Kontrollkästchen ist."
 
 msgid "At the top, next to “Enable aggressive doze & app hibernation”, find the switch."
 msgstr "Finde oben den Schalter neben „Aggressives Doze & App-Ruhezustand aktivieren“."
@@ -171,9 +313,24 @@ msgstr "Wähle ganz oben „%s“."
 msgid "At the very top, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter ganz oben ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
+msgid "At the very top, make sure the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass ganz oben der Schalter eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
 #, php-format
 msgid "At the very top, press “%s”."
 msgstr "Drücke ganz oben auf „%s“."
+
+msgctxt "Samsung"
+msgid "Auto disable unused apps"
+msgstr "Ungenutzte Apps autom. deaktiv."
+
+msgctxt "Samsung"
+msgid "Auto optimization"
+msgstr "Automatische Optimierung"
+
+msgctxt "Samsung"
+msgid "Auto sync data"
+msgstr "Daten autom. synchronisieren"
 
 msgid "Back key"
 msgstr "Zurück-Taste"
@@ -199,6 +356,14 @@ msgstr "Stelle sicher, dass unterhalb von „Akku-Sparer“ und „Lernfähiger 
 
 msgid "Below “Run in background”, make sure that it says “Allow running in background”."
 msgstr "Stelle sicher, dass unterhalb von „Im Hintergrund laufen“ „Zulassen, im Hintergrund zu laufen“ steht."
+
+#, php-format
+msgid "Below, make sure that “%s” is selected."
+msgstr "Stelle sicher, dass darunter „%s“ ausgewählt ist."
+
+msgctxt "Samsung"
+msgid "Block notifications"
+msgstr "Benachrichtigungen sperren"
 
 msgid "Change this to “Off”."
 msgstr "Ändere dies auf „Aus“."
@@ -548,11 +713,23 @@ msgstr "Wähle oben rechts „⚙“ („Zahnrad“)."
 msgid "Choose “⚙” (“Gear”) in the top-right corner."
 msgstr "Wähle in der oberen rechten Ecke „⚙“ („Zahnrad“)."
 
+msgctxt "Samsung"
+msgid "Clean now"
+msgstr "Bereinigen"
+
 msgid "Close"
 msgstr "Schließen"
 
+msgctxt "Samsung"
+msgid "Cloud and accounts"
+msgstr "Cloud und Konten"
+
 msgid "Connect your device to a computer."
 msgstr "Verbinde dein Gerät mit einem Computer."
+
+msgctxt "Samsung"
+msgid "Connections"
+msgstr "Verbindungen"
 
 msgid "Contact"
 msgstr "Kontakt"
@@ -562,6 +739,22 @@ msgid "Customize"
 msgstr "Anpassen"
 
 msgctxt "Samsung"
+msgid "Data usage"
+msgstr "Datennutzung"
+
+msgctxt "Samsung"
+msgid "Delete apps"
+msgstr "Apps löschen"
+
+#, php-format
+msgid "Delete “%s”."
+msgstr "Entferne „%s“."
+
+msgctxt "Samsung"
+msgid "Denied"
+msgstr "Zugriff abgelehnt"
+
+msgctxt "Samsung"
 msgid "Detail"
 msgstr "Detail"
 
@@ -569,8 +762,24 @@ msgid "Developers:"
 msgstr "Entwickler:"
 
 msgctxt "Samsung"
+msgid "Device care"
+msgstr "Gerätewartung"
+
+msgctxt "Samsung"
 msgid "Device maintenance"
 msgstr "Gerätewartung"
+
+msgctxt "Samsung"
+msgid "Disabled apps"
+msgstr "Deaktivierte Apps"
+
+msgctxt "Samsung"
+msgid "Display"
+msgstr "Anzeige"
+
+#, php-format
+msgid "Do not press “%s”."
+msgstr "Drücke nicht auf „%s“."
 
 msgctxt "Samsung"
 msgid "Done"
@@ -584,6 +793,9 @@ msgstr "Nur für Experten"
 
 msgid "Find and choose “Protected apps”."
 msgstr "Finde und wähle „Geschützte Apps“."
+
+msgid "Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.)."
+msgstr "Finde die Schnelleinstellungen (wo du auch WLAN, Bluetooth usw. ein- und ausschalten kannst)."
 
 #, php-format
 msgid "Find the section “%s”."
@@ -605,8 +817,16 @@ msgid "Find the section “System & device”."
 msgstr "Finde den Bereich „System & Gerät“."
 
 #, php-format
+msgid "Find the “%s” section."
+msgstr "Finde den Bereich „%s“."
+
+#, php-format
 msgid "Find “%s” in the list of apps."
 msgstr "Finde „%s“ in der Liste von Apps."
+
+msgctxt "Samsung"
+msgid "Focus mode"
+msgstr "Konzentrationsmodus"
 
 msgid "Further down, choose “Advanced”."
 msgstr "Wähle weiter unten „Erweitert“."
@@ -615,11 +835,31 @@ msgid "Further down, find the section “Battery optimization”."
 msgstr "Finde weiter unten den Bereich „Akku-Optimierung“."
 
 #, php-format
+msgid "Further down, in the “%1$s” section, find “%2$s”."
+msgstr "Finde im Bereich „%1$s“ weiter unten „%2$s“."
+
+#, php-format
 msgid "Further down, next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass weiter unten der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
 
+#, php-format
+msgid "Further down, next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left."
+msgstr "Stelle sicher, dass weiter unten der Schalter neben „%s“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
+
+#, php-format
+msgid "Further down, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass weiter unten der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "Further down, tap on “%s”."
+msgstr "Tippe weiter unten auf „%s“."
+
 msgid "Get a site like this for your own app!"
 msgstr "Hole dir eine Seite wie diese für deine eigene App!"
+
+#, php-format
+msgid "Go back by pressing %s at the bottom of your device."
+msgstr "Gehe zurück, indem du unten auf deinem Gerät %s drückst."
 
 #, php-format
 msgid "Have you been able to follow these steps on %s?"
@@ -645,12 +885,24 @@ msgstr "Du hast Probleme mit Benachrichtigungen, Hintergrunddiensten, automatisc
 msgid "Having problems with notifications, background tasks, automatic synchronization or alarms on your %s device?"
 msgstr "Du hast Probleme mit Benachrichtigungen, Hintergrunddiensten, automatischer Synchronisierung oder Erinnerungen auf deinem %s-Gerät?"
 
+msgctxt "Samsung"
+msgid "High performance"
+msgstr "Hohe Leistung"
+
 msgid "Home key"
 msgstr "Home-Taste"
 
 #, php-format
 msgid "However, these apps interfere with other apps, like “%s”, and prevent them from working correctly."
 msgstr "Aber diese Apps beeinträchtigen andere Apps, wie „%s“, und hindern diese daran, korrekt zu funktionieren."
+
+#, php-format
+msgid "If it says either “%1$s” or “%2$s”, there’s nothing left for you to do."
+msgstr "Wenn dort entweder „%1$s“ oder „%2$s“ steht, musst du nichts weiter tun."
+
+#, php-format
+msgid "If it says “%1$s” or “%2$s”, proceed with the next step."
+msgstr "Wenn dort „%1$s“ oder „%2$s“ steht, fahre mit dem nächsten Schritt fort."
 
 #, php-format
 msgid "If it says “%1$s”, tap on “%2$s” again for its details to appear."
@@ -669,6 +921,10 @@ msgstr "Wenn es in der Liste steht, musst du nichts weiter tun."
 msgid "If the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
 msgstr "Wenn der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
 
+#, php-format
+msgid "If there are no entries in the “%s” section, there’s nothing left for you to do."
+msgstr "Wenn es im Bereich „%s“ keine Einträge gibt, musst du nichts weiter tun."
+
 msgid "If this works for you, next to “Turn on automatically”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Wenn dies für dich akzeptabel ist, stelle sicher, dass der Schalter neben „Automatisch einschalten“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
@@ -684,6 +940,10 @@ msgid "If “%s” is already in the list, there’s nothing left for you to do.
 msgstr "Wenn „%s“ schon in der Liste ist, musst du nichts weiter tun."
 
 #, php-format
+msgid "If “%s” is in the list of apps, there’s nothing left for you to do."
+msgstr "Wenn „%s“ in der Liste von Apps steht, musst du nichts weiter tun."
+
+#, php-format
 msgid "If “%s” is in the list of “Trusted apps”, there’s nothing left for you to do."
 msgstr "Wenn „%s“ in der Liste der „Vertrauenswürdigen Apps“ ist, musst du nichts weiter tun."
 
@@ -694,6 +954,10 @@ msgstr "Wenn „%s“ in der Liste ist, musst du nichts weiter tun."
 #, php-format
 msgid "If “%s” is in the upper section called “Not optimized”, there’s nothing left for you to do."
 msgstr "Wenn „%s“ im oberen Bereich mit dem Namen „Nicht optimiert“ ist, musst du nichts weiter tun."
+
+#, php-format
+msgid "If “%s” is not in the list of apps, there’s nothing left for you to do."
+msgstr "Wenn „%s“ nicht in der Liste von Apps steht, musst du nichts weiter tun."
 
 msgid "If “Background restriction” says “App can use battery in background”, there’s nothing left for you to do."
 msgstr "Wenn „Hintergrund-Beschränkung“ auf „App kann Akku im Hintergrund nutzen“ einstellt ist, musst du nichts weiter tun."
@@ -741,6 +1005,10 @@ msgid "In the “%1$s” section, choose “%2$s”."
 msgstr "Wähle im Bereich „%1$s“ die Schaltfläche „%2$s“."
 
 #, php-format
+msgid "In the “%1$s” section, find “%2$s”."
+msgstr "Im Bereich „%1$s“ findest du „%2$s“."
+
+#, php-format
 msgid "In the “Allowed autostart applications” list, if “%s” is there, there’s nothing left for you to do."
 msgstr "Wenn „%s“ in der Liste „Erlaubte Autostart-Anwendungen“ steht, musst du nichts weiter tun."
 
@@ -756,6 +1024,10 @@ msgstr "Wenn „%s“ in der Liste im Bereich „Nicht optimiert“ steht, musst
 msgid "In the “Protected app list”, find “%s”."
 msgstr "Finde „%s“ in der „Liste der geschützten Apps“."
 
+msgctxt "Samsung"
+msgid "Keep Wi-Fi on during sleep"
+msgstr "WLAN im Standbymodus eingeschaltet lassen“ oder „WLAN im Standby aktivieren"
+
 msgid "Learn what you can do to prevent flawed power-saving features from breaking your device’s functionality."
 msgstr "Erfahre, was du tun kannst, um zu verhindern, dass fehlerhafte Features zum Energiesparen die Funktionalität deines Gerätes stören."
 
@@ -770,18 +1042,54 @@ msgstr "Stelle sicher, dass alle Schalter eingeschaltet sind, d.h. mit ihren Kn�
 msgid "Make sure that either “%1$s” or “%2$s” is selected."
 msgstr "Stelle sicher, dass entweder „%1$s“ oder „%2$s“ ausgewählt ist."
 
+#, php-format
+msgid "Make sure that it says either “%1$s” or “%2$s”."
+msgstr "Stelle sicher, dass dort entweder „%1$s“ oder „%2$s“ steht."
+
 msgid "Make sure that it says “Off”."
 msgstr "Stelle sicher, dass dort „Aus“ steht."
 
 msgid "Make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
+#, php-format
+msgid "Make sure that “%s” is not in the list of apps."
+msgstr "Stelle sicher, dass „%s“ nicht in der Liste von Apps steht."
+
+#, php-format
+msgid "Make sure that “%s” is turned off (gray)."
+msgstr "Stelle sicher, dass „%s“ ausgeschaltet ist (grau)."
+
+#, php-format
+msgid "Make sure that “%s” is turned on (colored)."
+msgstr "Stelle sicher, dass „%s“ eingeschaltet ist (farbig)."
+
 msgid "Make sure that “Power plan” is set to “Performance”."
 msgstr "Stelle sicher, dass der „Energie-Plan“ auf „Leistung“ eingestellt ist."
 
 msgctxt "Samsung"
+msgid "Maximum power saving"
+msgstr "Maximales Energiesparen"
+
+msgctxt "Samsung"
+msgid "Medium power saving"
+msgstr "Mittleres Energiesparen"
+
+msgctxt "Samsung"
+msgid "Memory"
+msgstr "Arbeitsspeicher"
+
+msgctxt "Samsung"
 msgid "Mid"
 msgstr "Mittel"
+
+msgctxt "Samsung"
+msgid "Mobile data"
+msgstr "Mobile Datenverbindung"
+
+msgctxt "Samsung"
+msgid "More"
+msgstr "Mehr"
 
 #, php-format
 msgid "Next to “%s”, make sure that it says “Allow auto-start”."
@@ -812,8 +1120,24 @@ msgid "Next to “%s”, make sure that there is a checkmark in the checkbox."
 msgstr "Stelle sicher, dass neben „%s“ ein Haken im Kontrollkästchen ist."
 
 #, php-format
+msgid "Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left."
+msgstr "Stelle sicher, dass der Schalter neben „%s“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
+
+#, php-format
+msgid "Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
+msgstr "Stelle sicher, dass der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "Next to “%s”, make sure there’s a checkmark in the checkbox."
+msgstr "Stelle sicher, dass neben „%s“ ein Haken im Kontrollkästchen ist."
+
+#, php-format
 msgid "Next to “%s”, put a checkmark into the checkbox."
 msgstr "Setze neben „%s“ einen Haken in das Kontrollkästchen."
+
+#, php-format
+msgid "Next to “%s”, remove the checkmark from the checkbox."
+msgstr "Entferne neben „%s“ den Haken aus dem Kontrollkästchen."
 
 #, php-format
 msgid "Next to “%s”, tap on the lock icon."
@@ -960,6 +1284,10 @@ msgstr "Stelle sicher, dass die Schalter neben „WLAN“ und „Hintergrunddate
 msgid "No"
 msgstr "Nein"
 
+msgctxt "Samsung"
+msgid "Notifications"
+msgstr "Benachrichtigungen"
+
 #, php-format
 msgid "Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on %2$s?"
 msgstr "Benachrichtigungen, Hintergrunddienste, automatische Synchronisierung oder Erinnerungen funktionieren für „%1$s“ auf %2$s nicht richtig?"
@@ -967,6 +1295,10 @@ msgstr "Benachrichtigungen, Hintergrunddienste, automatische Synchronisierung od
 #, php-format
 msgid "Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on your %2$s?"
 msgstr "Benachrichtigungen, Hintergrunddienste, automatische Synchronisierung oder Erinnerungen funktionieren für „%1$s“ auf deinem %2$s nicht richtig?"
+
+msgctxt "Samsung"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "Samsung"
 msgid "Off"
@@ -991,6 +1323,10 @@ msgstr "Öffne den „Telefonmanager“ auf deinem Gerät."
 
 msgid "Open the “Settings” of your device."
 msgstr "Öffne die „Einstellungen“ deines Gerätes."
+
+msgctxt "Samsung"
+msgid "Open the “Smart Manager” on your device."
+msgstr "Öffne den „Smart Manager“ auf deinem Gerät."
 
 msgid "Open the “iManager” on your device."
 msgstr "Öffne den „iManager“ auf deinem Gerät."
@@ -1018,6 +1354,18 @@ msgctxt "Samsung"
 msgid "Optimize battery usage"
 msgstr "Akkuverbrauch optimieren"
 
+msgctxt "Samsung"
+msgid "Optimize now"
+msgstr "Jetzt optimieren"
+
+msgctxt "Samsung"
+msgid "Optimize settings"
+msgstr "Einstellungen optimieren"
+
+msgctxt "Samsung"
+msgid "Optimized"
+msgstr "Optimiert"
+
 msgid "Otherwise, proceed with the next step."
 msgstr "Fahre ansonsten mit dem nächsten Schritt fort."
 
@@ -1034,8 +1382,24 @@ msgid "Permalink"
 msgstr "Permalink"
 
 msgctxt "Samsung"
+msgid "Permissions"
+msgstr "Berechtigungen"
+
+msgctxt "Samsung"
+msgid "Power mode"
+msgstr "Energiemodus"
+
+msgctxt "Samsung > Menu"
 msgid "Power saving"
-msgstr "Energiesparen"
+msgstr "Energiesparmodus"
+
+msgctxt "Samsung > Quick setting"
+msgid "Power saving"
+msgstr "Energiesparen“ oder „Energie sparen"
+
+msgctxt "Samsung > Section"
+msgid "Power saving"
+msgstr "Energiesparmodus"
 
 msgctxt "Samsung"
 msgid "Power saving mode"
@@ -1056,8 +1420,39 @@ msgstr "Datenschutz"
 msgid "Put a checkmark into the checkbox next to “%s”."
 msgstr "Setze einen Haken ins Kontrollkästchen neben „%s“."
 
+msgctxt "Samsung"
+msgid "Put unused apps to sleep"
+msgstr "Standby für nicht verwendete Apps"
+
+#, php-format
+msgid "Remember never to use “%s” here."
+msgstr "Denke daran, hier niemals „%s“ zu benutzen."
+
+msgctxt "Samsung"
+msgid "Remove"
+msgstr "Entfernen"
+
+#, php-format
+msgid "Repeat this for all entries in the “%s” section."
+msgstr "Wiederhole dies für alle Einträge im Bereich „%s“."
+
 msgid "Restart your device."
 msgstr "Starte dein Gerät neu."
+
+msgctxt "Samsung"
+msgid "Restrict background data"
+msgstr "Hintergrunddaten einschränken"
+
+#, php-format
+msgid "Scroll down to the “%s” section."
+msgstr "Fahre nach unten zum Bereich „%s“."
+
+msgid "Scroll further down."
+msgstr "Fahre weiter nach unten."
+
+msgctxt "Samsung"
+msgid "Select apps to exclude"
+msgstr "Auswählen der auszuschließenden Apps"
 
 #, php-format
 msgid "Select “%s”."
@@ -1072,6 +1467,10 @@ msgstr "Wähle „Keine Einschränkungen“ aus."
 msgid "Select “Normal mode”."
 msgstr "Wähle „Normaler Modus“ aus."
 
+msgctxt "Samsung"
+msgid "Set as priority"
+msgstr "Als Priorität festlegen"
+
 msgid "Set it to “Off”."
 msgstr "Setze es auf „Aus“."
 
@@ -1082,6 +1481,26 @@ msgid "Set the threshold to a low percent value, e.g. “At 15%”."
 msgstr "Setze die Schwelle oder den Grenzwert auf einen niedrigen Prozentwert, z.B. „Bei 15%“."
 
 msgctxt "Samsung"
+msgid "Settings"
+msgstr "Einstellungen"
+
+msgctxt "Samsung"
+msgid "Show notification icons"
+msgstr "Benachrichtigungssymbole anzeigen"
+
+msgctxt "Samsung"
+msgid "Show notifications"
+msgstr "Benachrichtigungen anzeigen“ oder „Benachrichtigungen zeigen“ oder „Benachrichtig. anzeigen"
+
+msgctxt "Samsung"
+msgid "Show recent notifications only"
+msgstr "Nur neueste Benachrichtigungen"
+
+msgctxt "Samsung"
+msgid "Sleeping apps"
+msgstr "Apps im Standby"
+
+msgctxt "Samsung"
 msgid "Smart Manager"
 msgstr "Smart Manager"
 
@@ -1089,8 +1508,19 @@ msgid "Some manufacturers are forcing excessive restrictions upon their devices 
 msgstr "In mangelhaften Versuchen, die Akkulaufzeiten zu optimieren, zwingen einige Hersteller ihren Geräten übermäßige Beschränkungen auf."
 
 msgctxt "Samsung"
+msgid "Sounds and notifications"
+msgstr "Töne und Benachrichtigungen"
+
+msgctxt "Samsung"
 msgid "Special access"
 msgstr "Spezieller Zugriff"
+
+msgctxt "Samsung"
+msgid "Status bar"
+msgstr "Statusleiste"
+
+msgid "Swipe down from the status bar to show notifications and quick settings."
+msgstr "Wische von der Statusleiste nach unten, um Benachrichtigungen und Schnelleinstellungen anzuzeigen."
 
 msgid "Swipe from the right to the left."
 msgstr "Wische von rechts nach links."
@@ -1112,6 +1542,25 @@ msgstr "Wechsle auf „Nicht optimieren“."
 
 msgid "Switch to “Normal clear”."
 msgstr "Wechsle auf „Normal aufräumen“."
+
+msgctxt "Samsung"
+msgid "Sync"
+msgstr "Sync"
+
+#, php-format
+msgid "Tap on an entry in the “%s” section."
+msgstr "Tippe auf einen Eintrag im Bereich „%s“."
+
+msgid "Tap on the selected entry again."
+msgstr "Tippe noch einmal auf den ausgewählten Eintrag."
+
+#, php-format
+msgid "Tap on “%s” again."
+msgstr "Tippe noch einmal auf „%s“."
+
+#, php-format
+msgid "Tap on “%s” at the left side of the screen."
+msgstr "Tippe auf der linken Seite des Bildschirms auf „%s“."
 
 #, php-format
 msgid "Tap on “%s”."
@@ -1178,8 +1627,20 @@ msgid "There are many apps on the app store which claim to boost performance, fr
 msgstr "Im App-Store gibt es viele Apps, die behaupten, die Leistung deines Gerätes zu erhöhen, Speicher freizuräumen, Akku zu sparen oder den RAM zu optimieren."
 
 msgctxt "Samsung"
+msgid "Turn off auto sync"
+msgstr "Autom. Synchronisieren deaktivieren“ oder „Automatisches Synchronisieren deaktivieren"
+
+msgctxt "Samsung"
+msgid "Turn on auto sync"
+msgstr "Autom. Synchronisieren aktivieren"
+
+msgctxt "Samsung"
 msgid "Turned off"
 msgstr "Deaktiviert"
+
+msgctxt "Samsung"
+msgid "U. power saving"
+msgstr "Ultra-sparen“ oder „U.-Ener.-sparmo."
 
 msgctxt "Samsung"
 msgid "Ultra power saving mode"
@@ -1189,8 +1650,20 @@ msgctxt "Samsung"
 msgid "Unmonitored apps"
 msgstr "Nicht überwachte Apps"
 
+msgctxt "Samsung"
+msgid "View more"
+msgstr "Mehr anzeigen"
+
 msgid "While these limitations extend battery life on paper, they do so at the expense of your device’s functionality and of your own convenience."
 msgstr "Während diese Beschränkungen die Akkulaufzeit auf dem Papier verlängern, tun sie dies zu Lasten der Funktionalität deines Gerätes und deines Komforts."
+
+msgctxt "Samsung"
+msgid "Wi-Fi"
+msgstr "WLAN"
+
+msgctxt "Samsung"
+msgid "Wi-Fi power saving mode"
+msgstr "WLAN-Energiesparmodus"
 
 msgid "Yes"
 msgstr "Ja"
