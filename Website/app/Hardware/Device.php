@@ -567,6 +567,7 @@ final class Device {
 
 		if (empty($vendor) || $vendor === 'Android' || !empty($results)) {
 			$results = \array_merge($results, [
+				[ 'Android 10', 2019, '10.00.00', '10.00.00', '0.0' ],
 				[ 'Android 9 (“Pie”)', 2018, '09.00.00', '09.00.00', '0.0' ],
 				[ 'Android 8 (“Oreo”)', 2017, '08.00.00', '08.01.00', '0.0' ],
 				[ 'Android 7 (“Nougat”)', 2016, '07.00.00', '07.01.02', '0.0' ],

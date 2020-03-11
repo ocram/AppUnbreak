@@ -72,6 +72,7 @@ final class Version {
 		'08.00.00',
 		'08.01.00',
 		'09.00.00',
+		'10.00.00',
 	];
 
 	public static function listBetween($min, $max) {
