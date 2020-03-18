@@ -2,8 +2,18 @@
 	<img src="{{ app.url('/images/android/3.0/keys/back/20x16@3x.png') }}" width="20" height="16" alt="🢘" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
 {% elseif version >= '04.00.00' and version <= '04.99.99' %}
 	<img src="{{ app.url('/images/android/4.0/keys/back/24x16@3x.png') }}" width="24" height="16" alt="⮌" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
-{% elseif version >= '05.00.00' %}
+{% elseif version >= '05.00.00' and version <= '05.99.99' %}
 	<img src="{{ app.url('/images/android/5.0/keys/back/15x16@5x.png') }}" width="15" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
+{% elseif version >= '06.00.00' and version <= '06.99.99' %}
+	<img src="{{ app.url('/images/android/6.0/keys/back/14x16@2x.png') }}" width="14" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
+{% elseif version >= '07.00.00' and version <= '07.99.99' %}
+	<img src="{{ app.url('/images/android/7.0/keys/back/13x16@2x.png') }}" width="13" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
+{% elseif version >= '08.00.00' and version <= '08.99.99' %}
+	<img src="{{ app.url('/images/android/8.0/keys/back/15x16@2x.png') }}" width="15" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
+{% elseif version >= '09.00.00' and version <= '09.99.99' %}
+	<img src="{{ app.url('/images/android/9.0/keys/back/12x16@1x.png') }}" width="12" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
+{% elseif version >= '10.00.00' and version <= '10.99.99' %}
+	<img src="{{ app.url('/images/android/10.0/keys/back/15x16@2x.png') }}" width="15" height="16" alt="◁" title="{{ _('Back key') }}"> ({{ _('“Back”') }})
 {% else %}
 	{{ _('“Back”') }}
 {% endif %}

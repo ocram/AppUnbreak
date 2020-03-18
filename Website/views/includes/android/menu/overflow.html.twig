@@ -2,8 +2,18 @@
 	<img src="{{ app.url('/images/android/3.0/menu/overflow/17x16@3x.png') }}" width="17" height="16" alt="☰" title="{{ _('Overflow menu') }}"> ({{ _('three bars') }})
 {% elseif version >= '04.00.00' and version <= '04.99.99' %}
 	<img src="{{ app.url('/images/android/4.0/menu/overflow/8x16@3x.png') }}" width="8" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
-{% elseif version >= '05.00.00' %}
+{% elseif version >= '05.00.00' and version <= '05.99.99' %}
 	<img src="{{ app.url('/images/android/5.0/menu/overflow/7x16@4x.png') }}" width="7" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
+{% elseif version >= '06.00.00' and version <= '06.99.99' %}
+	<img src="{{ app.url('/images/android/6.0/menu/overflow/6x16@2x.png') }}" width="6" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
+{% elseif version >= '07.00.00' and version <= '07.99.99' %}
+	<img src="{{ app.url('/images/android/7.0/menu/overflow/7x16@2x.png') }}" width="7" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
+{% elseif version >= '08.00.00' and version <= '08.99.99' %}
+	<img src="{{ app.url('/images/android/8.0/menu/overflow/7x16@2x.png') }}" width="7" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
+{% elseif version >= '09.00.00' and version <= '09.99.99' %}
+	<img src="{{ app.url('/images/android/9.0/menu/overflow/6x16@2x.png') }}" width="6" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
+{% elseif version >= '10.00.00' and version <= '10.99.99' %}
+	<img src="{{ app.url('/images/android/10.0/menu/overflow/7x16@2x.png') }}" width="7" height="16" alt="⋮" title="{{ _('Overflow menu') }}"> ({{ _('three dots') }})
 {% else %}
 	{{ _('“More”') }}
 {% endif %}
