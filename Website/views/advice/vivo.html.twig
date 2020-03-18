@@ -11,9 +11,9 @@
 		<li>{{ _f('In the “Allowed autostart applications” list, if “%s” is there, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
 		<li>{{ _f('In the “Disabled autostart applications” list, find “%s”.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
@@ -24,24 +24,24 @@
 		<li>{{ _('Choose “Autostart”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '72cefbaf-d790-4b72-b963-6e040d4bd415' } only %}
 		<li>{{ _('Open the “iManager” on your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _('Choose “Battery optimization”.') }}</li>
 		<li>{{ _('At the top, switch from “Not optimized” to “All apps”.') }}</li>
 		<li>{{ _f('Choose “%s” from the list of apps.', product) }}</li>
 		<li>{{ _('Switch from “Optimization” to “Do not optimize”.') }}</li>
 		<li>{{ _('Tap on “Done”.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
@@ -49,9 +49,9 @@
 		<li>{{ _('Open the “iManager” on your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
 		<li>{{ _('Next to “Power saving mode”, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
@@ -59,9 +59,9 @@
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _('Choose “Battery”.') }}</li>
 		<li>{{ _('Select “Normal mode”.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
@@ -71,9 +71,9 @@
 		<li>{{ _('Choose “High background power consumption”.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 		<li>{{ _f('Open “%s” on your device.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
@@ -82,6 +82,6 @@
 		<li>{{ _('Choose “Data monitor”.') }}</li>
 		<li>{{ _('Choose “Data-saving mode”.') }}</li>
 		<li>{{ _('Make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
