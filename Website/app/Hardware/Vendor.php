@@ -55,50 +55,32 @@ final class Vendor {
 		if (!empty($_SERVER['HTTP_USER_AGENT'])) {
 			$ua = $_SERVER['HTTP_USER_AGENT'];
 
-			if (\strpos($ua, '; SAMSUNG ') !== false || \strpos($ua, '; SAMSUNG-') !== false) {
+			if (\preg_match('/[0-9]; (?:SAMSUNG[ -])?(?:SM|GT)-[A-Z0-9]{4,}/', $ua) === 1) {
 				return 'Samsung';
 			}
-			elseif (\strpos($ua, '; ONEPLUS ') !== false) {
-				return 'OnePlus';
-			}
-			elseif (\strpos($ua, '; HUAWEI ') !== false || \strpos($ua, ' Build/HUAWEI') !== false || \strpos($ua, ' Build/Huawei') !== false) {
+			elseif (\preg_match('/[0-9]; (?:ALE-L21|AMN-LX9|ANE-LX1|ANE-LX2|ATU-L21|BLA-L09|BLA-L29|CLT-L09|CLT-L29|DUB-LX1|ELE-L29|EML-L09|EML-L29|EVA-L09|EVR-L29|FIG-LX1|GRA-L09|HMA-L29|INE-LX1|LDN-L21|LYA-L09|LYA-L29|MAR-LX1A|MAR-LX1B|MAR-LX1M|MAR-LX2|MHA-L29|MRD-LX1|MYA-L11|PIC-LX9|POT-LX1|PRA-LX1|RNE-L21|SNE-LX1|STK-LX1|TRT-LX1|VKY-L09|VNS-L31|VOG-L04|VOG-L09|VOG-L29|VTR-L09|WAS-LX1|WAS-LX1A)/', $ua) === 1) {
 				return 'Huawei';
 			}
-			elseif (\strpos($ua, ' XiaoMi/') !== false || \strpos($ua, '; Redmi Note ') !== false || \strpos($ua, '; Redmi ') !== false) {
+			elseif (\preg_match('/[0-9]; HUAWEI [A-Z0-9]{2,4}-/', $ua) === 1) {
+				return 'Huawei';
+			}
+			elseif (\preg_match('/[0-9]; (?:BKL-L09|BLN-L21|BND-L21|COL-L29|DUA-L22|FRD-L09|HRY-LX1|JSN-L21|KIW-L21|LLD-L31|PCT-L29|STF-L09|YAL-L21|YAL-L41)/', $ua) === 1) {
+				return 'Honor';
+			}
+			elseif (\preg_match('/; Redmi(?: Note)? [A-Z0-9]{1,3}[ )]/', $ua) === 1) {
 				return 'Xiaomi';
 			}
-			elseif (\strpos($ua, '; Pixel ') !== false || \strpos($ua, '; Nexus ') !== false) {
+			elseif (\preg_match('/; M[Ii](?: Note| MAX| MIX| PLAY)? [0-9A-Z]{1,2}[ )]/', $ua) === 1) {
+				return 'Xiaomi';
+			}
+			elseif (\preg_match('/[0-9]; Pixel [0-9A-Z]/', $ua) === 1) {
 				return 'Google';
 			}
-			elseif (\strpos($ua, '; ASUS_') !== false) {
-				return 'Asus';
+			elseif (\preg_match('/; Nexus [0-9][A-Z]?[ )]/', $ua) === 1) {
+				return 'Google';
 			}
-			elseif (\strpos($ua, '; Lenovo ') !== false) {
-				return 'Lenovo';
-			}
-			elseif (\strpos($ua, '; HTC ') !== false) {
-				return 'HTC';
-			}
-			elseif (\strpos($ua, '; ZTE ') !== false) {
-				return 'ZTE';
-			}
-			elseif (\strpos($ua, '; vivo ') !== false) {
-				return 'Vivo';
-			}
-			elseif (\strpos($ua, '; Nokia ') !== false) {
-				return 'Nokia';
-			}
-			elseif (\strpos($ua, '; Xperia ') !== false) {
-				return 'Sony';
-			}
-			elseif (\strpos($ua, '; Moto ') !== false || \strpos($ua, '; moto ') !== false) {
-				return 'Motorola';
-			}
-			elseif (\strpos($ua, '; LG-') !== false) {
-				return 'LG';
-			}
-			elseif (\strpos($ua, ' OppoBrowser/') !== false) {
-				return 'Oppo';
+			elseif (\preg_match('/[0-9]; ONEPLUS [A0-9]{5}[ )]/', $ua) === 1) {
+				return 'OnePlus';
 			}
 			else {
 				return null;
