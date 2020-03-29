@@ -39,7 +39,11 @@
 		{% for vendor in vendors.primary %}
 			<li>
 				<a href="{{ app.urlWithLang(app.currentRoute() ~ '/' ~ (vendor.0 | url_encode)) }}">
-					{{ vendor.0 }}
+					{% if vendors.suggested and vendor.0 == vendors.suggested %}
+						<strong>{{ vendor.0 }}</strong>
+					{% else %}
+						{{ vendor.0 }}
+					{% endif %}
 				</a>
 			</li>
 		{% endfor %}
@@ -49,7 +53,11 @@
 		{% for vendor in vendors.secondary %}
 			<li>
 				<a href="{{ app.urlWithLang(app.currentRoute() ~ '/' ~ (vendor.0 | url_encode)) }}">
-					{{ vendor.0 }}
+					{% if vendors.suggested and vendor.0 == vendors.suggested %}
+						<strong>{{ vendor.0 }}</strong>
+					{% else %}
+						{{ vendor.0 }}
+					{% endif %}
 				</a>
 			</li>
 		{% endfor %}
