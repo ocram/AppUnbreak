@@ -1284,6 +1284,9 @@ msgstr "Stelle sicher, dass die Schalter neben „WLAN“ und „Hintergrunddate
 msgid "No"
 msgstr "Nein"
 
+msgid "Not your device?"
+msgstr "Nicht dein Gerät?"
+
 msgctxt "Samsung"
 msgid "Notifications"
 msgstr "Benachrichtigungen"
