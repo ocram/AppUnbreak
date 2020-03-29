@@ -8,6 +8,9 @@
 	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%1$s” on your %2$s?', product, device)
 } only %}
 <h1>{{ device }}</h1>
+{% if vendor != 'Android' %}
+	<small class="d-block text-center">{{ vendor }}</small>
+{% endif %}
 {% if redirected %}
 	<p class="text-center">
 		<a href="{{ app.urlWithLang('/a/' ~ (productSlug | url_encode) ~ '/' ~ (vendor | url_encode) ~ '?redirect=0') }}" class="btn btn-info btn-xs">{{ _('Not your device?') }}</a>
