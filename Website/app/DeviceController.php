@@ -43,10 +43,12 @@ final class DeviceController {
 							'device.html.twig',
 							[
 								'product' => $productConfig['title'],
+								'productSlug' => $product,
 								'vendor' => $vendor,
 								'device' => $devices[0][Device::FIELD_TITLE],
 								'androidMin' => $devices[0][Device::RECORD_FIELD_ANDROID_OS_MIN],
 								'androidMax' => $devices[0][Device::RECORD_FIELD_ANDROID_OS_MAX],
+								'redirected' => !empty($_GET['redirected']),
 							]
 						);
 					}

@@ -35,18 +35,21 @@ final class VendorController {
 				return $each[Device::FIELD_TITLE];
 			}, $devices);
 
-			// try to detect the device automatically
-			$suggestedDevice = Device::fromHttpClient();
+			// unless automatic redirects are prevented using a query parameter
+			if (!isset($_GET['redirect']) || $_GET['redirect'] === '1') {
+				// try to detect the device automatically
+				$suggestedDevice = Device::fromHttpClient();
 
-			// if a known device has been detected
-			if (!empty($suggestedDevice)) {
-				// indicate that a temporary redirect will be performed
-				$app->setStatus(302);
-				// indicate that the redirect depends on the specific `User-Agent` value
-				\header('Vary: User-Agent');
-				// redirect to the page for the detected device
-				\header('Location: ' . $app->urlWithLang($app->currentRoute() . '/' . \rawurlencode($suggestedDevice[Device::FIELD_TITLE]) . '?redirected=1'));
-				exit;
+				// if a known device has been detected
+				if (!empty($suggestedDevice)) {
+					// indicate that a temporary redirect will be performed
+					$app->setStatus(302);
+					// indicate that the redirect depends on the specific `User-Agent` value
+					\header('Vary: User-Agent');
+					// redirect to the page for the detected device
+					\header('Location: ' . $app->urlWithLang($app->currentRoute() . '/' . \rawurlencode($suggestedDevice[Device::FIELD_TITLE]) . '?redirected=1'));
+					exit;
+				}
 			}
 
 			echo $app->view(
