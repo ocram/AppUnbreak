@@ -46,7 +46,6 @@ final class VendorController {
 				[
 					'product' => $productConfig['title'],
 					'vendor' => $vendor,
-					'suggestedDevice' => $suggestedDevice,
 					'devices' => $devices,
 				]
 			);
