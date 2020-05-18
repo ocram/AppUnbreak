@@ -156,9 +156,6 @@ msgstr "Wähle unten links „%s“."
 msgid "At the bottom left, choose “Battery”."
 msgstr "Wähle unten links „Akku“."
 
-msgid "At the bottom left, tap on the battery icon."
-msgstr "Tippe unten links auf das Akku-Symbol."
-
 #, php-format
 msgid "At the bottom left, tap on “%s”."
 msgstr "Tippe unten links auf „%s“."
@@ -181,9 +178,6 @@ msgstr "Wähle unten „%s“."
 msgid "At the bottom, choose “Add apps”."
 msgstr "Wähle unten „Apps hinzufügen“."
 
-msgid "At the bottom, choose “Advanced settings”."
-msgstr "Wähle unten „Erweiterte Einstellungen“."
-
 msgid "At the bottom, choose “Privacy permissions”."
 msgstr "Wähle unten „Datenschutz-Berechtigungen“."
 
@@ -200,9 +194,6 @@ msgstr "Tippe unten auf „Zur Whitelist hinzufügen“."
 
 msgid "At the bottom, tap on “Done”."
 msgstr "Tippe unten auf „Fertig“."
-
-msgid "At the bottom, tap on “Settings”."
-msgstr "Tippe unten auf „Einstellungen“."
 
 msgid "At the left, choose “Auto-start manager”."
 msgstr "Wähle links „Autostart-Manager“."
@@ -230,9 +221,6 @@ msgstr "Tippe oben rechts auf „%s“."
 msgid "At the top, choose “%s”."
 msgstr "Wähle oben „%s“."
 
-msgid "At the top, choose “Ignore optimizations”."
-msgstr "Wähle oben „Optimierungen ignorieren“."
-
 msgid "At the top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
 msgstr "Wenn der Schalter oben ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
 
@@ -255,9 +243,6 @@ msgstr "Stelle sicher, dass oben neben „%s“ ein Haken im Kontrollkästchen i
 
 msgid "At the top, next to “Enable aggressive doze & app hibernation”, find the switch."
 msgstr "Finde oben den Schalter neben „Aggressives Doze & App-Ruhezustand aktivieren“."
-
-msgid "At the top, next to “Manage all automatically”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
-msgstr "Stelle sicher, dass der Schalter oben neben „Alle automatisch verwalten“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
 msgid "At the top, next to “Show notifications”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter oben neben „Benachrichtigungen anzeigen“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
@@ -286,17 +271,11 @@ msgstr "Wähle oben „Installiert“ aus."
 msgid "At the top, select “Permissions”."
 msgstr "Wähle oben „Berechtigungen“ aus."
 
-msgid "At the top, switch from “General” to “All”."
-msgstr "Wechsle oben von „Allgemein“ zu „Alle“."
-
 msgid "At the top, switch from “Not optimized” to “All apps”."
 msgstr "Wechsle oben von „Nicht optimiert“ zu „Alle Apps“."
 
 msgid "At the top, tap on “Add applications”."
 msgstr "Tippe oben auf „Anwendungen hinzufügen“."
-
-msgid "At the top, tap on “Manage batch manually”."
-msgstr "Tippe oben auf „Stapel manuell verwalten“."
 
 #, php-format
 msgid "At the very bottom, choose “%s”."
@@ -503,9 +482,6 @@ msgstr "Wähle „Beschleunigen“."
 msgid "Choose “Cleanup acceleration settings”."
 msgstr "Wähle „Aufräum-Beschleunigungs-Einstellungen“."
 
-msgid "Choose “Close apps after screen lock”."
-msgstr "Wähle „Apps nach Bildschirmsperre schließen“."
-
 msgid "Choose “Data monitor”."
 msgstr "Wähle „Daten-Beobachter“."
 
@@ -514,9 +490,6 @@ msgstr "Wähle „Datensparer“."
 
 msgid "Choose “Data saving”."
 msgstr "Wähle „Datensparen“."
-
-msgid "Choose “Data traffic management”."
-msgstr "Wähle „Daten-Verkehrs-Verwaltung“."
 
 msgid "Choose “Data usage”."
 msgstr "Wähle „Datenverbrauch“."
@@ -536,23 +509,14 @@ msgstr "Wähle „Apps mit hohem Energieverbrauch“."
 msgid "Choose “Ignore battery optimizations”."
 msgstr "Wähle „Akku-Optimierungen ignorieren“."
 
-msgid "Choose “Ignore optimizations” at the top."
-msgstr "Wähle oben „Optimierungen ignorieren“."
-
 msgid "Choose “Ignore optimizations”."
 msgstr "Wähle „Optimierungen ignorieren“."
 
 msgid "Choose “Intelligent power saving”."
 msgstr "Wähle „Intelligentes Energiesparen“."
 
-msgid "Choose “Launch” or “App launch”."
-msgstr "Wähle „Start“ oder „App-Start“."
-
 msgid "Choose “Lock apps”."
 msgstr "Wähle „Apps sperren“."
-
-msgid "Choose “Lock screen cleanup”."
-msgstr "Wähle „Bildschirmsperrungs-Aufräumung“."
 
 msgid "Choose “Lock-screen automatic cleaning”."
 msgstr "Wähle „Automatisches Aufräumen bei Bildschirmsperre“."
@@ -575,14 +539,8 @@ msgstr "Wähle „Netzwerk & Internet“."
 msgid "Choose “Network & internet”."
 msgstr "Wähle „Netzwerk & Internet“."
 
-msgid "Choose “Networked apps”."
-msgstr "Wähle „Netzwerk-Apps“."
-
 msgid "Choose “Notification center”."
 msgstr "Wähle „Benachrichtigungs-Zentrum“."
-
-msgid "Choose “Notification manager”."
-msgstr "Wähle „Benachrichtigungs-Verwalter“."
 
 msgid "Choose “Notification panel & status bar”."
 msgstr "Wähle „Benachrichtigungsleiste & Statusleiste“."
@@ -637,12 +595,6 @@ msgstr "Wähle „Energiespar-Verwalter“."
 
 msgid "Choose “Power saving mode”."
 msgstr "Wähle „Energiesparmodus“."
-
-msgid "Choose “Power saving”."
-msgstr "Wähle „Energiesparen“."
-
-msgid "Choose “Power usage firewall (power-intensive apps)”."
-msgstr "Wähle „Energieverbrauch-Firewall (energieintensive Apps)“."
 
 msgid "Choose “Power-saving exceptions”."
 msgstr "Wähle „Ausgeschlossen vom Energiesparen“."
@@ -791,18 +743,12 @@ msgstr "Führe den folgenden Befehl aus:"
 msgid "Experts only"
 msgstr "Nur für Experten"
 
-msgid "Find and choose “Protected apps”."
-msgstr "Finde und wähle „Geschützte Apps“."
-
 msgid "Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.)."
 msgstr "Finde die Schnelleinstellungen (wo du auch WLAN, Bluetooth usw. ein- und ausschalten kannst)."
 
 #, php-format
 msgid "Find the section “%s”."
 msgstr "Finde den Bereich „%s“."
-
-msgid "Find the section “Advanced”."
-msgstr "Finde den Bereich „Erweitert“."
 
 msgid "Find the section “Background settings”."
 msgstr "Finde den Bereich „Hintergrund-Einstellungen“."
@@ -1064,9 +1010,6 @@ msgstr "Stelle sicher, dass „%s“ ausgeschaltet ist (grau)."
 msgid "Make sure that “%s” is turned on (colored)."
 msgstr "Stelle sicher, dass „%s“ eingeschaltet ist (farbig)."
 
-msgid "Make sure that “Power plan” is set to “Performance”."
-msgstr "Stelle sicher, dass der „Energie-Plan“ auf „Leistung“ eingestellt ist."
-
 msgctxt "Samsung"
 msgid "Maximum power saving"
 msgstr "Maximales Energiesparen"
@@ -1096,10 +1039,6 @@ msgid "Next to “%s”, make sure that it says “Allow auto-start”."
 msgstr "Stelle sicher, dass neben „%s“ „Autostart erlauben“ steht."
 
 #, php-format
-msgid "Next to “%s”, make sure that it says “Notify”."
-msgstr "Stelle sicher, dass neben „%s“ „Benachrichtigen“ steht."
-
-#, php-format
 msgid "Next to “%s”, make sure that it says “Unrestricted”."
 msgstr "Stelle sicher, dass neben „%s“ „Unbeschränkt“ steht."
 
@@ -1110,10 +1049,6 @@ msgstr "Stelle sicher, dass der Schalter neben „%s“ ausgeschaltet ist, d.h. 
 #, php-format
 msgid "Next to “%s”, make sure that the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
-
-#, php-format
-msgid "Next to “%s”, make sure that there are checkmarks for “Auto-launch”, “Secondary launch” and “Run in background”."
-msgstr "Stelle sicher, dass neben „%s“ Haken in den Kontrollkästchen für „Autostart“, „Untergeordneter Start“ und „Im Hintergrund laufen“ sind."
 
 #, php-format
 msgid "Next to “%s”, make sure that there is a checkmark in the checkbox."
@@ -1158,9 +1093,6 @@ msgstr "Stelle sicher, dass der Schalter neben „Apps mit hohem Energieverbrauc
 msgid "Next to “Auto launch” and “Notification”, make sure that the switches are turned on, i.e. with their knobs or handles at the right."
 msgstr "Stelle sicher, dass die Schalter neben „Autostart“ und „Benachrichtigung“ eingeschaltet sind, d.h. mit ihren Knöpfen auf der rechten Seite."
 
-msgid "Next to “Auto-launch”, “Secondary launch” and “Run in background”, make sure that the switches are turned on, i.e. with their knobs or handles at the right."
-msgstr "Stelle sicher, dass die Schalter neben „Autostart“, „Untergeordneter Start“ und „Im Hintergrund laufen“ eingeschaltet sind, d.h. mit ihren Knöpfen auf der rechten Seite."
-
 msgid "Next to “Auto-sync data”, make sure that there is a checkmark in the checkbox."
 msgstr "Stelle sicher, dass im Kontrollkästchen neben „Daten automatisch synchronisieren“ ein Haken gesetzt ist."
 
@@ -1200,12 +1132,6 @@ msgstr "Stelle sicher, dass der Schalter neben „Blockieren“ ausgeschaltet is
 msgid "Next to “Clean up in suspend” and “Auto deny apps from auto-starting”, make sure that the checkmarks are removed from the checkboxes."
 msgstr "Stelle sicher, dass die Haken aus den Kontrollkästchen neben „Aufräumen bei Sperre“ und „Apps automatisch daran hindern, automatisch zu starten“ entfernt sind."
 
-msgid "Next to “Close all”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
-msgstr "Stelle sicher, dass der Schalter neben „Alle schließen“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
-
-msgid "Next to “Close excessively power-intensive apps”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
-msgstr "Stelle sicher, dass der Schalter neben „Apps schließen, die exzessiv Energie verbrauchen“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
-
 msgid "Next to “Disallow autostart”, “Allow screen-lock cleaning” and “Allow deep sleep”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Autostart verbieten“, „Aufräumen bei Bildschirmsperre erlauben“ und „Tiefschlaf erlauben“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
@@ -1233,17 +1159,8 @@ msgstr "Stelle sicher, dass der Schalter neben „Energiesparen“ ausgeschaltet
 msgid "Next to “Power saver”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Energiesparer“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
-msgid "Next to “Power saving mode” and “Ultra power saving mode”, make sure that the switches are turned off, i.e. with their knobs or handles at the left."
-msgstr "Stelle sicher, dass die Schalter neben „Energiespar-Modus“ und „Ultra-Energiespar-Modus“ ausgeschaltet sind, d.h. mit ihren Knöpfen auf der linken Seite."
-
 msgid "Next to “Power saving mode”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Energiespar-Modus“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
-
-msgid "Next to “Power-intensive prompt” and “Close excessively power-intensive apps”, make sure that the switches are turned off, i.e. with their knobs or handles at the left."
-msgstr "Stelle sicher, dass die Schalter neben „Abfrage wenn energieintensiv“ und „Apps schließen, die exzessiv Energie verbrauchen“ ausgeschaltet sind, d.h. mit ihren Knöpfen auf der linken Seite."
-
-msgid "Next to “Power-intensive prompt”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
-msgstr "Stelle sicher, dass der Schalter neben „Abfrage wenn energieintensiv“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
 msgid "Next to “Restrict background data”, make sure that the checkmark is removed from the checkbox."
 msgstr "Stelle sicher, dass der Haken aus dem Kontrollkästchen neben „Hintergrunddaten beschränken“ entfernt ist."
@@ -1272,14 +1189,8 @@ msgstr "Wenn der Schalter neben „Automatisch aktivieren“ ausgeschaltet ist, 
 msgid "Next to “Ultimate Power Saver”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Ultimativer Energiesparer“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
-msgid "Next to “Ultra power saving reminder”, make sure that it says “Off”."
-msgstr "Stelle sicher, dass neben „Ultra-Energiespar-Erinnerung“ „Aus“ steht."
-
 msgid "Next to “Use Battery Manager”, make sure that the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „Akku-Verwalter nutzen“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
-
-msgid "Next to “Wi-Fi” and “Background data”, make sure that the switches are turned on, i.e. with their knobs or handles at the right."
-msgstr "Stelle sicher, dass die Schalter neben „WLAN“ und „Hintergrunddaten“ eingeschaltet sind, d.h. mit ihren Knöpfen auf der rechten Seite."
 
 msgid "No"
 msgstr "Nein"
@@ -1320,9 +1231,6 @@ msgstr "Öffne den „Autostart-Verwalter“ auf deinem Gerät."
 
 msgid "Open the “Mobile Manager” on your device."
 msgstr "Öffne den „Mobile Manager“ auf deinem Gerät."
-
-msgid "Open the “Phone manager” on your device."
-msgstr "Öffne den „Telefonmanager“ auf deinem Gerät."
 
 msgid "Open the “Settings” of your device."
 msgstr "Öffne die „Einstellungen“ deines Gerätes."
@@ -1525,12 +1433,6 @@ msgstr "Statusleiste"
 msgid "Swipe down from the status bar to show notifications and quick settings."
 msgstr "Wische von der Statusleiste nach unten, um Benachrichtigungen und Schnelleinstellungen anzuzeigen."
 
-msgid "Swipe from the right to the left."
-msgstr "Wische von rechts nach links."
-
-msgid "Switch from “Not allowed” to “Allow”."
-msgstr "Wechsle von „Nicht erlaubt“ zu „Erlauben“."
-
 msgid "Switch from “Optimization” to “Do not optimize”."
 msgstr "Wechsle von „Optimierung“ zu „Nicht optimieren“."
 
@@ -1605,9 +1507,6 @@ msgstr "Tippe auf „Super-Boost aktivieren“."
 msgid "Tap on “Force close”."
 msgstr "Tippe auf „Beenden erzwingen“."
 
-msgid "Tap on “OK”."
-msgstr "Tippe auf „OK“."
-
 msgid "Tap on “Power saver”."
 msgstr "Tippe auf „Energiesparer“."
 
@@ -1619,9 +1518,6 @@ msgstr "Tippe auf „Alle … Apps anzeigen“."
 
 msgid "Tap on “Settings”."
 msgstr "Tippe auf „Einstellungen“."
-
-msgid "Tap on “Special access”."
-msgstr "Tippe auf „Besonderer Zugriff“."
 
 msgid "The lock icon should have turned into a <em>closed</em> lock icon now."
 msgstr "Das Schloss-Symbol sollte sich jetzt in ein <em>geschlossenes</em> Symbol geändert haben."
