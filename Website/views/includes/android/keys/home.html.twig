@@ -1,25 +1,25 @@
-{% if vendor == 'Samsung' and version >= '07.00.00' and version <= '07.99.99' %}
+{%- if vendor == 'Samsung' and version >= '07.00.00' and version <= '07.99.99' -%}
 	<img src="{{ app.url('/images/samsung/7.0/keys/home/15x16@2x.png') }}" width="15" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif vendor == 'Samsung' and version >= '08.00.00' and version <= '08.99.99' %}
+{%- elseif vendor == 'Samsung' and version >= '08.00.00' and version <= '08.99.99' -%}
 	<img src="{{ app.url('/images/samsung/8.0/keys/home/14x16@2x.png') }}" width="14" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif vendor == 'Samsung' and version >= '09.00.00' and version <= '09.99.99' %}
+{%- elseif vendor == 'Samsung' and version >= '09.00.00' and version <= '09.99.99' -%}
 	<img src="{{ app.url('/images/samsung/9.0/keys/home/16x16@2x.png') }}" width="16" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '03.00.00' and version <= '03.99.99' %}
+{%- elseif version >= '03.00.00' and version <= '03.99.99' -%}
 	<img src="{{ app.url('/images/android/3.0/keys/home/20x16@3x.png') }}" width="20" height="16" alt="⌂" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '04.00.00' and version <= '04.99.99' %}
+{%- elseif version >= '04.00.00' and version <= '04.99.99' -%}
 	<img src="{{ app.url('/images/android/4.0/keys/home/26x16@3x.png') }}" width="26" height="16" alt="⌂" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '05.00.00' and version <= '05.99.99' %}
+{%- elseif version >= '05.00.00' and version <= '05.99.99' -%}
 	<img src="{{ app.url('/images/android/5.0/keys/home/15x16@5x.png') }}" width="15" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '06.00.00' and version <= '06.99.99' %}
+{%- elseif version >= '06.00.00' and version <= '06.99.99' -%}
 	<img src="{{ app.url('/images/android/6.0/keys/home/16x16@2x.png') }}" width="16" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '07.00.00' and version <= '07.99.99' %}
+{%- elseif version >= '07.00.00' and version <= '07.99.99' -%}
 	<img src="{{ app.url('/images/android/7.0/keys/home/17x16@2x.png') }}" width="17" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '08.00.00' and version <= '08.99.99' %}
+{%- elseif version >= '08.00.00' and version <= '08.99.99' -%}
 	<img src="{{ app.url('/images/android/8.0/keys/home/17x16@2x.png') }}" width="17" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '09.00.00' and version <= '09.99.99' %}
+{%- elseif version >= '09.00.00' and version <= '09.99.99' -%}
 	<img src="{{ app.url('/images/android/9.0/keys/home/36x16@1x.png') }}" width="36" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% elseif version >= '10.00.00' and version <= '10.99.99' %}
+{%- elseif version >= '10.00.00' and version <= '10.99.99' -%}
 	<img src="{{ app.url('/images/android/10.0/keys/home/18x16@2x.png') }}" width="18" height="16" alt="○" title="{{ _('Home key') }}"> ({{ _('“Home”') }})
-{% else %}
+{%- else -%}
 	{{ _('“Home”') }}
-{% endif %}
+{%- endif -%}
