@@ -7,6 +7,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#, php-format
+msgid "A window with the title “%s” should appear."
+msgstr "Ein Fenster mit dem Titel „%s“ sollte erscheinen."
+
+msgctxt "Huawei"
+msgid "Accounts"
+msgstr "Konten"
+
 msgctxt "Samsung"
 msgid "Accounts"
 msgstr "Konten"
@@ -42,9 +50,21 @@ msgstr "Füge „%s“ zur „Whitelist“ hinzu."
 msgid "Add “%s”."
 msgstr "Füge „%s“ hinzu."
 
+msgctxt "Huawei"
+msgid "Advanced"
+msgstr "Erweitert"
+
 msgctxt "Samsung"
 msgid "Advanced"
 msgstr "Erweitert"
+
+msgctxt "Huawei"
+msgid "Advanced network management"
+msgstr "Erweiterte Netzverwaltung"
+
+msgctxt "Huawei"
+msgid "Advanced network settings"
+msgstr "Erweiterte Netzwerkeinstellungen"
 
 msgctxt "Samsung"
 msgid "Advanced settings"
@@ -54,6 +74,10 @@ msgctxt "Samsung"
 msgid "All"
 msgstr "Alle"
 
+msgctxt "Huawei"
+msgid "All apps"
+msgstr "Alle Apps"
+
 msgctxt "Samsung"
 msgid "All apps"
 msgstr "Alle Apps"
@@ -61,6 +85,10 @@ msgstr "Alle Apps"
 msgctxt "Samsung"
 msgid "All notifications"
 msgstr "Alle Benachrichtigungen"
+
+msgctxt "Huawei"
+msgid "Allow"
+msgstr "Zulassen"
 
 msgctxt "Samsung"
 msgid "Allow"
@@ -78,9 +106,21 @@ msgctxt "Samsung"
 msgid "Allow background data usage"
 msgstr "Hintergrunddatennutzung zulassen"
 
+msgctxt "Huawei"
+msgid "Allow notifications"
+msgstr "Benachrichtigungen zulassen"
+
 msgctxt "Samsung"
 msgid "Allow notifications"
 msgstr "Benachrichtigungen zulassen"
+
+msgctxt "Huawei"
+msgid "Allowed"
+msgstr "Zulässig"
+
+msgctxt "Huawei"
+msgid "Always"
+msgstr "Immer"
 
 msgctxt "Samsung"
 msgid "Always"
@@ -90,9 +130,17 @@ msgctxt "Samsung"
 msgid "Always sleeping apps"
 msgstr "Apps immer im Standby"
 
+msgctxt "Huawei"
+msgid "App icon badges"
+msgstr "App-Symbolembleme"
+
 msgctxt "Samsung"
 msgid "App icon badges"
 msgstr "App-Symbolindikator"
+
+msgctxt "Huawei"
+msgid "App launch"
+msgstr "App-Start"
 
 msgctxt "Samsung"
 msgid "App notifications"
@@ -130,9 +178,17 @@ msgctxt "Samsung"
 msgid "Apply"
 msgstr "Anwenden"
 
+msgctxt "Huawei"
+msgid "Apps"
+msgstr "Apps"
+
 msgctxt "Samsung"
 msgid "Apps"
 msgstr "Apps"
+
+msgctxt "Huawei"
+msgid "Apps & notifications"
+msgstr "Apps & Benachrichtigungen"
 
 msgctxt "Samsung"
 msgid "Apps not optimized"
@@ -150,11 +206,22 @@ msgid "Are you having problems with notifications, background tasks, automatic s
 msgstr "Hast du auf deinem Gerät Probleme mit Benachrichtigungen, Hintergrunddiensten, automatischer Synchronisierung oder Erinnerungen?"
 
 #, php-format
+msgid "At the bottom center, choose “%s”."
+msgstr "Wähle unten in der Mitte „%s“."
+
+#, php-format
+msgid "At the bottom center, tap on “%s”."
+msgstr "Tippe unten in der Mitte auf „%s“."
+
+#, php-format
 msgid "At the bottom left, choose “%s”."
 msgstr "Wähle unten links „%s“."
 
 msgid "At the bottom left, choose “Battery”."
 msgstr "Wähle unten links „Akku“."
+
+msgid "At the bottom left, tap on the battery icon."
+msgstr "Tippe unten links auf das Akku-Symbol."
 
 #, php-format
 msgid "At the bottom left, tap on “%s”."
@@ -172,6 +239,10 @@ msgid "At the bottom right, tap on “Permissions”."
 msgstr "Tippe unten rechts auf „Berechtigungen“."
 
 #, php-format
+msgid "At the bottom, choose “%s” (gear icon)."
+msgstr "Wähle unten „%s“ (Zahnrad-Symbol)."
+
+#, php-format
 msgid "At the bottom, choose “%s”."
 msgstr "Wähle unten „%s“."
 
@@ -184,6 +255,10 @@ msgstr "Wähle unten „Datenschutz-Berechtigungen“."
 #, php-format
 msgid "At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass unten der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "At the bottom, tap on “%s” (gear icon)."
+msgstr "Tippe unten auf „%s“ (Zahnrad-Symbol)."
 
 #, php-format
 msgid "At the bottom, tap on “%s”."
@@ -210,6 +285,9 @@ msgstr "Wähle oben rechts „%s“."
 msgid "At the top right, tap on %s to open the expanded menu."
 msgstr "Tippe oben rechts auf %s, um das erweiterte Menü zu öffnen."
 
+msgid "At the top right, tap on the gear icon."
+msgstr "Tippe oben rechts auf das Zahnrad-Symbol."
+
 msgid "At the top right, tap on the trash icon."
 msgstr "Tippe oben rechts auf das Mülleimer-Symbol."
 
@@ -232,6 +310,10 @@ msgstr "Stelle sicher, dass der Schalter oben eingeschaltet ist, d.h. mit seinem
 
 msgid "At the top, make sure the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass oben der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
+
+#, php-format
+msgid "At the top, next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left."
+msgstr "Stelle sicher, dass oben der Schalter neben „%s“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
 #, php-format
 msgid "At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
@@ -274,6 +356,10 @@ msgstr "Wähle oben „Berechtigungen“ aus."
 msgid "At the top, switch from “Not optimized” to “All apps”."
 msgstr "Wechsle oben von „Nicht optimiert“ zu „Alle Apps“."
 
+#, php-format
+msgid "At the top, tap on “%s”."
+msgstr "Tippe oben auf „%s“."
+
 msgid "At the top, tap on “Add applications”."
 msgstr "Tippe oben auf „Anwendungen hinzufügen“."
 
@@ -299,6 +385,13 @@ msgstr "Stelle sicher, dass ganz oben der Schalter eingeschaltet ist, d.h. mit s
 msgid "At the very top, press “%s”."
 msgstr "Drücke ganz oben auf „%s“."
 
+msgid "At the very top, tap on the downward-pointing arrow (⌄ or ▾)."
+msgstr "Tippe ganz oben auf den nach unten zeigenden Pfeil (⌄ oder ▾)."
+
+msgctxt "Huawei"
+msgid "Auto cleanup"
+msgstr "Automatisches Aufräumen"
+
 msgctxt "Samsung"
 msgid "Auto disable unused apps"
 msgstr "Ungenutzte Apps autom. deaktiv."
@@ -311,16 +404,48 @@ msgctxt "Samsung"
 msgid "Auto sync data"
 msgstr "Daten autom. synchronisieren"
 
+msgctxt "Huawei"
+msgid "Auto-clean junk files"
+msgstr "Auto-Bereinigung von Junk-Dateien"
+
+msgctxt "Huawei"
+msgid "Auto-launch"
+msgstr "Auto-Start"
+
+msgctxt "Huawei"
+msgid "Auto-sync data"
+msgstr "Daten automatisch synchronisieren“ oder „Daten autom. synchronisieren"
+
+msgctxt "Huawei"
+msgid "Automatic cleanup"
+msgstr "Automatisches Aufräumen"
+
 msgid "Back key"
 msgstr "Zurück-Taste"
+
+msgctxt "Huawei"
+msgid "Background data"
+msgstr "Hintergrunddaten"
 
 msgctxt "Samsung"
 msgid "Background network usage"
 msgstr "Hintergrundnetznutzung"
 
+msgctxt "Huawei"
+msgid "Battery"
+msgstr "Akku"
+
 msgctxt "Samsung"
 msgid "Battery"
 msgstr "Akku"
+
+msgctxt "Huawei"
+msgid "Battery manager"
+msgstr "Akkumanager"
+
+msgctxt "Huawei"
+msgid "Battery optimization"
+msgstr "Akkuoptimierung"
 
 msgctxt "Samsung"
 msgid "Battery usage"
@@ -344,6 +469,10 @@ msgctxt "Samsung"
 msgid "Block notifications"
 msgstr "Benachrichtigungen sperren"
 
+msgctxt "Huawei"
+msgid "Cancel"
+msgstr "Abbrechen"
+
 msgid "Change this to “Off”."
 msgstr "Ändere dies auf „Aus“."
 
@@ -359,6 +488,10 @@ msgstr "Wähle dein Gerät"
 
 msgid "Choose your manufacturer"
 msgstr "Wähle deinen Hersteller"
+
+#, php-format
+msgid "Choose “%1$s” or “%2$s”."
+msgstr "Wähle „%1$s“ oder „%2$s“."
 
 #, php-format
 msgid "Choose “%s” from the list of apps."
@@ -665,16 +798,48 @@ msgstr "Wähle oben rechts „⚙“ („Zahnrad“)."
 msgid "Choose “⚙” (“Gear”) in the top-right corner."
 msgstr "Wähle in der oberen rechten Ecke „⚙“ („Zahnrad“)."
 
+msgctxt "Huawei"
+msgid "Clean"
+msgstr "Bereinigen"
+
 msgctxt "Samsung"
 msgid "Clean now"
 msgstr "Bereinigen"
 
+msgctxt "Huawei"
+msgid "Clean up"
+msgstr "Bereinigen"
+
+msgctxt "Huawei"
+msgid "Cleanup"
+msgstr "Bereinigen"
+
+msgctxt "Huawei"
+msgid "Clear cache"
+msgstr "Cache löschen"
+
+msgctxt "Huawei"
+msgid "Clear data"
+msgstr "Daten löschen"
+
 msgid "Close"
 msgstr "Schließen"
+
+msgctxt "Huawei"
+msgid "Close apps on screen lock"
+msgstr "Apps schließen"
+
+msgctxt "Huawei"
+msgid "Close excessively power-intensive apps"
+msgstr "Zu stromintensive Apps beenden"
 
 msgctxt "Samsung"
 msgid "Cloud and accounts"
 msgstr "Cloud und Konten"
+
+msgctxt "Huawei"
+msgid "Configure"
+msgstr "Konfigurieren"
 
 msgid "Connect your device to a computer."
 msgstr "Verbinde dein Gerät mit einem Computer."
@@ -690,9 +855,33 @@ msgctxt "Samsung"
 msgid "Customize"
 msgstr "Anpassen"
 
+msgctxt "Huawei"
+msgid "Daily"
+msgstr "Täglich"
+
+msgctxt "Huawei"
+msgid "Data saver"
+msgstr "Datenverbrauchsoptimierung"
+
+msgctxt "Huawei"
+msgid "Data usage"
+msgstr "Datennutzung“ oder „Datenverbrauch"
+
 msgctxt "Samsung"
 msgid "Data usage"
 msgstr "Datennutzung"
+
+msgctxt "Huawei"
+msgid "Data usage ranking"
+msgstr "Datennutzung"
+
+msgctxt "Huawei"
+msgid "Data usage this month"
+msgstr "Datennutzung diesen Monat"
+
+msgctxt "Huawei"
+msgid "Day"
+msgstr "Tag"
 
 msgctxt "Samsung"
 msgid "Delete apps"
@@ -725,9 +914,60 @@ msgctxt "Samsung"
 msgid "Disabled apps"
 msgstr "Deaktivierte Apps"
 
+msgctxt "Huawei"
+msgid "Display"
+msgstr "Anzeige“ oder „Anzeigen"
+
 msgctxt "Samsung"
 msgid "Display"
 msgstr "Anzeige"
+
+msgctxt "Huawei"
+msgid "Display carrier name"
+msgstr "Netzbetreibernamen anzeigen"
+
+msgctxt "Huawei"
+msgid "Display in status bar"
+msgstr "In Statusleiste anzeigen"
+
+msgctxt "Huawei"
+msgid "Display in the status bar"
+msgstr "In der Statusleiste anzeigen"
+
+msgctxt "Huawei"
+msgid "Display on the lock screen"
+msgstr "Auf dem Sperrbildschirm anzeigen"
+
+msgid "Do not press the trash icon at the bottom."
+msgstr "Drücke nicht unten auf das Mülleimer-Symbol."
+
+#, php-format
+msgid "Do not press “%1$s” or “%2$s”."
+msgstr "Drücke nicht auf „%1$s“ oder „%2$s“."
+
+#, php-format
+msgid "Do not press “%s” at the bottom left."
+msgstr "Drücke nicht unten links auf „%s“."
+
+#, php-format
+msgid "Do not press “%s” at the bottom."
+msgstr "Drücke nicht unten auf „%s“."
+
+#, php-format
+msgid "Do not press “%s” at the top."
+msgstr "Drücke nicht oben auf „%s“."
+
+#, php-format
+msgid "Do not press “%s” at the very bottom."
+msgstr "Drücke nicht ganz unten auf „%s“."
+
+#, php-format
+msgid "Do not press “%s” in the middle of the screen."
+msgstr "Drücke nicht in der Mitte des Bildschirms auf „%s“."
+
+#, php-format
+msgid "Do not press “%s” in the upper half."
+msgstr "Drücke nicht in der oberen Hälfte auf „%s“."
 
 #, php-format
 msgid "Do not press “%s”."
@@ -736,6 +976,10 @@ msgstr "Drücke nicht auf „%s“."
 msgctxt "Samsung"
 msgid "Done"
 msgstr "OK"
+
+msgctxt "Huawei"
+msgid "Don’t allow"
+msgstr "Nicht zulassen"
 
 msgid "Execute the following command:"
 msgstr "Führe den folgenden Befehl aus:"
@@ -831,6 +1075,10 @@ msgstr "Du hast Probleme mit Benachrichtigungen, Hintergrunddiensten, automatisc
 msgid "Having problems with notifications, background tasks, automatic synchronization or alarms on your %s device?"
 msgstr "Du hast Probleme mit Benachrichtigungen, Hintergrunddiensten, automatischer Synchronisierung oder Erinnerungen auf deinem %s-Gerät?"
 
+msgctxt "Huawei"
+msgid "Hide notification content"
+msgstr "Benachrichtigungsinhalt verbergen"
+
 msgctxt "Samsung"
 msgid "High performance"
 msgstr "Hohe Leistung"
@@ -842,6 +1090,10 @@ msgstr "Home-Taste"
 msgid "However, these apps interfere with other apps, like “%s”, and prevent them from working correctly."
 msgstr "Aber diese Apps beeinträchtigen andere Apps, wie „%s“, und hindern diese daran, korrekt zu funktionieren."
 
+msgctxt "Huawei"
+msgid "Icons"
+msgstr "Symbole"
+
 #, php-format
 msgid "If it says either “%1$s” or “%2$s”, there’s nothing left for you to do."
 msgstr "Wenn dort entweder „%1$s“ oder „%2$s“ steht, musst du nichts weiter tun."
@@ -851,8 +1103,16 @@ msgid "If it says “%1$s” or “%2$s”, proceed with the next step."
 msgstr "Wenn dort „%1$s“ oder „%2$s“ steht, fahre mit dem nächsten Schritt fort."
 
 #, php-format
+msgid "If it says “%1$s” or “%2$s”, there’s nothing left for you to do."
+msgstr "Wenn dort „%1$s“ oder „%2$s“ steht, musst du nichts weiter tun."
+
+#, php-format
 msgid "If it says “%1$s”, tap on “%2$s” again for its details to appear."
 msgstr "Wenn dort „%1$s“ steht, tippe noch einmal auf „%2$s“, damit die Details erscheinen."
+
+#, php-format
+msgid "If it says “%1$s”, tap on “%2$s”."
+msgstr "Wenn dort „%1$s“ steht, tippe auf „%2$s“."
 
 #, php-format
 msgid "If it says “%s”, there’s nothing left for you to do."
@@ -863,6 +1123,9 @@ msgstr "Wenn dort „Eingeschränkt“ steht, tippe auf „Hintergrund-Beschrän
 
 msgid "If it’s in the list, there’s nothing left for you to do."
 msgstr "Wenn es in der Liste steht, musst du nichts weiter tun."
+
+msgid "If the lock icon is closed and has a dot inside its bottom rectangle, there’s nothing left for you to do."
+msgstr "Wenn das Schloss-Symbol geschlossen ist und in seinem unteren Rechteck einen Punkt hat, musst du nichts weiter tun."
 
 msgid "If the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
 msgstr "Wenn der Schalter ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
@@ -880,6 +1143,13 @@ msgstr "Wenn du unsicher bist, überlege, die App zu deinstallieren, die dein Ge
 #, php-format
 msgid "If you have any app like “Clean Master”, “Security Master”, “Task Manager”, “Phone Cleaner”, “Super Cleaner”, “Power Clean”, “DU Cleaner”, “DU Speed Booster”, “CCleaner”, “AVG Cleaner”, “Avast Cleanup” or “Norton Clean”, check that it doesn’t block or terminate “%s”."
 msgstr "Wenn du eine App wie „Clean Master“, „Security Master“, „Task Manager“, „Phone Cleaner“, „Super Cleaner“, „Power Clean“, „DU Cleaner“, „DU Speed Booster“, „CCleaner“, „AVG Cleaner“, „Avast Cleanup“ oder „Norton Clean“ hast, dann prüfe, dass diese „%s“ nicht blockiert oder beendet."
+
+msgctxt "Huawei"
+msgid "If you really need more storage space on your device, we recommend deleting photos and videos that you don’t need anymore, or moving them to a different device or drive. In addition to that, consider uninstalling apps that require a lot of space, or managing the space inside of those apps, where possible."
+msgstr "Wenn du wirklich mehr Speicherplatz auf deinem Gerät benötigst, empfehlen wir, Fotos und Videos zu löschen, die du nicht mehr brauchst, oder sie auf ein anderes Gerät oder Laufwerk zu verschieben. Zusätzlich solltest du in Betracht ziehen, Apps zu deinstallieren, die viel Speicherplatz belegen, oder den Speicherplatz innerhalb dieser Apps zu verwalten, wo dies möglich ist."
+
+msgid "If you’ve opened it by accident, proceed with the next step."
+msgstr "Wenn du es aus Versehen geöffnet hast, fahre mit dem nächsten Schritt fort."
 
 #, php-format
 msgid "If “%s” is already in the list, there’s nothing left for you to do."
@@ -911,6 +1181,22 @@ msgstr "Wenn „Hintergrund-Beschränkung“ auf „App kann Akku im Hintergrund
 msgid "If “Uninstall” is available, tap on “Uninstall” as well."
 msgstr "Wenn „Deinstallieren“ verfügbar ist, tippe auch noch auf „Deinstallieren“."
 
+msgctxt "Huawei"
+msgid "Ignore battery optimization"
+msgstr "Akku-Optimierungen ignorieren"
+
+msgctxt "Huawei"
+msgid "Ignore battery optimizations"
+msgstr "Optimierungen ignorieren"
+
+#, php-format
+msgid "In the bottom half, find “%s”."
+msgstr "Finde in der unteren Hälfte „%s“."
+
+#, php-format
+msgid "In the bottom half, next to “%1$s”, tap on “%2$s”."
+msgstr "Tippe in der unteren Hälfte neben „%1$s“ auf „%2$s“."
+
 #, php-format
 msgid "In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”."
 msgstr "Wechsle in der Auswahlliste oben von „%1$s“ zu „%2$s“ oder „%3$s“."
@@ -929,6 +1215,22 @@ msgstr "Finde „%s“ in der Liste von Apps."
 #, php-format
 msgid "In the lower section called “Optimized”, find “%s”."
 msgstr "Finde „%s“ im unteren Bereich mit dem Namen „Optimiert“."
+
+#, php-format
+msgid "In the middle of the screen, tap on “%s”."
+msgstr "Tippe in der Mitte des Bildschirms auf „%s“."
+
+#, php-format
+msgid "In the top-right corner of the entry for “%s”, find the lock icon."
+msgstr "Finde in der oberen rechten Ecke des Eintrags für „%s“ das Schloss-Symbol."
+
+#, php-format
+msgid "In the top-right corner of the entry for “%s”, if there’s a lock icon, there’s nothing left for you to do."
+msgstr "Wenn in der oberen rechten Ecke des Eintrags für „%s“ ein Schloss-Symbol zu sehen ist, musst du nichts weiter tun."
+
+#, php-format
+msgid "In the top-right corner of the entry for “%s”, there should be a lock icon now."
+msgstr "In der oberen rechten Ecke des Eintrags für „%s“ sollte sich nun ein Schloss-Symbol befinden."
 
 msgid "In the top-right corner, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do."
 msgstr "Wenn der Schalter in der oberen rechten Ecke ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, musst du nichts weiter tun."
@@ -970,9 +1272,29 @@ msgstr "Wenn „%s“ in der Liste im Bereich „Nicht optimiert“ steht, musst
 msgid "In the “Protected app list”, find “%s”."
 msgstr "Finde „%s“ in der „Liste der geschützten Apps“."
 
+msgctxt "Huawei"
+msgid "Infrequently used data cleanup reminder"
+msgstr "Bereinigungserinnerung"
+
+msgctxt "Huawei"
+msgid "Keep Wi-Fi on during sleep"
+msgstr "WLAN im Standby-Modus ein"
+
 msgctxt "Samsung"
 msgid "Keep Wi-Fi on during sleep"
 msgstr "WLAN im Standbymodus eingeschaltet lassen“ oder „WLAN im Standby aktivieren"
+
+msgctxt "Huawei"
+msgid "Keep Wi-Fi on when sleeping"
+msgstr "WLAN im Standby-Modus an"
+
+msgctxt "Huawei"
+msgid "Keep mobile data on when sleeping"
+msgstr "Mobile Daten im Standby-Modus an“ oder „Mobile Daten beim Schlafen an"
+
+msgctxt "Huawei"
+msgid "Launch"
+msgstr "Starten"
 
 msgid "Learn what you can do to prevent flawed power-saving features from breaking your device’s functionality."
 msgstr "Erfahre, was du tun kannst, um zu verhindern, dass fehlerhafte Features zum Energiesparen die Funktionalität deines Gerätes stören."
@@ -980,6 +1302,22 @@ msgstr "Erfahre, was du tun kannst, um zu verhindern, dass fehlerhafte Features 
 #, php-format
 msgid "Leave by pressing %s at the bottom of your device."
 msgstr "Drücke unten auf deinem Gerät %s zum Verlassen."
+
+msgctxt "Huawei"
+msgid "Lock screen"
+msgstr "Sperrbildschirm"
+
+msgctxt "Huawei"
+msgid "Lock screen data traffic reminder"
+msgstr "Erinnerung auf Sperrbildschirm anzeigen"
+
+msgctxt "Huawei"
+msgid "Lock screen data usage reminder"
+msgstr "Erinnerung auf Sperrbildschirm anzeigen"
+
+msgctxt "Huawei"
+msgid "Lock screen notifications"
+msgstr "Sperrbildschirmbenachrichtigungen"
 
 msgid "Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections."
 msgstr "Stelle sicher, dass alle Schalter eingeschaltet sind, d.h. mit ihren Knöpfen auf der rechten Seite, sofern du keine besonderen Bedenken hast."
@@ -1010,6 +1348,14 @@ msgstr "Stelle sicher, dass „%s“ ausgeschaltet ist (grau)."
 msgid "Make sure that “%s” is turned on (colored)."
 msgstr "Stelle sicher, dass „%s“ eingeschaltet ist (farbig)."
 
+msgctxt "Huawei"
+msgid "Manage batch manually"
+msgstr "Stapelweise manuell verwalten"
+
+msgctxt "Huawei"
+msgid "Manage manually"
+msgstr "Manuell verwalten"
+
 msgctxt "Samsung"
 msgid "Maximum power saving"
 msgstr "Maximales Energiesparen"
@@ -1022,17 +1368,65 @@ msgctxt "Samsung"
 msgid "Memory"
 msgstr "Arbeitsspeicher"
 
+msgctxt "Huawei"
+msgid "Memory cleanup whitelist"
+msgstr "Ausnahmen"
+
+msgctxt "Huawei"
+msgid "Menu"
+msgstr "Menü"
+
 msgctxt "Samsung"
 msgid "Mid"
 msgstr "Mittel"
+
+msgctxt "Huawei"
+msgid "Mobile data"
+msgstr "Mobile Daten"
 
 msgctxt "Samsung"
 msgid "Mobile data"
 msgstr "Mobile Datenverbindung"
 
+msgctxt "Huawei"
+msgid "Month"
+msgstr "Monat"
+
+msgctxt "Huawei"
+msgid "Monthly"
+msgstr "Monatlich"
+
+msgctxt "Huawei"
+msgid "More"
+msgstr "Mehr"
+
 msgctxt "Samsung"
 msgid "More"
 msgstr "Mehr"
+
+msgctxt "Huawei"
+msgid "More battery settings"
+msgstr "Weitere Akkueinstellungen"
+
+msgctxt "Huawei"
+msgid "More display settings"
+msgstr "Mehr Anzeigeeinstellungen"
+
+msgctxt "Huawei"
+msgid "More notification settings"
+msgstr "Weitere Benachrichtigungseinstellungen"
+
+#, php-format
+msgid "Move down the entry for “%s” by swiping to the very bottom."
+msgstr "Bewege den Eintrag für „%s“ abwärts, indem du nach ganz unten wischst."
+
+msgctxt "Huawei"
+msgid "Network access"
+msgstr "Netzwerkzugriff"
+
+msgctxt "Huawei"
+msgid "Networked apps"
+msgstr "Netzwerk-Apps"
 
 #, php-format
 msgid "Next to “%s”, make sure that it says “Allow auto-start”."
@@ -1055,12 +1449,28 @@ msgid "Next to “%s”, make sure that there is a checkmark in the checkbox."
 msgstr "Stelle sicher, dass neben „%s“ ein Haken im Kontrollkästchen ist."
 
 #, php-format
+msgid "Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left, unless you have any objections."
+msgstr "Stelle sicher, dass der Schalter neben „%s“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite, sofern du keine Bedenken hast."
+
+#, php-format
 msgid "Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left."
 msgstr "Stelle sicher, dass der Schalter neben „%s“ ausgeschaltet ist, d.h. mit seinem Knopf auf der linken Seite."
 
 #, php-format
+msgid "Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right, unless you have any objections."
+msgstr "Stelle sicher, dass der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite, sofern du keine Bedenken hast."
+
+#, php-format
 msgid "Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right."
 msgstr "Stelle sicher, dass der Schalter neben „%s“ eingeschaltet ist, d.h. mit seinem Knopf auf der rechten Seite."
+
+#, php-format
+msgid "Next to “%s”, make sure there are three checkmarks in the checkboxes."
+msgstr "Stelle sicher, dass neben „%s“ drei Haken in den Kontrollkästchen sind."
+
+#, php-format
+msgid "Next to “%s”, make sure there are two checkmarks in the checkboxes."
+msgstr "Stelle sicher, dass neben „%s“ zwei Haken in den Kontrollkästchen sind."
 
 #, php-format
 msgid "Next to “%s”, make sure there’s a checkmark in the checkbox."
@@ -1073,6 +1483,10 @@ msgstr "Setze neben „%s“ einen Haken in das Kontrollkästchen."
 #, php-format
 msgid "Next to “%s”, remove the checkmark from the checkbox."
 msgstr "Entferne neben „%s“ den Haken aus dem Kontrollkästchen."
+
+#, php-format
+msgid "Next to “%s”, tap on the checkmark in the circle."
+msgstr "Tippe neben „%s“ auf den Haken im Kreis."
 
 #, php-format
 msgid "Next to “%s”, tap on the lock icon."
@@ -1195,12 +1609,40 @@ msgstr "Stelle sicher, dass der Schalter neben „Akku-Verwalter nutzen“ ausge
 msgid "No"
 msgstr "Nein"
 
+msgctxt "Huawei"
+msgid "Not allowed"
+msgstr "Nicht zulässig"
+
 msgid "Not your device?"
 msgstr "Nicht dein Gerät?"
+
+msgctxt "Huawei"
+msgid "Notification & status bar"
+msgstr "Benachrichtigungs- & Statusleiste"
+
+msgctxt "Huawei"
+msgid "Notification center"
+msgstr "Benachrichtigung"
+
+msgctxt "Huawei"
+msgid "Notification method"
+msgstr "Benachrichtigungsmethode"
+
+msgctxt "Huawei"
+msgid "Notification panel & status bar"
+msgstr "Benachrichtigungsfeld & Statusleiste"
+
+msgctxt "Huawei"
+msgid "Notifications"
+msgstr "Benachrichtigungen"
 
 msgctxt "Samsung"
 msgid "Notifications"
 msgstr "Benachrichtigungen"
+
+msgctxt "Huawei"
+msgid "Notifications & status bar"
+msgstr "Benachrichtigungs- & Statusleiste"
 
 #, php-format
 msgid "Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on %2$s?"
@@ -1209,6 +1651,18 @@ msgstr "Benachrichtigungen, Hintergrunddienste, automatische Synchronisierung od
 #, php-format
 msgid "Notifications, background tasks, automatic synchronization or alarms do not work correctly for “%1$s” on your %2$s?"
 msgstr "Benachrichtigungen, Hintergrunddienste, automatische Synchronisierung oder Erinnerungen funktionieren für „%1$s“ auf deinem %2$s nicht richtig?"
+
+msgctxt "Huawei"
+msgid "Notify when slow"
+msgstr "Systemlastüberwachung"
+
+msgctxt "Huawei"
+msgid "Numbers"
+msgstr "Anzahl“ oder „Nummern"
+
+msgctxt "Huawei"
+msgid "OK"
+msgstr "OK"
 
 msgctxt "Samsung"
 msgid "OK"
@@ -1231,6 +1685,14 @@ msgstr "Öffne den „Autostart-Verwalter“ auf deinem Gerät."
 
 msgid "Open the “Mobile Manager” on your device."
 msgstr "Öffne den „Mobile Manager“ auf deinem Gerät."
+
+msgctxt "Huawei"
+msgid "Open the “Phone Manager” on your device."
+msgstr "Öffne den „Telefonmanager“ auf deinem Gerät."
+
+msgctxt "Huawei"
+msgid "Open the “Phone Manager” or “Optimizer” on your device."
+msgstr "Öffne den „Telefonmanager“ oder „Optimizer“ auf deinem Gerät."
 
 msgid "Open the “Settings” of your device."
 msgstr "Öffne die „Einstellungen“ deines Gerätes."
@@ -1261,6 +1723,14 @@ msgstr "Öffne das „Sicherheitszentrum“ auf deinem Gerät."
 msgid "Open “Security” on your device."
 msgstr "Öffne „Sicherheit“ auf deinem Gerät."
 
+msgctxt "Huawei"
+msgid "Optimize"
+msgstr "Optimieren"
+
+msgctxt "Huawei"
+msgid "Optimize battery usage"
+msgstr "Akkunutzung optimieren"
+
 msgctxt "Samsung"
 msgid "Optimize battery usage"
 msgstr "Akkuverbrauch optimieren"
@@ -1280,6 +1750,9 @@ msgstr "Optimiert"
 msgid "Otherwise, proceed with the next step."
 msgstr "Fahre ansonsten mit dem nächsten Schritt fort."
 
+msgid "Otherwise, there’s nothing left for you to do."
+msgstr "Ansonsten musst du nichts weiter tun."
+
 msgid "Otherwise, you have to repeat the steps above after every restart of your device."
 msgstr "Ansonsten musst du die Schritte von oben nach jedem Neustart deines Gerätes wiederholen."
 
@@ -1289,16 +1762,36 @@ msgstr "Erweiterungsmenü"
 msgid "Overview or Recents key"
 msgstr "Übersichts- oder Letzte-Apps-Taste"
 
+msgctxt "Huawei"
+msgid "Performance"
+msgstr "Leistung"
+
 msgid "Permalink"
 msgstr "Permalink"
+
+msgctxt "Huawei"
+msgid "Permissions"
+msgstr "Berechtigungen“ oder „Zugriffsrechte"
 
 msgctxt "Samsung"
 msgid "Permissions"
 msgstr "Berechtigungen"
 
+msgctxt "Huawei"
+msgid "Power Saving mode"
+msgstr "Stromsparen“ oder „Stromsparmodus"
+
+msgctxt "Huawei"
+msgid "Power consumption alert"
+msgstr "Stromverbrauchs-Warnung"
+
 msgctxt "Samsung"
 msgid "Power mode"
 msgstr "Energiemodus"
+
+msgctxt "Huawei"
+msgid "Power plan"
+msgstr "Energieplan"
 
 msgctxt "Samsung > Menu"
 msgid "Power saving"
@@ -1312,9 +1805,25 @@ msgctxt "Samsung > Section"
 msgid "Power saving"
 msgstr "Energiesparmodus"
 
+msgctxt "Huawei"
+msgid "Power saving mode"
+msgstr "Stromsparen“ oder „Stromsparmodus"
+
 msgctxt "Samsung"
 msgid "Power saving mode"
 msgstr "Energiesparmodus"
+
+msgctxt "Huawei"
+msgid "Power usage firewall (power-intensive apps)"
+msgstr "Stromintensive Apps"
+
+msgctxt "Huawei"
+msgid "Power-intensive apps"
+msgstr "Stromintensive Apps"
+
+msgctxt "Huawei"
+msgid "Power-intensive prompt"
+msgstr "Stromverbrauchs-Warnung"
 
 #, php-format
 msgid "Press %s at the bottom of your device to go back to your home screen."
@@ -1324,8 +1833,16 @@ msgstr "Drücke unten auf deinem Gerät %s, um zu deinem Homescreen zurückzukeh
 msgid "Press %s at the bottom of your device to open the overview of recently used apps."
 msgstr "Drücke unten auf deinem Gerät %s, um die Übersicht der kürzlich verwendeten Apps zu öffnen."
 
+msgctxt "Huawei"
+msgid "Priority display"
+msgstr "Anzeige mit Priorität"
+
 msgid "Privacy"
 msgstr "Datenschutz"
+
+msgctxt "Huawei"
+msgid "Protected apps"
+msgstr "Geschützte Apps"
 
 #, php-format
 msgid "Put a checkmark into the checkbox next to “%s”."
@@ -1334,6 +1851,17 @@ msgstr "Setze einen Haken ins Kontrollkästchen neben „%s“."
 msgctxt "Samsung"
 msgid "Put unused apps to sleep"
 msgstr "Standby für nicht verwendete Apps"
+
+#, php-format
+msgid "Release the entry for “%s” by lifting your finger again."
+msgstr "Lasse den Eintrag für „%s“ los, indem du deinen Finger wieder anhebst."
+
+msgid "Remember never to tap on the trash icon here."
+msgstr "Denke daran, hier niemals auf das Mülleimer-Symbol zu tippen."
+
+#, php-format
+msgid "Remember never to use “%1$s” or “%2$s” here."
+msgstr "Denke daran, hier niemals „%1$s“ oder „%2$s“ zu benutzen."
 
 #, php-format
 msgid "Remember never to use “%s” here."
@@ -1354,6 +1882,20 @@ msgctxt "Samsung"
 msgid "Restrict background data"
 msgstr "Hintergrunddaten einschränken"
 
+msgctxt "Huawei"
+msgid "Roaming data"
+msgstr "Roaming-Daten“ oder „Daten-Roaming"
+
+msgctxt "Huawei"
+msgid "Run in background"
+msgstr "Im Hintergrund ausführen"
+
+msgid "Scroll back to the top."
+msgstr "Fahre zurück nach oben."
+
+msgid "Scroll down to the bottom half."
+msgstr "Fahre abwärts in die untere Hälfte."
+
 #, php-format
 msgid "Scroll down to the “%s” section."
 msgstr "Fahre nach unten zum Bereich „%s“."
@@ -1361,9 +1903,17 @@ msgstr "Fahre nach unten zum Bereich „%s“."
 msgid "Scroll further down."
 msgstr "Fahre weiter nach unten."
 
+msgctxt "Huawei"
+msgid "Secondary launch"
+msgstr "Sekundärer Start"
+
 msgctxt "Samsung"
 msgid "Select apps to exclude"
 msgstr "Auswählen der auszuschließenden Apps"
+
+#, php-format
+msgid "Select either “%1$s” or “%2$s”."
+msgstr "Wähle entweder „%1$s“ oder „%2$s“ aus."
 
 #, php-format
 msgid "Select “%s”."
@@ -1391,9 +1941,29 @@ msgstr "Setze die Schwelle oder den Grenzwert auf einen niedrigen Akkustand, sod
 msgid "Set the threshold to a low percent value, e.g. “At 15%”."
 msgstr "Setze die Schwelle oder den Grenzwert auf einen niedrigen Prozentwert, z.B. „Bei 15%“."
 
+msgctxt "Huawei"
+msgid "Settings"
+msgstr "Einstellungen"
+
 msgctxt "Samsung"
 msgid "Settings"
 msgstr "Einstellungen"
+
+msgctxt "Huawei"
+msgid "Shortcuts"
+msgstr "Verknüpfungen"
+
+msgctxt "Huawei"
+msgid "Show"
+msgstr "Anzeigen"
+
+msgctxt "Huawei"
+msgid "Show but hide contents"
+msgstr "Anzeigen (Inhalt ausblenden)"
+
+msgctxt "Huawei"
+msgid "Show notification icons"
+msgstr "Benachrichtigungssymbole anzeigen"
 
 msgctxt "Samsung"
 msgid "Show notification icons"
@@ -1411,9 +1981,25 @@ msgctxt "Samsung"
 msgid "Sleeping apps"
 msgstr "Apps im Standby"
 
+msgctxt "Huawei"
+msgid "Smart"
+msgstr "Intelligent"
+
+msgctxt "Huawei"
+msgid "Smart Data Saver"
+msgstr "Intelligente Datenverbrauchsoptimierung"
+
 msgctxt "Samsung"
 msgid "Smart Manager"
 msgstr "Smart Manager"
+
+msgctxt "Huawei"
+msgid "Smart data saver"
+msgstr "Intelligente Datenverbrauchsoptimierung"
+
+msgctxt "Huawei"
+msgid "Smart tune-up"
+msgstr "Smart Tune-up"
 
 msgid "Some manufacturers are forcing excessive restrictions upon their devices in faulty attempts at battery optimization."
 msgstr "In mangelhaften Versuchen, die Akkulaufzeiten zu optimieren, zwingen einige Hersteller ihren Geräten übermäßige Beschränkungen auf."
@@ -1422,16 +2008,39 @@ msgctxt "Samsung"
 msgid "Sounds and notifications"
 msgstr "Töne und Benachrichtigungen"
 
+msgctxt "Huawei"
+msgid "Special access"
+msgstr "Spezieller Zugriff"
+
 msgctxt "Samsung"
 msgid "Special access"
 msgstr "Spezieller Zugriff"
+
+msgctxt "Huawei"
+msgid "Status bar"
+msgstr "Statusleiste"
 
 msgctxt "Samsung"
 msgid "Status bar"
 msgstr "Statusleiste"
 
+msgctxt "Huawei"
+msgid "Stay connected when device sleeps"
+msgstr "Im Ruhezustand verbunden bleiben"
+
+msgctxt "Huawei"
+msgid "Storage"
+msgstr "Speicher"
+
+msgctxt "Huawei"
+msgid "Storage cleanup reminder"
+msgstr "Erinnerung für Speicherbereinigung"
+
 msgid "Swipe down from the status bar to show notifications and quick settings."
 msgstr "Wische von der Statusleiste nach unten, um Benachrichtigungen und Schnelleinstellungen anzuzeigen."
+
+msgid "Swipe from the right to the left to show the next screen."
+msgstr "Wische von rechts nach links, um den nächsten Bildschirm anzuzeigen."
 
 msgid "Switch from “Optimization” to “Do not optimize”."
 msgstr "Wechsle von „Optimierung“ zu „Nicht optimieren“."
@@ -1452,12 +2061,27 @@ msgctxt "Samsung"
 msgid "Sync"
 msgstr "Sync"
 
+msgctxt "Huawei"
+msgid "System optimization"
+msgstr "Systemoptimierung"
+
+#, php-format
+msgid "Tap and hold the entry for “%s”."
+msgstr "Drücke und halte den Eintrag für „%s“."
+
 #, php-format
 msgid "Tap on an entry in the “%s” section."
 msgstr "Tippe auf einen Eintrag im Bereich „%s“."
 
+msgid "Tap on the lock icon so that it closes and gets a dot inside its bottom rectangle."
+msgstr "Tippe auf das Schloss-Symbol, damit es sich schließt und in seinem unteren Rechteck einen Punkt erhält."
+
 msgid "Tap on the selected entry again."
 msgstr "Tippe noch einmal auf den ausgewählten Eintrag."
+
+#, php-format
+msgid "Tap on “%s” again to turn the switch off, i.e. with its knob or handle to the left."
+msgstr "Tippe noch einmal auf „%s“, um den Schalter auszuschalten, d.h. mit seinem Knopf nach links."
 
 #, php-format
 msgid "Tap on “%s” again."
@@ -1525,13 +2149,33 @@ msgstr "Das Schloss-Symbol sollte sich jetzt in ein <em>geschlossenes</em> Symbo
 msgid "There are many apps on the app store which claim to boost performance, free up space, save battery, or optimize the RAM of your device."
 msgstr "Im App-Store gibt es viele Apps, die behaupten, die Leistung deines Gerätes zu erhöhen, Speicher freizuräumen, Akku zu sparen oder den RAM zu optimieren."
 
+msgctxt "Huawei"
+msgid "Touch to optimize"
+msgstr "Zum Optimieren berühren"
+
+msgctxt "Huawei"
+msgid "Traffic manager"
+msgstr "Datenverbrauchsmanager"
+
+msgctxt "Huawei"
+msgid "Traffic use ranking"
+msgstr "Datennutzung"
+
 msgctxt "Samsung"
 msgid "Turn off auto sync"
 msgstr "Autom. Synchronisieren deaktivieren“ oder „Automatisches Synchronisieren deaktivieren"
 
+msgctxt "Huawei"
+msgid "Turn off auto-sync data"
+msgstr "Autom. Datensynchronisation abschalten"
+
 msgctxt "Samsung"
 msgid "Turn on auto sync"
 msgstr "Autom. Synchronisieren aktivieren"
+
+msgctxt "Huawei"
+msgid "Turn on auto-sync data"
+msgstr "Autom. Datensynchronisation anschalten"
 
 msgctxt "Samsung"
 msgid "Turned off"
@@ -1541,6 +2185,18 @@ msgctxt "Samsung"
 msgid "U. power saving"
 msgstr "Ultra-sparen“ oder „U.-Ener.-sparmo."
 
+msgctxt "Huawei"
+msgid "Ultra"
+msgstr "Ultra"
+
+msgctxt "Huawei"
+msgid "Ultra Power Saving mode"
+msgstr "Ultra-Stromsparen"
+
+msgctxt "Huawei"
+msgid "Ultra power saving mode"
+msgstr "Ultra-Stromsparen"
+
 msgctxt "Samsung"
 msgid "Ultra power saving mode"
 msgstr "Ultra-Energiesparmodus"
@@ -1549,12 +2205,28 @@ msgctxt "Samsung"
 msgid "Unmonitored apps"
 msgstr "Nicht überwachte Apps"
 
+msgctxt "Huawei"
+msgid "Unrestricted data access"
+msgstr "Uneingeschränkter Datenzugriff"
+
+msgctxt "Huawei"
+msgid "Users & accounts"
+msgstr "Nutzer & Konten"
+
+#, php-format
+msgid "Using the tabs at the top, switch from “%1$s” to “%2$s”."
+msgstr "Wechsle über die Tabs oben von „%1$s“ zu „%2$s“."
+
 msgctxt "Samsung"
 msgid "View more"
 msgstr "Mehr anzeigen"
 
 msgid "While these limitations extend battery life on paper, they do so at the expense of your device’s functionality and of your own convenience."
 msgstr "Während diese Beschränkungen die Akkulaufzeit auf dem Papier verlängern, tun sie dies zu Lasten der Funktionalität deines Gerätes und deines Komforts."
+
+msgctxt "Huawei"
+msgid "Wi-Fi"
+msgstr "WLAN"
 
 msgctxt "Samsung"
 msgid "Wi-Fi"
@@ -1564,8 +2236,15 @@ msgctxt "Samsung"
 msgid "Wi-Fi power saving mode"
 msgstr "WLAN-Energiesparmodus"
 
+msgctxt "Huawei"
+msgid "Wireless & networks"
+msgstr "Drahtlos & Netzwerke"
+
 msgid "Yes"
 msgstr "Ja"
+
+msgid "You don’t need to pay any attention to what’s happening in the bottom half."
+msgstr "Du musst nicht darauf achten, was in der unteren Hälfte passiert."
 
 msgid "three bars"
 msgstr "drei Balken"
