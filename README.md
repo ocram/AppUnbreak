@@ -42,6 +42,32 @@ Search for the following regular expression in an editor that easily supports mu
 
 The number of occurrences minus one should be the number of pieces of advice.
 
+### Managing inline UI element graphics
+
+#### Image sizes and filenames
+
+ * {w} × 16 px → `{ w }x16@1x.png`
+ * {w} × 32 px → `{w/2}x16@2x.png`
+ * {w} × 48 px → `{w/3}x16@3x.png`
+ * {w} × 64 px → `{w/4}x16@4x.png`
+ * {w} × 80 px → `{w/5}x16@5x.png`
+ * {w} × 96 px → `{w/6}x16@6x.png`
+
+#### Creating the folder structure
+
+```bash
+$ cd "Website/public/images"
+$ mkdir "<VENDOR_SLUG_LOWERCASE>"
+$ cd "<VENDOR_SLUG_LOWERCASE>"
+$ mkdir "<OS_VERSION_NUMBER>"
+$ cd "<OS_VERSION_NUMBER>"
+$ mkdir --parents "keys/back"
+$ mkdir --parents "keys/home"
+$ mkdir --parents "keys/recents"
+$ mkdir --parents "menu/overflow"
+$ cd ../..
+```
+
 ## Contributing
 
 All contributions are welcome! If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
