@@ -26,6 +26,12 @@ Learn what you can do to prevent flawed power-saving features from breaking your
 $ cd Website && sudo -u www-data php ./index.php clear-template-cache && sudo -u www-data php ./index.php precompile-templates && bash ./i18n.sh <LOCALE_CODE_UNDERSCORE> "" "" nofuzzy && cd ..
 ```
 
+### Detecting duplicate UUIDs for pieces of advice
+
+```bash
+$ grep -r -i -F -h "{% include 'advice/includes/header.html.twig' with { 'uuid': '" Website/views/advice | sort | uniq -d
+```
+
 ## Contributing
 
 All contributions are welcome! If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
