@@ -32,6 +32,16 @@ $ cd Website && sudo -u www-data php ./index.php clear-template-cache && sudo -u
 $ grep -r -i -F -h "{% include 'advice/includes/header.html.twig' with { 'uuid': '" Website/views/advice | sort | uniq -d
 ```
 
+### Finding wrappers for pieces of advice with the correct syntax
+
+Search for the following regular expression in an editor that easily supports multi-line regular expressions (i.e. not `grep`):
+
+```
+(?:\A\{% if androidMax >= ')|(?:#\}\n\{% if androidMax >= ')|(?:\{% endif %\}\n\{% if androidMax >= ')|(?:\{% endif %\}\Z)
+```
+
+The number of occurrences minus one should be the number of pieces of advice.
+
 ## Contributing
 
 All contributions are welcome! If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
