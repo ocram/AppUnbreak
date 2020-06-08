@@ -18,6 +18,14 @@ Learn what you can do to prevent flawed power-saving features from breaking your
 
  * See [delight-im/PHP-Foundation](https://github.com/delight-im/PHP-Foundation#installation)
 
+## Maintenance
+
+### Updating translations
+
+```bash
+$ cd Website && sudo -u www-data php ./index.php clear-template-cache && sudo -u www-data php ./index.php precompile-templates && bash ./i18n.sh <LOCALE_CODE_UNDERSCORE> "" "" nofuzzy && cd ..
+```
+
 ## Contributing
 
 All contributions are welcome! If you wish to contribute, please create an issue first so that your feature, problem or question can be discussed.
