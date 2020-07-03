@@ -3,116 +3,6 @@
  * Copyright (c) delight.im (https://www.delight.im/)
  * Licensed under the GNU AGPL v3 (https://www.gnu.org/licenses/agpl-3.0.txt)
 #}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '6b6c595b-dcdb-484e-a985-f3a8abcdf842' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background activity', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '6b6c595b-dcdb-484e-a985-f3a8abcdf842' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background activity', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cd5f8ef1-5f8c-47b5-a58a-60251a889ccc' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cd5f8ef1-5f8c-47b5-a58a-60251a889ccc' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd0a29d12-7e04-40b9-8fd7-ede4bea677c9' } only %}
 		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
@@ -130,8 +20,49 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cd5f8ef1-5f8c-47b5-a58a-60251a889ccc' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '6b6c595b-dcdb-484e-a985-f3a8abcdf842' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background activity', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '4c02146a-5658-4e40-93bc-2bba577c7ab4' } only %}
-		{# TOTAL 9/10 | LIKELIHOOD 5/5 | IMPACT 4/5 #}
+		{# TOTAL 09/10 | LIKELIHOOD 5/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
@@ -143,57 +74,9 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '094689b4-3e7b-4be5-8f82-b0c621e873c7' } only %}
-		{# TOTAL 9/10 | LIKELIHOOD 4/5 | IMPACT 5/5 #}
+		{# TOTAL 09/10 | LIKELIHOOD 4/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -206,109 +89,33 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'ac21574f-37ec-4341-b3ad-923ae98a619c' } only %}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('App power management', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive battery', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Put unused apps to sleep', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd2538d70-65b4-4417-8c2f-e2f897d11da2' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -317,31 +124,59 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '197045f6-51bd-492e-a441-07cebaacf7a1' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Power mode', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive power saving', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '197045f6-51bd-492e-a441-07cebaacf7a1' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '499ce6e5-b363-45d6-960f-ca1b029243a0' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 2/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('In the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notifications', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('App icon badges', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '10e34581-a83f-4edf-8f20-78fd10c521e7' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Power mode', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive power saving', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Advanced', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Optimize settings', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'e1452a6a-5598-495a-b40c-6b74242cfc45' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -354,47 +189,19 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '10e34581-a83f-4edf-8f20-78fd10c521e7' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '197045f6-51bd-492e-a441-07cebaacf7a1' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Advanced', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Optimize settings', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '499ce6e5-b363-45d6-960f-ca1b029243a0' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 2/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('In the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notifications', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('App icon badges', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '499ce6e5-b363-45d6-960f-ca1b029243a0' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 2/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('In the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notifications', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('App icon badges', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Power mode', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive power saving', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '1264c4a6-47ad-4206-8ba7-47c09765bc42' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -411,20 +218,26 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'ac21574f-37ec-4341-b3ad-923ae98a619c' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f72f310c-98b8-4f9b-9f6f-dec2af1be5c0' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('App power management', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive battery', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Put unused apps to sleep', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '542e27d6-d8b9-4575-9be9-4a676f1c3337' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Accounts and backup', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
@@ -433,18 +246,8 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '542e27d6-d8b9-4575-9be9-4a676f1c3337' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Accounts and backup', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Auto sync data', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '32985f57-ffcd-43da-8aa4-139e5ca181f0' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
 		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
 		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power mode', 'Samsung')) }}</li>
@@ -452,17 +255,8 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '32985f57-ffcd-43da-8aa4-139e5ca181f0' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power mode', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '7bf2fd16-2334-4d9d-b504-0ffe46418a89' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
@@ -472,82 +266,18 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7bf2fd16-2334-4d9d-b504-0ffe46418a89' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '18f3638f-735f-415e-acea-ed37ed589fb4' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notification icons', 'Samsung')) }}</li>
-		<li>{{ _f('Below, make sure that “%s” is selected.', _c('All notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '6f0cb4c4-44c7-43d9-902f-d5afff42d918' } only %}
-		{# TOTAL 3/10 | LIKELIHOOD 1/5 | IMPACT 2/5 #}
+		{# TOTAL 03/10 | LIKELIHOOD 1/5 | IMPACT 2/5 #}
 		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
 		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
 		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Focus mode', 'Samsung')) }}</li>
@@ -555,73 +285,77 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '18f3638f-735f-415e-acea-ed37ed589fb4' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cd5f8ef1-5f8c-47b5-a58a-60251a889ccc' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '18f3638f-735f-415e-acea-ed37ed589fb4' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f72f310c-98b8-4f9b-9f6f-dec2af1be5c0' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '10.00.00' and androidMin <= '10.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f72f310c-98b8-4f9b-9f6f-dec2af1be5c0' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f9b71279-67a7-43de-8347-f116615e55b2' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Auto optimization', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '6079aa72-78df-4bc8-8fad-872f5c892e27' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '6b6c595b-dcdb-484e-a985-f3a8abcdf842' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background activity', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c78dc8c6-d4d9-4c65-a663-0f7470f8c6dd' } only %}
+		{# TOTAL 09/10 | LIKELIHOOD 5/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('Find the “%s” section.', _c('Power mode', 'Samsung')) }}</li>
-		<li>{{ _f('If it says either “%1$s” or “%2$s”, there’s nothing left for you to do.', _c('Optimized', 'Samsung'), _c('High performance', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('If it says “%1$s” or “%2$s”, proceed with the next step.', _c('Medium power saving', 'Samsung'), _c('Maximum power saving', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Power mode', 'Samsung')) }}</li>
-		<li>{{ _('Tap on the selected entry again.') }}</li>
-		<li>{{ _f('Next to “%s”, remove the checkmark from the checkbox.', _c('Restrict background data', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom, tap on “%s”.', _c('Apply', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps that aren’t checked', 'Samsung')) }}</li>
+		<li>{{ _f('If “%s” is in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, put a checkmark into the checkbox.', product) }}</li>
+		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Add', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '78e1a043-2075-4dad-a800-b0cb76661927' } only %}
-		{# TOTAL 8/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -635,8 +369,19 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f9b71279-67a7-43de-8347-f116615e55b2' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Auto optimization', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd6f66a28-5c25-4358-b33a-d2c749c32eb1' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -652,8 +397,47 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '499ce6e5-b363-45d6-960f-ca1b029243a0' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 2/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('In the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('At the top, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notifications', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('App icon badges', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a2c4e22d-9d0e-4cb8-a995-aea0ee010068' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -665,37 +449,63 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c78dc8c6-d4d9-4c65-a663-0f7470f8c6dd' } only %}
-		{# TOTAL 9/10 | LIKELIHOOD 5/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '197045f6-51bd-492e-a441-07cebaacf7a1' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps that aren’t checked', 'Samsung')) }}</li>
-		<li>{{ _f('If “%s” is in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, put a checkmark into the checkbox.', product) }}</li>
-		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Add', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Power mode', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Adaptive power saving', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '5396723c-2b79-45cb-b2fd-3bdb3b1cd78f' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f72f310c-98b8-4f9b-9f6f-dec2af1be5c0' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Permissions', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Permissions', 'Samsung')) }}</li>
-		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '6079aa72-78df-4bc8-8fad-872f5c892e27' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('Find the “%s” section.', _c('Power mode', 'Samsung')) }}</li>
+		<li>{{ _f('If it says either “%1$s” or “%2$s”, there’s nothing left for you to do.', _c('Optimized', 'Samsung'), _c('High performance', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('If it says “%1$s” or “%2$s”, proceed with the next step.', _c('Medium power saving', 'Samsung'), _c('Maximum power saving', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Power mode', 'Samsung')) }}</li>
+		<li>{{ _('Tap on the selected entry again.') }}</li>
+		<li>{{ _f('Next to “%s”, remove the checkmark from the checkbox.', _c('Restrict background data', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom, tap on “%s”.', _c('Apply', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '542e27d6-d8b9-4575-9be9-4a676f1c3337' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Accounts and backup', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom, next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Auto sync data', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '5396723c-2b79-45cb-b2fd-3bdb3b1cd78f' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -707,133 +517,129 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '5396723c-2b79-45cb-b2fd-3bdb3b1cd78f' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '32985f57-ffcd-43da-8aa4-139e5ca181f0' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power mode', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7bf2fd16-2334-4d9d-b504-0ffe46418a89' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Show notification icons', 'Samsung')) }}</li>
+		<li>{{ _f('Below, make sure that “%s” is selected.', _c('All notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '09.00.00' and androidMin <= '09.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '18f3638f-735f-415e-acea-ed37ed589fb4' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device care', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom right, tap on “%s”.', _c('Memory', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b60ca19d-79bc-4bfa-90af-8809ff1fc689' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the very bottom, choose “%s”.', _c('Unmonitored apps', 'Samsung')) }}</li>
+		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Put a checkmark into the checkbox next to “%s”.', product) }}</li>
+		<li>{{ _f('At the very top, press “%s”.', _c('Done', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8bc13298-643f-4282-8193-f6edb8cbc586' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the upper half, choose “%s”.', _c('Battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Permissions', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Permissions', 'Samsung')) }}</li>
-		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8bc13298-643f-4282-8193-f6edb8cbc586' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the upper half, choose “%s”.', _c('Battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8bc13298-643f-4282-8193-f6edb8cbc586' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd4d18acd-5fb6-431c-be1c-b545e25ec9f3' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the upper half, choose “%s”.', _c('Battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
-		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b60ca19d-79bc-4bfa-90af-8809ff1fc689' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the very bottom, choose “%s”.', _c('Unmonitored apps', 'Samsung')) }}</li>
-		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Put a checkmark into the checkbox next to “%s”.', product) }}</li>
-		<li>{{ _f('At the very top, press “%s”.', _c('Done', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Display', 'Samsung')) }}</li>
+		<li>{{ _f('Further down, tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Show recent notifications only', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b60ca19d-79bc-4bfa-90af-8809ff1fc689' } only %}
-		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the very bottom, choose “%s”.', _c('Unmonitored apps', 'Samsung')) }}</li>
-		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add apps', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Put a checkmark into the checkbox next to “%s”.', product) }}</li>
-		<li>{{ _f('At the very top, press “%s”.', _c('Done', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c5f14dcf-a10c-4789-89b4-62629b778e69' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Advanced settings', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', _c('App power monitor', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c5f14dcf-a10c-4789-89b4-62629b778e69' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Advanced settings', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', _c('App power monitor', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '2007f3fb-8d14-4789-8650-a07c67bd04c5' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the very bottom, choose “%s”.', _c('Always sleeping apps', 'Samsung')) }}</li>
-		<li>{{ _f('If “%s” is not in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Delete apps', 'Samsung')) }}</li>
-		<li>{{ _f('Delete “%s”.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '2007f3fb-8d14-4789-8650-a07c67bd04c5' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('At the very bottom, choose “%s”.', _c('Always sleeping apps', 'Samsung')) }}</li>
-		<li>{{ _f('If “%s” is not in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Delete apps', 'Samsung')) }}</li>
-		<li>{{ _f('Delete “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c6754063-f794-4edf-8564-34cb378ed88c' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -846,8 +652,34 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c5f14dcf-a10c-4789-89b4-62629b778e69' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Advanced settings', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', _c('App power monitor', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '2007f3fb-8d14-4789-8650-a07c67bd04c5' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the very bottom, choose “%s”.', _c('Always sleeping apps', 'Samsung')) }}</li>
+		<li>{{ _f('If “%s” is not in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Delete apps', 'Samsung')) }}</li>
+		<li>{{ _f('Delete “%s”.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '1f5df78e-e2a5-457f-b9df-3b48ae2188df' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -857,7 +689,7 @@
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '1b2396ea-c0fc-4972-b9e3-2a2f7eb810a5' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -871,8 +703,39 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c0ec7c5e-a1d4-402a-b8e9-86023853984d' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '5396723c-2b79-45cb-b2fd-3bdb3b1cd78f' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Permissions', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Permissions', 'Samsung')) }}</li>
+		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '2d3780e1-27c2-4790-8b73-462993059cc4' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Cloud and accounts', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
@@ -881,8 +744,18 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cabcc5ae-54d5-4409-89df-93f5cd9f4d44' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom right, choose “%s”.', _c('Memory', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a2d7a23d-981f-4702-8a1e-1ee5c0174a64' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Connections', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s” at the left side of the screen.', _c('Wi-Fi', 'Samsung')) }}</li>
@@ -893,7 +766,7 @@
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '7c54bdef-6763-4096-b245-5291cd53c02a' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Connections', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s” at the left side of the screen.', _c('Wi-Fi', 'Samsung')) }}</li>
@@ -905,27 +778,9 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
+{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
 		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
 		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
 		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
@@ -933,84 +788,64 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b60ca19d-79bc-4bfa-90af-8809ff1fc689' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the very bottom, choose “%s”.', _c('Unmonitored apps', 'Samsung')) }}</li>
+		<li>{{ _f('Check if “%s” is already in the list.', product) }} {{ _('If it’s in the list, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('At the very bottom, tap on “%s”.', _c('Add apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Put a checkmark into the checkbox next to “%s”.', product) }}</li>
+		<li>{{ _f('At the very top, press “%s”.', _c('Done', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd4d18acd-5fb6-431c-be1c-b545e25ec9f3' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4ede819-2c88-4698-bea9-d7f7c461fd39' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Display', 'Samsung')) }}</li>
-		<li>{{ _f('Further down, tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Show recent notifications only', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd4d18acd-5fb6-431c-be1c-b545e25ec9f3' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Display', 'Samsung')) }}</li>
-		<li>{{ _f('Further down, tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Show recent notifications only', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s” or “%3$s”.', _c('Apps not optimized', 'Samsung'), _c('All', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c0ec7c5e-a1d4-402a-b8e9-86023853984d' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8bc13298-643f-4282-8193-f6edb8cbc586' } only %}
+		{# TOTAL 10/10 | LIKELIHOOD 5/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c0ec7c5e-a1d4-402a-b8e9-86023853984d' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the upper half, choose “%s”.', _c('Battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Optimize battery usage', 'Samsung')) }}</li>
+		<li>{{ _f('In the drop-down list at the top, switch from “%1$s” to “%2$s”.', _c('Apps not optimized', 'Samsung'), _c('All apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', product) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cabcc5ae-54d5-4409-89df-93f5cd9f4d44' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '98e2dce9-8889-4a3b-826b-f3e6737044e4' } only %}
+		{# TOTAL 08/10 | LIKELIHOOD 4/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom right, choose “%s”.', _c('Memory', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow background data usage', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cabcc5ae-54d5-4409-89df-93f5cd9f4d44' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
-		<li>{{ _f('At the bottom right, choose “%s”.', _c('Memory', 'Samsung')) }}</li>
-		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f79496fb-c914-4c4c-92e0-c60f93b13966' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -1019,69 +854,31 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f79496fb-c914-4c4c-92e0-c60f93b13966' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd4d18acd-5fb6-431c-be1c-b545e25ec9f3' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Display', 'Samsung')) }}</li>
+		<li>{{ _f('Further down, tap on “%s”.', _c('Status bar', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned off, i.e. with its knob or handle at the left.', _c('Show recent notifications only', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bc1d61a7-ab8a-4c02-9b31-be5b581147a6' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Special access', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8f4c790a-b126-4284-95e8-d4e861350b8a' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4775170-3d36-4602-9cb8-291617a85882' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Cloud and accounts', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, choose “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '93e09894-156f-44e0-82a5-88f8a4793a69' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Set as priority', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '25a78e47-4abb-499c-acfa-8e82a355b25a' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Connections', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s” at the left side of the screen.', _c('Wi-Fi', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, choose “%s”.', _c('Advanced', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
-		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b9f696c2-9179-4aeb-84fc-4bac0dc05d82' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -1095,17 +892,142 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '4c6e5fd4-9b64-4949-846a-c88ca4d292e6' } only %}
-		{# TOTAL 9/10 | LIKELIHOOD 4/5 | IMPACT 5/5 #}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8f4c790a-b126-4284-95e8-d4e861350b8a' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('App power saving', 'Samsung'), _c('Detail', 'Samsung')) }}</li>
-		<li>{{ _('At the top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Select “%s”.', _c('Turned off', 'Samsung')) }}</li>
+		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0c32bd30-f97b-4681-8543-54b8a5cc25a9' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 4/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Mobile data', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Allow app while Data saver on', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c5f14dcf-a10c-4789-89b4-62629b778e69' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Advanced settings', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure that the switch is turned off, i.e. with its knob or handle at the left.', _c('App power monitor', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '2007f3fb-8d14-4789-8650-a07c67bd04c5' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom left, tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('At the very bottom, choose “%s”.', _c('Always sleeping apps', 'Samsung')) }}</li>
+		<li>{{ _f('If “%s” is not in the list of apps, there’s nothing left for you to do.', product) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Delete apps', 'Samsung')) }}</li>
+		<li>{{ _f('Delete “%s”.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'c0ec7c5e-a1d4-402a-b8e9-86023853984d' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Optimize now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Optimize now', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a4775170-3d36-4602-9cb8-291617a85882' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Cloud and accounts', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Accounts', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, choose “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '93e09894-156f-44e0-82a5-88f8a4793a69' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', _c('Set as priority', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '5396723c-2b79-45cb-b2fd-3bdb3b1cd78f' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Apps', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Further down, in the “%1$s” section, find “%2$s”.', _c('App settings', 'Samsung'), _c('Permissions', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Permissions', 'Samsung')) }}</li>
+		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'cabcc5ae-54d5-4409-89df-93f5cd9f4d44' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Device maintenance', 'Samsung')) }}</li>
+		<li>{{ _f('At the bottom right, choose “%s”.', _c('Memory', 'Samsung')) }}</li>
+		<li>{{ _f('Do not press “%s”.', _c('Clean now', 'Samsung')) }} {{ _f('Remember never to use “%s” here.', _c('Clean now', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '25a78e47-4abb-499c-acfa-8e82a355b25a' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Connections', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s” at the left side of the screen.', _c('Wi-Fi', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, choose “%s”.', _c('Advanced', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
+		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '07.00.00' and androidMin <= '07.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
@@ -1125,21 +1047,22 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'eaebde8f-aa2c-4eea-8b35-324bfde358ae' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '4c6e5fd4-9b64-4949-846a-c88ca4d292e6' } only %}
+		{# TOTAL 09/10 | LIKELIHOOD 4/5 | IMPACT 5/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('App power saving', 'Samsung'), _c('Detail', 'Samsung')) }}</li>
+		<li>{{ _('At the top, if the switch is turned off, i.e. with its knob or handle at the left, there’s nothing left for you to do.') }} {{ _('Otherwise, proceed with the next step.') }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
 		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Permissions', 'Samsung')) }}</li>
-		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
+		<li>{{ _f('Select “%s”.', _c('Turned off', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f7de409f-e3aa-413a-b3db-96c37bf7a5cf' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
@@ -1151,8 +1074,18 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f79496fb-c914-4c4c-92e0-c60f93b13966' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Next to “%s”, make sure the switch is turned on, i.e. with its knob or handle at the right.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'bee1462b-a438-4b97-863b-d36430a7d232' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
+		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
@@ -1164,8 +1097,63 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'eaebde8f-aa2c-4eea-8b35-324bfde358ae' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Permissions', 'Samsung')) }}</li>
+		<li>{{ _('Make sure that all switches are turned on, i.e. with their knobs or handles at the right, unless you have any specific objections.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b41e258e-fec7-4d36-9ab7-34fbcb3e7636' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '84d8c84e-faad-40ad-808a-092da002c1b6' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Accounts', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '5e6ebb74-01cd-4e27-a994-51e527c6d862' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '423c2fa9-39a8-4edc-81ff-fb645fbdabea' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
@@ -1177,137 +1165,52 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b41e258e-fec7-4d36-9ab7-34fbcb3e7636' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b7c310ba-0556-4370-b04e-c08f7d2e40fa' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8c0bca40-028a-42a2-9a0c-5071373db58c' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Wi-Fi', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
+		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '0564493d-240c-4c92-8086-e7966a84157b' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Smart Manager', 'Samsung')) }}</li>
 		<li>{{ _f('Tap on “%s”.', _c('Battery', 'Samsung')) }}</li>
 		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
 		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '5e6ebb74-01cd-4e27-a994-51e527c6d862' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '5e6ebb74-01cd-4e27-a994-51e527c6d862' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b7c310ba-0556-4370-b04e-c08f7d2e40fa' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b7c310ba-0556-4370-b04e-c08f7d2e40fa' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
-		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
-		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '84d8c84e-faad-40ad-808a-092da002c1b6' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Accounts', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '84d8c84e-faad-40ad-808a-092da002c1b6' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Accounts', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8c0bca40-028a-42a2-9a0c-5071373db58c' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Wi-Fi', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
-		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '06.00.00' and androidMin <= '06.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '8c0bca40-028a-42a2-9a0c-5071373db58c' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Wi-Fi', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
-		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
@@ -1325,32 +1228,8 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f0f485ca-e35d-428a-9a4c-601349ccd197' } only %}
-		{# TOTAL 6/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
-		<li>{{ _c('Open the “Smart Manager” on your device.', 'Samsung') }}</li>
-		<li>{{ _f('At the top left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
-		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('App optimization', 'Samsung'), _c('Detail', 'Samsung')) }}</li>
-		<li>{{ _f('At the top right, choose “%s”.', _c('More', 'Samsung')) }}</li>
-		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Block notifications', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Show notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '0a5b125c-8be7-42f2-9183-dae36c0788a5' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
-		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
-		<li>{{ _f('Tap on “%s”.', product) }}</li>
-		<li>{{ _f('At the top, next to “%s”, make sure there’s a checkmark in the checkbox.', _c('Show notifications', 'Samsung')) }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '1b854bd8-0dbf-40b6-9285-0b8a6ae94c4d' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Sounds and notifications', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom, tap on “%s”.', _c('App notifications', 'Samsung')) }}</li>
@@ -1361,8 +1240,32 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '0a5b125c-8be7-42f2-9183-dae36c0788a5' } only %}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Applications', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Application manager', 'Samsung')) }}</li>
+		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
+		<li>{{ _f('Tap on “%s”.', product) }}</li>
+		<li>{{ _f('At the top, next to “%s”, make sure there’s a checkmark in the checkbox.', _c('Show notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f0f485ca-e35d-428a-9a4c-601349ccd197' } only %}
+		{# TOTAL 06/10 | LIKELIHOOD 3/5 | IMPACT 3/5 #}
+		<li>{{ _c('Open the “Smart Manager” on your device.', 'Samsung') }}</li>
+		<li>{{ _f('At the top left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('App optimization', 'Samsung'), _c('Detail', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, choose “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Block notifications', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Show notifications', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'e9e11acd-8b5d-4fd9-b9fc-812c1c7ebe99' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Sounds and notifications', 'Samsung')) }}</li>
 		<li>{{ _f('At the bottom, tap on “%s”.', _c('App notifications', 'Samsung')) }}</li>
@@ -1374,7 +1277,7 @@
 {% endif %}
 {% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'e0552878-d48e-496c-9aee-978fbfc335ca' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
 		<li>{{ _c('Open the “Smart Manager” on your device.', 'Samsung') }}</li>
 		<li>{{ _f('At the top left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
 		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
@@ -1383,8 +1286,39 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '84d8c84e-faad-40ad-808a-092da002c1b6' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Accounts', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('If it says “%s”, there’s nothing left for you to do.', _c('Turn off auto sync', 'Samsung')) }} {{ _('Otherwise, proceed with the next step.') }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Turn on auto sync', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('OK', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '5e6ebb74-01cd-4e27-a994-51e527c6d862' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': 'd4d81b29-d7e3-4b29-a23c-a3192e8367ca' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
 		<li>{{ _c('Open the “Smart Manager” on your device.', 'Samsung') }}</li>
 		<li>{{ _f('At the top left, choose “%s”.', _c('Battery', 'Samsung')) }}</li>
 		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
@@ -1392,9 +1326,48 @@
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'b7c310ba-0556-4370-b04e-c08f7d2e40fa' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Battery', 'Samsung')) }}</li>
+		<li>{{ _f('In the “%1$s” section, choose “%2$s”.', _c('Power saving', 'Samsung > Section'), _c('Ultra power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure that the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8c0bca40-028a-42a2-9a0c-5071373db58c' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Wi-Fi', 'Samsung')) }}</li>
+		<li>{{ _f('At the top right, tap on “%s”.', _c('More', 'Samsung')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Keep Wi-Fi on during sleep', 'Samsung')) }}</li>
+		<li>{{ _f('Select “%s”.', _c('Always', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '05.00.00' and androidMin <= '05.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
 {% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '14025504-6625-41e7-8b37-b156a6544d5e' } only %}
-		{# TOTAL 7/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
+		{# TOTAL 07/10 | LIKELIHOOD 3/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Application manager', 'Samsung')) }}</li>
 		<li>{{ _f('Find “%s” in the list of apps.', product) }}</li>
@@ -1405,7 +1378,7 @@
 {% endif %}
 {% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ef9313b-731c-47a7-9568-b4481364d4da' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
+		{# TOTAL 05/10 | LIKELIHOOD 1/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Data usage', 'Samsung')) }}</li>
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -1414,8 +1387,46 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '7693b068-f7c0-465c-adb1-9637f2f8c552' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned on (colored).', _c('Sync', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '76737798-bad0-4632-9ddc-844ae8531f52' } only %}
+		{# TOTAL 05/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Power saving', 'Samsung > Menu')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '8ce85bc4-0a10-4963-ac8e-72f8e76de473' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('U. power saving', 'Samsung')) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '529470f8-1336-4e44-befe-9e5b399a3201' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
+		<li>{{ _('Open the “Settings” of your device.') }}</li>
+		<li>{{ _f('Choose “%s”.', _c('Power saving', 'Samsung > Menu')) }}</li>
+		<li>{{ _f('Tap on “%s”.', _c('Ultra power saving mode', 'Samsung')) }}</li>
+		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
+{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
 	{% include 'advice/includes/header.html.twig' with { 'uuid': '453088d2-6c49-4155-9cdf-f736f5fcfdb3' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Wi-Fi', 'Samsung')) }}</li>
 		<li>{{ _f('At the top right, tap on %s to open the expanded menu.', include('includes/android/menu/overflow.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
@@ -1426,22 +1437,11 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '76737798-bad0-4632-9ddc-844ae8531f52' } only %}
-		{# TOTAL 5/10 | LIKELIHOOD 2/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Power saving', 'Samsung > Menu')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
-		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
-	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
-{% endif %}
-{% if androidMax >= '04.00.00' and androidMin <= '04.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '529470f8-1336-4e44-befe-9e5b399a3201' } only %}
-		{# TOTAL 4/10 | LIKELIHOOD 1/5 | IMPACT 3/5 #}
-		<li>{{ _('Open the “Settings” of your device.') }}</li>
-		<li>{{ _f('Choose “%s”.', _c('Power saving', 'Samsung > Menu')) }}</li>
-		<li>{{ _f('Tap on “%s”.', _c('Ultra power saving mode', 'Samsung')) }}</li>
-		<li>{{ _('At the top, make sure the switch is turned off, i.e. with its knob or handle at the left.') }}</li>
+	{% include 'advice/includes/header.html.twig' with { 'uuid': '20ec6292-e6be-4c8e-8f4e-9aaf66a0f163' } only %}
+		{# TOTAL 04/10 | LIKELIHOOD 2/5 | IMPACT 2/5 #}
+		<li>{{ _('Swipe down from the status bar to show notifications and quick settings.') }}</li>
+		<li>{{ _('Find the quick settings (where you can also turn on and off Wi-Fi, Bluetooth, etc.).') }}</li>
+		<li>{{ _f('Make sure that “%s” is turned off (gray).', _c('Power saving', 'Samsung > Quick setting')) }}</li>
 		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
