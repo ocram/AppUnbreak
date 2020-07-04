@@ -678,7 +678,7 @@
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
 {% if androidMax >= '08.00.00' and androidMin <= '08.99.99' %}
-	{% include 'advice/includes/header.html.twig' with { 'uuid': '1f5df78e-e2a5-457f-b9df-3b48ae2188df' } only %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'f79496fb-c914-4c4c-92e0-c60f93b13966' } only %}
 		{# TOTAL 06/10 | LIKELIHOOD 2/5 | IMPACT 4/5 #}
 		<li>{{ _('Open the “Settings” of your device.') }}</li>
 		<li>{{ _f('Choose “%s”.', _c('Notifications', 'Samsung')) }}</li>
