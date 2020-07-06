@@ -10,8 +10,8 @@ $app->getTemplateManager()->addGlobal('SITE_NAME', \App\Util\ConfigurationByHost
 $app->getTemplateManager()->addGlobal('SITE_SLOGAN', $_ENV['IM_DELIGHT_APPUNBREAK_SITE_SLOGAN']);
 $app->getTemplateManager()->addGlobal('COMPANY_NAME', $_ENV['IM_DELIGHT_APPUNBREAK_COMPANY_NAME']);
 $app->getTemplateManager()->addGlobal('COMPANY_URL', $_ENV['IM_DELIGHT_APPUNBREAK_COMPANY_URL']);
-$app->getTemplateManager()->addGlobal('HTML_HEAD_FINAL', $_ENV['IM_DELIGHT_APPUNBREAK_HTML_HEAD_FINAL']);
-$app->getTemplateManager()->addGlobal('HTML_BODY_FINAL', $_ENV['IM_DELIGHT_APPUNBREAK_HTML_BODY_FINAL']);
+$app->getTemplateManager()->addGlobal('ANALYTICS_HTML', $_ENV['IM_DELIGHT_APPUNBREAK_ANALYTICS_HTML']);
+$app->getTemplateManager()->addGlobal('ANALYTICS_DIVISOR', $_ENV['IM_DELIGHT_APPUNBREAK_ANALYTICS_DIVISOR']);
 
 $app->get('/', '\App\IndexController::getIndex');
 $app->get('/a/:product', '\App\ProductController::getProduct');

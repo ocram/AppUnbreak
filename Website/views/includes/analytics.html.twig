@@ -1,0 +1,7 @@
+{% if not app.isDebug() %}
+	{% if not app.isBotAgent() %}
+		{% if random(1, ANALYTICS_DIVISOR) == 1 %}
+			{{ ANALYTICS_HTML|format((app.isHttps() ? 'true' : 'false'), (app.getCanonicalHost(true) | url_encode), (app.currentRoute() | url_encode), (app.isSameSiteRequest() ? 'false' : 'true'), (app.getReferrer(true) | url_encode), (app.getUtmSource() | url_encode))|raw }}
+		{% endif %}
+	{% endif %}
+{% endif %}

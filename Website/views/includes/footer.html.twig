@@ -38,6 +38,6 @@
 			</div>
 		</footer>
 		<script src="{{ app.url('/js/custom.min.js?v=1') }}"></script>
-		{{- HTML_BODY_FINAL | raw }}
+		{% include 'includes/analytics.html.twig' only %}
 	</body>
 </html>
