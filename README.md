@@ -18,6 +18,28 @@ Learn what you can do to prevent flawed power-saving features from breaking your
 
  * See [delight-im/PHP-Foundation](https://github.com/delight-im/PHP-Foundation#installation)
 
+### Setting up the default product configuration
+
+```bash
+$ FILENAME="example.json" && cd "Website/storage/app/products" && sudo touch "$FILENAME" && sudo chown www-data:www-data "$FILENAME" && sudo chmod 0644 "$FILENAME" && sudo nano "$FILENAME" && cd ../../../..
+```
+
+```json
+{
+    "title": {
+        "en": "Example App",
+        "de": "Beispiel-App"
+    },
+    "company": {
+        "en": "Fictional Company",
+        "de": "Erfundene Firma"
+    },
+    "unofficial": false,
+    "listed": false,
+    "created": "2019-02-28"
+}
+```
+
 ## Maintenance
 
 ### Updating translations
