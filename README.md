@@ -42,6 +42,12 @@ $ FILENAME="example.json" && cd "Website/storage/app/products" && sudo touch "$F
 
 ## Maintenance
 
+### Adding and starting to edit a new product configuration
+
+```bash
+$ APP_NAME="<MY_APP_NAME>" FILENAME="${APP_NAME}.json" && cd "Website/storage/app/products" && sudo cp "example.json" "$FILENAME" && sudo chown www-data:www-data "$FILENAME" && sudo chmod 0644 "$FILENAME" && sudo nano "$FILENAME" && cd ../../../..
+```
+
 ### Updating translations
 
 ```bash
