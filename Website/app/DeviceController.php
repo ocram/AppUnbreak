@@ -42,7 +42,7 @@ final class DeviceController {
 						echo $app->view(
 							'device.html.twig',
 							[
-								'product' => $productConfig['title'],
+								'product' => $productConfig[\App\Product\Product::FIELD_TITLE],
 								'productSlug' => $product,
 								'vendor' => $vendor,
 								'device' => $devices[0][Device::FIELD_TITLE],

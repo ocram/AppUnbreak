@@ -38,8 +38,8 @@ final class ProductController {
 		echo $app->view(
 			'product.html.twig',
 			[
-				'product' => $config['title'],
-				'company' => $config['company'],
+				'product' => $config[\App\Product\Product::FIELD_TITLE],
+				'company' => $config[\App\Product\Product::FIELD_COMPANY],
 				'vendors' => [
 					'suggested' => Vendor::fromHttpClient(),
 					'primary' => Vendor::getList(true),
@@ -70,7 +70,7 @@ final class ProductController {
 					$config = \json_decode($json, true);
 
 					if (!empty($config)) {
-						if (!empty($config['title']) && !empty($config['company'])) {
+						if (!empty($config[\App\Product\Product::FIELD_TITLE]) && !empty($config[\App\Product\Product::FIELD_COMPANY])) {
 							try {
 								$localeCode = $app->i18n()->getLocale();
 							}

@@ -55,7 +55,7 @@ final class VendorController {
 			echo $app->view(
 				'vendor.html.twig',
 				[
-					'product' => $productConfig['title'],
+					'product' => $productConfig[\App\Product\Product::FIELD_TITLE],
 					'vendor' => $vendor,
 					'devices' => $devices,
 				]
