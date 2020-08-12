@@ -178,6 +178,9 @@ msgctxt "Samsung"
 msgid "Apply"
 msgstr "Anwenden"
 
+msgid "Apps"
+msgstr "Apps"
+
 msgctxt "Huawei"
 msgid "Apps"
 msgstr "Apps"
@@ -482,6 +485,9 @@ msgstr "Ändere dies auf „Ein“."
 #, php-format
 msgid "Check if “%s” is already in the list."
 msgstr "Prüfe, ob „%s“ schon in der Liste steht."
+
+msgid "Choose your app"
+msgstr "Wähle deine App"
 
 msgid "Choose your device"
 msgstr "Wähle dein Gerät"
