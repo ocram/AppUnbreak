@@ -2258,6 +2258,9 @@ msgstr "drei Balken"
 msgid "three dots"
 msgstr "drei Punkte"
 
+msgid "unofficial"
+msgstr "inoffiziell"
+
 msgid "“Back”"
 msgstr "„Zurück“"
 
