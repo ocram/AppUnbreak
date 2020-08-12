@@ -10,6 +10,7 @@ namespace App;
 
 use App\Hardware\Vendor;
 use App\Product\Product;
+use App\Throwable\Error;
 use App\Throwable\InvalidProductConfigurationError;
 use App\Throwable\InvalidProductIdException;
 use App\Throwable\UnknownProductIdException;
@@ -58,6 +59,7 @@ final class ProductController {
 	 * @return array the product configuration
 	 * @throws InvalidProductIdException
 	 * @throws UnknownProductIdException
+	 * @throws Error
 	 */
 	public static function loadProductConfiguration(App $app, $product) {
 		if (\preg_match(self::SLUG_REGEX, $product)) {
