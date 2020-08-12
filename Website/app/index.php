@@ -17,6 +17,7 @@ $app->get('/', '\App\IndexController::getIndex');
 $app->get('/a/:product', '\App\ProductController::getProduct');
 $app->get('/a/:product/:vendor', '\App\VendorController::getVendor');
 $app->get('/a/:product/:vendor/:device', '\App\DeviceController::getDevice');
+$app->get('/apps', '\App\ProductListController::getList');
 $app->post('/api/v1/advice/vote/:direction', '\App\AdviceApiController::postVote');
 $app->get('/privacy', '\App\PrivacyController::getPrivacyPolicy');
 $app->get('/contact', '\App\ContactController::getContactInformation');
