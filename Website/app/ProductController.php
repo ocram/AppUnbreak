@@ -87,6 +87,7 @@ final class ProductController {
 
 							$languageCode = Locale::toLanguageCode($localeCode);
 
+							// flatten locale-specific values to the single value for the current locale where necessary
 							foreach (\array_keys($config) as $key) {
 								if (\is_array($config[$key])) {
 									if (!empty($config[$key][$languageCode])) {
