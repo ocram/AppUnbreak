@@ -9,6 +9,7 @@
 namespace App;
 
 use App\Hardware\Device;
+use App\Product\Product;
 use App\Throwable\InvalidProductIdException;
 use App\Throwable\UnknownProductIdException;
 use Delight\Foundation\App;
@@ -55,7 +56,7 @@ final class VendorController {
 			echo $app->view(
 				'vendor.html.twig',
 				[
-					'product' => $productConfig[\App\Product\Product::FIELD_TITLE],
+					'product' => $productConfig[Product::FIELD_TITLE],
 					'vendor' => $vendor,
 					'devices' => $devices,
 				]
