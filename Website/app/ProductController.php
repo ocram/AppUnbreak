@@ -42,6 +42,7 @@ final class ProductController {
 			[
 				'product' => $config[Product::FIELD_TITLE],
 				'company' => $config[Product::FIELD_COMPANY],
+				'unofficial' => isset($config[Product::FIELD_UNOFFICIAL]) ? (bool) $config[Product::FIELD_UNOFFICIAL] : false,
 				'vendors' => [
 					'suggested' => Vendor::fromHttpClient(),
 					'primary' => Vendor::getList(true),

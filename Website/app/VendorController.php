@@ -57,6 +57,7 @@ final class VendorController {
 				'vendor.html.twig',
 				[
 					'product' => $productConfig[Product::FIELD_TITLE],
+					'unofficial' => isset($productConfig[Product::FIELD_UNOFFICIAL]) ? (bool) $productConfig[Product::FIELD_UNOFFICIAL] : false,
 					'vendor' => $vendor,
 					'devices' => $devices,
 				]

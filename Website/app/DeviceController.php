@@ -44,6 +44,7 @@ final class DeviceController {
 							'device.html.twig',
 							[
 								'product' => $productConfig[Product::FIELD_TITLE],
+								'unofficial' => isset($productConfig[Product::FIELD_UNOFFICIAL]) ? (bool) $productConfig[Product::FIELD_UNOFFICIAL] : false,
 								'productSlug' => $product,
 								'vendor' => $vendor,
 								'device' => $devices[0][Device::FIELD_TITLE],
