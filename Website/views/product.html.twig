@@ -8,7 +8,17 @@
 	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%s”?', product)
 } only %}
 <h1>{{ product }}</h1>
-<small class="d-block text-center">{{ company }}</small>
+<small class="d-block text-center">
+	{% if unofficial or app.currentRoute() == '/a/example' %}
+		{% if app.currentRoute() == '/a/example' %}
+			{{ company }}
+			<br>
+		{% endif %}
+		<span class="badge badge-warning">{{ _('unofficial') }}</span>
+	{% else %}
+		{{ company }}
+	{% endif %}
+</small>
 {% if vendors and vendors.primary and vendors.secondary %}
 	<hr>
 	<p class="lead text-center">

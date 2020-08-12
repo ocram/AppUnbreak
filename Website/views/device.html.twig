@@ -8,8 +8,18 @@
 	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%1$s” on your %2$s?', product, device)
 } only %}
 <h1>{{ device }}</h1>
-{% if vendor != 'Android' %}
-	<small class="d-block text-center">{{ vendor }}</small>
+{% if vendor != 'Android' or unofficial or app.currentRoute() starts with '/a/example/' %}
+	<small class="d-block text-center">
+		{% if vendor != 'Android' %}
+			{{ vendor }}
+		{% endif %}
+		{% if unofficial or app.currentRoute() starts with '/a/example/' %}
+			{% if vendor != 'Android' %}
+				<br>
+			{% endif %}
+			<span class="badge badge-warning">{{ _('unofficial') }}</span>
+		{% endif %}
+	</small>
 {% endif %}
 {% if redirected %}
 	<p class="text-center">

@@ -8,6 +8,11 @@
 	'description': _f('Having problems with notifications, background tasks, automatic synchronization or alarms for “%1$s” on your %2$s device?', product, vendor)
 } only %}
 <h1>{{ vendor }}</h1>
+{% if unofficial or app.currentRoute() starts with '/a/example/' %}
+	<small class="d-block text-center">
+		<span class="badge badge-warning">{{ _('unofficial') }}</span>
+	</small>
+{% endif %}
 {% if devices %}
 	<hr>
 	<p class="lead text-center">
