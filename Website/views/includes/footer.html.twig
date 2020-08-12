@@ -27,6 +27,11 @@
 						&copy; <a href="{{ COMPANY_URL }}" rel="noopener noreferrer" class="text-reset">{{ COMPANY_NAME }}</a>
 					</span>
 					<ul class="list-inline float-right mb-0">
+						{% if (not (app.currentRoute() starts with '/a/')) or (app.currentRoute() == '/a/example') %}
+							<li class="list-inline-item">
+								<a href="{{ app.urlWithLang('/apps') }}">{{ _('Apps') }}</a>
+							</li>
+						{% endif %}
 						<li class="list-inline-item">
 							<a href="{{ app.urlWithLang('/privacy') }}" rel="nofollow">{{ _('Privacy') }}</a>
 						</li>
