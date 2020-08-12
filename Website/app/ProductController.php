@@ -9,6 +9,7 @@
 namespace App;
 
 use App\Hardware\Vendor;
+use App\Product\Product;
 use App\Throwable\InvalidProductConfigurationError;
 use App\Throwable\InvalidProductIdException;
 use App\Throwable\UnknownProductIdException;
@@ -38,8 +39,8 @@ final class ProductController {
 		echo $app->view(
 			'product.html.twig',
 			[
-				'product' => $config[\App\Product\Product::FIELD_TITLE],
-				'company' => $config[\App\Product\Product::FIELD_COMPANY],
+				'product' => $config[Product::FIELD_TITLE],
+				'company' => $config[Product::FIELD_COMPANY],
 				'vendors' => [
 					'suggested' => Vendor::fromHttpClient(),
 					'primary' => Vendor::getList(true),
@@ -70,7 +71,7 @@ final class ProductController {
 					$config = \json_decode($json, true);
 
 					if (!empty($config)) {
-						if (!empty($config[\App\Product\Product::FIELD_TITLE]) && !empty($config[\App\Product\Product::FIELD_COMPANY])) {
+						if (!empty($config[Product::FIELD_TITLE]) && !empty($config[Product::FIELD_COMPANY])) {
 							try {
 								$localeCode = $app->i18n()->getLocale();
 							}
