@@ -10,3 +10,11 @@
 		<li>{{ _('If unsure, consider uninstalling the app claiming to “clean” or “boost” your device.') }}</li>
 	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
 {% endif %}
+{% if androidMax >= '00.00.00' and androidMin <= '99.99.99' %}
+	{% include 'advice/includes/header.html.twig' with { 'uuid': 'a88078b4-6eae-450d-a96c-61188c3e1cc9' } only %}
+		<li>{{ _('If you’ve made any changes based on the advice above and you’ve adjusted the settings of your device, proceed with the next step.') }} {{ _('Otherwise, there’s nothing left for you to do.') }}</li>
+		<li>{{ _('Restart your device once. You can either choose the “Restart” option directly, if available, or turn off your device, wait a few seconds, and then turn it on again manually.') }}</li>
+		<li>{{ _f('Open “%1$s” once on your device – by tapping on “%1$s” on your home screen or in the list of all apps.', product) }}</li>
+		<li>{{ _f('Leave by pressing %s at the bottom of your device.', include('includes/android/keys/home.html.twig', { 'vendor': vendor, 'version': androidMax }, with_context = false)) | raw }}</li>
+	{% include 'advice/includes/footer.html.twig' with { 'vendor': vendor, 'device': device, 'androidMin': androidMin, 'androidMax': androidMax } only %}
+{% endif %}
