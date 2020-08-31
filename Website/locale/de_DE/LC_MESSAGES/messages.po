@@ -1154,6 +1154,9 @@ msgctxt "Huawei"
 msgid "If you really need more storage space on your device, we recommend deleting photos and videos that you don’t need anymore, or moving them to a different device or drive. In addition to that, consider uninstalling apps that require a lot of space, or managing the space inside of those apps, where possible."
 msgstr "Wenn du wirklich mehr Speicherplatz auf deinem Gerät benötigst, empfehlen wir, Fotos und Videos zu löschen, die du nicht mehr brauchst, oder sie auf ein anderes Gerät oder Laufwerk zu verschieben. Zusätzlich solltest du in Betracht ziehen, Apps zu deinstallieren, die viel Speicherplatz belegen, oder den Speicherplatz innerhalb dieser Apps zu verwalten, wo dies möglich ist."
 
+msgid "If you’ve made any changes based on the advice above and you’ve adjusted the settings of your device, proceed with the next step."
+msgstr "Wenn du irgendwelche Änderungen gemäß den Ratschlägen oben durchgeführt hast und die Einstellungen deines Gerätes angepasst hast, fahre mit dem nächsten Schritt fort."
+
 msgid "If you’ve opened it by accident, proceed with the next step."
 msgstr "Wenn du es aus Versehen geöffnet hast, fahre mit dem nächsten Schritt fort."
 
@@ -1711,6 +1714,10 @@ msgid "Open the “iManager” on your device."
 msgstr "Öffne den „iManager“ auf deinem Gerät."
 
 #, php-format
+msgid "Open “%1$s” once on your device – by tapping on “%1$s” on your home screen or in the list of all apps."
+msgstr "Öffne einmalig „%1$s“ auf deinem Gerät – indem du entweder auf deinem Startbildschirm oder in der Liste aller Apps auf „%1$s“ tippst."
+
+#, php-format
 msgid "Open “%s” on your device."
 msgstr "Öffne „%s“ auf deinem Gerät."
 
@@ -1833,7 +1840,7 @@ msgstr "Stromverbrauchs-Warnung"
 
 #, php-format
 msgid "Press %s at the bottom of your device to go back to your home screen."
-msgstr "Drücke unten auf deinem Gerät %s, um zu deinem Homescreen zurückzukehren."
+msgstr "Drücke unten auf deinem Gerät %s, um zu deinem Startbildschirm zurückzukehren."
 
 #, php-format
 msgid "Press %s at the bottom of your device to open the overview of recently used apps."
@@ -1880,6 +1887,9 @@ msgstr "Entfernen"
 #, php-format
 msgid "Repeat this for all entries in the “%s” section."
 msgstr "Wiederhole dies für alle Einträge im Bereich „%s“."
+
+msgid "Restart your device once. You can either choose the “Restart” option directly, if available, or turn off your device, wait a few seconds, and then turn it on again manually."
+msgstr "Starte dein Gerät einmalig neu. Du kannst entweder direkt die Option „Neustarten“ wählen, falls verfügbar, oder dein Gerät ausschalten, ein paar Sekunden warten und es dann von Hand wieder einschalten."
 
 msgid "Restart your device."
 msgstr "Starte dein Gerät neu."
